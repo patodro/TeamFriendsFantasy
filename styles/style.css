@@ -17,12 +17,12 @@ img {
 	margin: 0 auto;
 }
 
-tr.FAexcl {
+.FAexcl {
 	font: italic;
 	color: #808080;
 }
 
-tr.DRexcl {
+.DRexcl {
 		background-color: rgb(255, 128, 128);
 		color: #930000;
 }
