@@ -17,6 +17,11 @@ img {
 	margin: 0 auto;
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .FAexcl {
 	font: italic;
 	color: #808080;
