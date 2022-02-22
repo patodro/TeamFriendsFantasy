@@ -23,11 +23,15 @@ table {
 }
 
 .FAexcl {
-	font: italic;
+	font-style: italic;
 	color: #808080;
 }
 
 .DRexcl {
 		background-color: rgb(255, 128, 128);
 		color: #930000;
+}
+
+.NONexcl {
+		font-weight: bold;
 }
