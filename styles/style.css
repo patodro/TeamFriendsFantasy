@@ -35,3 +35,7 @@ table {
 .NONexcl {
 		font-weight: bold;
 }
+
+textarea {
+		text-align: left;
+}
