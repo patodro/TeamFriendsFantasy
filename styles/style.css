@@ -31,3 +31,7 @@ table {
 		background-color: rgb(255, 128, 128);
 		color: #930000;
 }
+
+textarea {
+		text-align: left;
+}
