@@ -36,9 +36,6 @@ table {
 		font-weight: bold;
 }
 
-textarea {
-		text-align: left;
-}
 .head { grid-area: header; }
 .menu { grid-area: menu; }
 .main { grid-area: main; }
@@ -63,5 +60,13 @@ textarea {
 .menu-container {
 	display: grid;
 	grid-template-columns: auto;
-	gap: 25px;
+	gap: 10px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.equation {
+	font-family: monospace;
+	text-align: center;
 }
