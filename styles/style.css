@@ -63,4 +63,5 @@ textarea {
 .menu-container {
 	display: grid;
 	grid-template-columns: auto;
+	gap: 25px;
 }
