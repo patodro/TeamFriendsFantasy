@@ -41,6 +41,7 @@ table {
 .main { grid-area: main; }
 .right { grid-area: right; }
 .foot { grid-area: footer; }
+.notice { grid-area: notice; }
 
 .grid-container {
   display: grid;
@@ -69,4 +70,17 @@ table {
 .equation {
 	font-family: monospace;
 	text-align: center;
+}
+
+nav {
+	background: gray;
+}
+
+.nav-container {
+	display: grid;
+	justify-content: space-between;
+	grid-template-areas: 
+	'menu notice';
+	gap: 10px;
+	padding: 10px;
 }
