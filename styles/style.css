@@ -88,3 +88,30 @@ nav {
 	gap: 10px;
 	padding: 10px;
 }
+
+.draftBoard {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: sans-serif;
+}
+
+.draftBoard thead tr {
+	background-color: gray;
+	line-height: 2.5;
+}
+
+.draftBoard thead th {
+	border: thin solid blue;
+	width: 30px;
+}
+
+.draftBoard tbody tr {
+	background-color: white;
+	color: black;
+	line-height: 2;
+}
+
+.draftBoard tbody th {
+	border: thin solid blue;
+	width: 30px;
+}
