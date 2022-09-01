@@ -102,7 +102,7 @@ nav {
 
 .draftBoard thead th {
 	border: thin solid blue;
-	width: 30px;
+	width: 25px;
 }
 
 .draftBoard tbody tr {
@@ -113,5 +113,5 @@ nav {
 
 .draftBoard tbody th {
 	border: thin solid blue;
-	width: 30px;
+	width: auto;
 }
