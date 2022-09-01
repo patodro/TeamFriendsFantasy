@@ -36,6 +36,10 @@ table {
 		font-weight: bold;
 }
 
+.KEEP {
+		background-color: rgb(63, 163, 0);
+}
+
 .head { grid-area: header; }
 .menu { grid-area: menu; }
 .main { grid-area: main; }
