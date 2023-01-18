@@ -72,6 +72,14 @@ table {
 	width: auto;
 }
 
+th[pos='QB'] {	background-color: #e08282;}
+th[pos='RB'] {	background-color: #8ccf8c;}
+th[pos='WR'] {	background-color: #dedb97;}
+th[pos='TE'] {	background-color: #97acde;}
+th[pos='K'] {	background-color: #a684c2;}
+th[pos='DEF'] {	background-color: #e3a976;}
+th[keep='1'] {	font-style: italic; background-color: #000; color: #03ff00;}
+
 .topnav {
 	overflow: hidden;
 	background-color: #333;
