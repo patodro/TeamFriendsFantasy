@@ -111,3 +111,11 @@ th[keep='1'] {	font-style: italic; background-color: #000; color: #03ff00;}
   background-color: #04AA6D;
   color: white;
 }
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+}
