@@ -18,4 +18,6 @@ li {
 
 .playInfo {
 	font-variant:all-petite-caps;
+	display:flex;
+	justify-content:space-evenly;
 }
