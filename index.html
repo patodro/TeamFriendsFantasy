@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 		<meta http-equiv="Refresh" content="0; url='2023home.html'" />
 		
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />
@@ -16,19 +17,16 @@
 		<title>Team Friends Fantasy Football</title>
 	</head>
 	<body>
-		<div class="topnav">
-		<a href="index.html" class="active">Team Friends Fantasy Football</a>
-		<div id="myLinks">
-			<a href="keeperrules.html">Keeper Rules</a>
-			<a href="https://football.fantasysports.yahoo.com/2021/f1/8331/draftresults?pspid=782203783&activity=draftresults" target="_blank">2021 Draft Results</a>
-			<a href="2022home.html">2022</a>
-			<a href="2023home.html">2023</a>
-			<a href="2024home.html">2024</a>
-		</div>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<span class="material-symbols-outlined">menu</span>
-		</a>
+		<!--Navigation bar-->
+	<div id="nav-placeholder">
 	</div>
+
+	<script>
+		$(function(){
+			$("#nav-placeholder").load("nav.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
 			
 		<div><h2>$50 entry fee can be paid via 
 			<a href="https://paypal.me/Odrobina?country.x=US&locale.x=en_US">PayPal</a>
