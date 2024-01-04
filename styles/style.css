@@ -24,7 +24,8 @@ table {
 
 .FAexcl {
 	font-style: italic;
-	color: #808080;
+	background-color: #c0c0c0;
+	color: #000000;
 }
 
 .DRexcl {
