@@ -9,10 +9,11 @@ ul {
 
 li {
 	margin:5px;
+	border-radius:10px;
 }
 
 .playerCard {
-	border-radius:4px;
+	border-radius:10px;
 	border-color:#d8dade;
 	border-style:solid;
 	border-width:1px;
@@ -28,6 +29,7 @@ li {
 
 .player {
 	display:flex;
+	font-family:'Staatliches';
 }
 .draftInfo {
 	display:flex;
