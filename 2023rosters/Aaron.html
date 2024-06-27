@@ -13,19 +13,21 @@
 	<meta name="description" content="Aaron's Heroes End of 2024 season Roster" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="../scripts/calcs.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" href="../styles/style.css" type="text/css" />
 	<link rel="stylesheet" href="../styles/rosters.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
+	<article id="json-lookup" data-json-name="captain"></article>
 </head>
 
 
 
 <body>
 
-<!--Navigation bar-->
+	<!--Navigation bar-->
 	<div id="nav-placeholder">
 	</div>
 
@@ -53,7 +55,7 @@
 					</div>
 				</div>
 				<div class="player">
-					<span>Jalen Hurts</span>
+					<span></span>
 				</div>
 				<div class="draftInfo">
 					<div class="picks"><span>Draft Round</span><span>3</span></div>
@@ -334,7 +336,7 @@
 				}
 			}
 		</script>
-		<script src="../scripts/calcs.js" type="text/javascript"></script>
+		<script>buildRoster()</script>
 		<script>PickComp()</script>
 
 

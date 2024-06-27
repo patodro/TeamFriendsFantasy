@@ -1,9 +1,8 @@
 {
-	"_id":{"$oid":"667ca2d210314006072fb991"},
 	"owner":"Pat",
 	"teamName":"Captain Crunch",
-	"roster":{
-		"player0":{
+	"roster":[
+		{
 			"firstName":"Lamar",
 			"lastName":"Jackson",
 			"position":"QB",
@@ -11,7 +10,7 @@
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
-		"player1":{
+		{
 			"firstName":"DeVonta",
 			"lastName":"Smith",
 			"position":"WR",
@@ -19,7 +18,7 @@
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
-		"player10":{
+		{
 			"firstName":"Jaylen",
 			"lastName":"Warren",
 			"position":"RB",
@@ -27,7 +26,7 @@
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"0"}},
-		"player11":{
+		{
 			"firstName":"Chase",
 			"lastName":"Brown",
 			"position":"RB",
@@ -35,7 +34,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player12":{
+		{
 			"firstName":"Matt",
 			"lastName":"Gay",
 			"position":"K",
@@ -43,7 +42,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player13":{
+		{
 			"firstName":"Houston",
 			"lastName":"Texans",
 			"position":"DEF",
@@ -51,7 +50,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player2":{
+		{
 			"firstName":"Stefon",
 			"lastName":"Diggs",
 			"position":"WR",
@@ -59,7 +58,7 @@
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
-		"player3":{
+		{
 			"firstName":"James",
 			"lastName":"Conner",
 			"position":"RB",
@@ -67,7 +66,7 @@
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
-		"player4":{
+		{
 			"firstName":"D'Andre",
 			"lastName":"Swift",
 			"position":"RB",
@@ -75,7 +74,7 @@
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
-		"player5":{
+		{
 			"firstName":"Tucker",
 			"lastName":"Kraft",
 			"position":"TE",
@@ -83,7 +82,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player6":{
+		{
 			"firstName":"Tony",
 			"lastName":"Pollard",
 			"position":"RB",
@@ -91,7 +90,7 @@
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"1"}},
-		"player7":{
+		{
 			"firstName":"Zay",
 			"lastName":"Flowers",
 			"position":"WR",
@@ -99,7 +98,7 @@
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
-		"player8":{
+		{
 			"firstName":"Courtland",
 			"lastName":"Sutton",
 			"position":"WR",
@@ -107,11 +106,13 @@
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
-		"player9":{
+		{
 			"firstName":"T.J.",
 			"lastName":"Hockenson",
 			"position":"TE",
 			"team":"MIN",
 			"draftInfo":{
 				"draftRound":"4",
-				"keep":"0"}}}}
+				"keep":"0"}}
+	]
+}

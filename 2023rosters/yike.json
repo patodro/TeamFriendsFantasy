@@ -1,9 +1,8 @@
 {
-	"_id":{"$oid":"<>"},
 	"owner":"Sean",
 	"teamName":"JK Sobbins & Yike Williams",
-	"roster":{
-		"player0":{
+	"roster":[
+		{
 			"firstName":"Patrick",
 			"lastName":"Mahomes",
 			"position":"QB",
@@ -11,7 +10,7 @@
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
-		"player1":{
+		{
 			"firstName":"AJ",
 			"lastName":"Brown",
 			"position":"WR",
@@ -19,7 +18,7 @@
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
-		"player10":{
+		{
 			"firstName":"Deebo",
 			"lastName":"Samuel",
 			"position":"WR",
@@ -27,7 +26,7 @@
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
-		"player11":{
+		{
 			"firstName":"Ty",
 			"lastName":"Chandler",
 			"position":"RB",
@@ -35,7 +34,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player12":{
+		{
 			"firstName":"Justice",
 			"lastName":"Hill",
 			"position":"RB",
@@ -43,7 +42,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player13":{
+		{
 			"firstName":"Gerald",
 			"lastName":"Everett",
 			"position":"TE",
@@ -51,7 +50,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player2":{
+		{
 			"firstName":"Jordan",
 			"lastName":"Addison",
 			"position":"WR",
@@ -59,7 +58,7 @@
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
-		"player3":{
+		{
 			"firstName":"Terry",
 			"lastName":"McLaurin",
 			"position":"WR",
@@ -67,7 +66,7 @@
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
-		"player4":{
+		{
 			"firstName":"Brian",
 			"lastName":"Robinson Jr.",
 			"position":"RB",
@@ -75,7 +74,7 @@
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
-		"player5":{
+		{
 			"firstName":"Drake",
 			"lastName":"London",
 			"position":"WR",
@@ -83,7 +82,7 @@
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
-		"player6":{
+		{
 			"firstName":"DeMarcus",
 			"lastName":"Robinson",
 			"position":"WR",
@@ -91,7 +90,7 @@
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
-		"player7":{
+		{
 			"firstName":"Rhamondre",
 			"lastName":"Stevenson",
 			"position":"RB",
@@ -99,7 +98,7 @@
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
-		"player8":{
+		{
 			"firstName":"Evan",
 			"lastName":"McPherson",
 			"position":"K",
@@ -107,11 +106,13 @@
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
-		"player9":{
+		{
 			"firstName":"New Orleans",
 			"lastName":"Saints",
 			"position":"DEF",
 			"team":"NO",
 			"draftInfo":{
 				"draftRound":"12",
-				"keep":"0"}}}}
+				"keep":"0"}}
+	]
+}

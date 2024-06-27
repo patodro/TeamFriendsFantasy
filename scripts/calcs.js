@@ -38,15 +38,11 @@ function draftExclusion (player, comp) {
 	}
 }
 
-function readMongo (player) {
-	const req = new XMLHttpRequest();
-	req.onreadystatechange = () => {
-		if (req.readyState == 4 && req.status == 200) {
-				const data = req.response;
-				console.log(data);
-				var name = player.getElementsByClassName("player")[0].innerText;
-		}
-	};
-	xhttp.open("GET", "/getuserdata");
-	xhttp.send();
+function buildRoster() {
+	var name = document.querySelector("#json-lookup").dataset.jsonName;
+	var request = new XMLHttpRequest();
+	request.open("GET", `${name}.json`, false);
+	request.send(null);
+  var roster = JSON.parse(request.responseText);
+  document.getElementsByClassName("playerCard")[0].children[1].innerText = roster.roster[0].firstName;
 }
