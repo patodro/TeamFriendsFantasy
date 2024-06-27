@@ -37,3 +37,16 @@ function draftExclusion (player, comp) {
 		player.parentNode.className = "DRexcl";
 	}
 }
+
+function readMongo (player) {
+	const req = new XMLHttpRequest();
+	req.onreadystatechange = () => {
+		if (req.readyState == 4 && req.status == 200) {
+				const data = req.response;
+				console.log(data);
+				var name = player.getElementsByClassName("player")[0].innerText;
+		}
+	};
+	xhttp.open("GET", "/getuserdata");
+	xhttp.send();
+}
