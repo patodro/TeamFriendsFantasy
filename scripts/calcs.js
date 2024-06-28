@@ -43,6 +43,14 @@ function buildRoster() {
 	var request = new XMLHttpRequest();
 	request.open("GET", `${name}.json`, false);
 	request.send(null);
-  var roster = JSON.parse(request.responseText);
-  document.getElementsByClassName("playerCard")[0].children[1].innerText = roster.roster[0].firstName;
+	var roster = JSON.parse(request.responseText);
+	var card = document.getElementsByClassName("playerCard");
+	for (var p=0, play; play = roster.roster[p]; p++) {
+		card[p].children[1].innerText = roster.roster[p].firstName + " " + roster.roster[p].lastName;
+		card[p].children[0].children[0].innerText = roster.roster[p].position
+		card[p].children[0].children[1].innerText = roster.roster[p].team
+		card[p].children[2].children[0].children[1].innerText = roster.roster[p].draftInfo.draftRound;
+		card[p].children[2].children[1].children[1].innerText = roster.roster[p].draftInfo.keep;
+	}
 }
+
