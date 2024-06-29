@@ -1,3 +1,8 @@
+function popRoster() {
+	var emptyRos = document.querySelector('ul[alt="roster"]');
+	emptyRos.insertAdjacentHTML("beforeend", '\n\t\t<li class="">\n\t\t\t<div class="playerCard">\n\t\t\t\t<div class="playInfo">\n\t\t\t\t\t<div class="position"></div>\n\t\t\t\t\t<div class="team"></div>\n\t\t\t\t</div>\n\t\t\t\t<div class="player"></div>\n\t\t\t\t<div class="draftInfo">\n\t\t\t\t\t<div class="picks"><span>Draft Round</span><span></span></div>\n\t\t\t\t\t<div class="picks"><span>Keeper Status</span><span></span></div>\n\t\t\t\t\t<div class="picks"><span>Pick Comp</span><span></span></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</li>');
+}
+
 function PickComp() {
 	var roster = document.getElementsByClassName("playerCard");
 	var draft;
@@ -38,13 +43,21 @@ function draftExclusion (player, comp) {
 	}
 }
 
+function faExclusion () {
+	let cutDate = new Date("11/18/23");
+}
+
 function buildRoster() {
 	var name = document.querySelector("#json-lookup").dataset.jsonName;
 	var request = new XMLHttpRequest();
 	request.open("GET", `${name}.json`, false);
 	request.send(null);
 	var roster = JSON.parse(request.responseText);
+	for (let n = 0; n < roster.roster.length; n++) {
+		popRoster();
+	}
 	var card = document.getElementsByClassName("playerCard");
+	var emptyRos = document.querySelector('ul[alt="roster"]');
 	for (var p=0, play; play = roster.roster[p]; p++) {
 		card[p].children[1].innerText = roster.roster[p].firstName + " " + roster.roster[p].lastName;
 		card[p].children[0].children[0].innerText = roster.roster[p].position
