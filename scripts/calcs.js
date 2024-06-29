@@ -9,7 +9,7 @@ function PickComp() {
 	var drRound;
 	var keep;
 	var comp;
-	var stt; 
+	var stt;
 	
 	for (var i=0, play; play = roster[i]; i++) {
 		draft = play.getElementsByClassName("draftInfo")[0];
@@ -33,7 +33,6 @@ function PickComp() {
 		draft.children[2].children[1].insertAdjacentHTML("beforeend", comp);
 		
 		draftExclusion(play, comp);
-		
 	}
 }
 
@@ -43,11 +42,19 @@ function draftExclusion (player, comp) {
 	}
 }
 
-function faExclusion () {
+function faExclusion (addDate) {
 	let cutDate = new Date("11/18/23");
+	let FADate = new Date(addDate);
+	if (FADate >= cutDate)
+	{
+		return 1;
+	} else {
+		return 0;
+	}
 }
 
 function buildRoster() {
+	var FAexcl;
 	var name = document.querySelector("#json-lookup").dataset.jsonName;
 	var request = new XMLHttpRequest();
 	request.open("GET", `${name}.json`, false);
@@ -64,6 +71,10 @@ function buildRoster() {
 		card[p].children[0].children[1].innerText = roster.roster[p].team
 		card[p].children[2].children[0].children[1].innerText = roster.roster[p].draftInfo.draftRound;
 		card[p].children[2].children[1].children[1].innerText = roster.roster[p].draftInfo.keep;
+		FAexcl = faExclusion("11/17/23")
+		if (FAexcl)	{
+			card[p].parentNode.className = "FAexcl";
+		}
 	}
 }
 
