@@ -71,7 +71,7 @@ function buildRoster() {
 		card[p].children[0].children[1].innerText = roster.roster[p].team
 		card[p].children[2].children[0].children[1].innerText = roster.roster[p].draftInfo.draftRound;
 		card[p].children[2].children[1].children[1].innerText = roster.roster[p].draftInfo.keep;
-		FAexcl = faExclusion("11/17/23")
+		FAexcl = faExclusion(roster.roster[p].addDate)
 		if (FAexcl)	{
 			card[p].parentNode.className = "FAexcl";
 		}

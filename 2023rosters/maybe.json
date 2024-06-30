@@ -7,6 +7,7 @@
 			"lastName":"Dobbs",
 			"position":"QB",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -15,6 +16,7 @@
 			"lastName":"Johnson",
 			"position":"WR",
 			"team":"PIT",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -23,6 +25,7 @@
 			"lastName":"Collins",
 			"position":"WR",
 			"team":"HOU",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
@@ -31,6 +34,7 @@
 			"lastName":"Gibbs",
 			"position":"RB",
 			"team":"DET",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -39,6 +43,7 @@
 			"lastName":"Mattison",
 			"position":"RB",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -47,6 +52,7 @@
 			"lastName":"Kelce",
 			"position":"TE",
 			"team":"KC",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -55,6 +61,7 @@
 			"lastName":"Waddle",
 			"position":"WR",
 			"team":"PIT",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -63,6 +70,7 @@
 			"lastName":"Watson",
 			"position":"WR",
 			"team":"GB",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"13",
 				"keep":"1"}},
@@ -71,6 +79,7 @@
 			"lastName":"Smith",
 			"position":"QB",
 			"team":"SEA",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"9",
 				"keep":"0"}},
@@ -79,6 +88,7 @@
 			"lastName":"Hudson",
 			"position":"TE",
 			"team":"CIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -87,6 +97,7 @@
 			"lastName":"Taylor",
 			"position":"RB",
 			"team":"IND",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"9",
 				"keep":"0"}},
@@ -95,6 +106,7 @@
 			"lastName":"Reynolds",
 			"position":"WR",
 			"team":"DET",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -103,6 +115,7 @@
 			"lastName":"Cousins",
 			"position":"QB",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}},
@@ -111,6 +124,7 @@
 			"lastName":"Carson",
 			"position":"K",
 			"team":"LV",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -119,6 +133,7 @@
 			"lastName":"49ers",
 			"position":"DEF",
 			"team":"SF",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}}

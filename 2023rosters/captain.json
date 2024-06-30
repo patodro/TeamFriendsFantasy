@@ -7,6 +7,7 @@
 			"lastName":"Jackson",
 			"position":"QB",
 			"team":"BAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -15,6 +16,7 @@
 			"lastName":"Smith",
 			"position":"WR",
 			"team":"PHI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -23,6 +25,7 @@
 			"lastName":"Warren",
 			"position":"RB",
 			"team":"PIT",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"0"}},
@@ -31,6 +34,7 @@
 			"lastName":"Brown",
 			"position":"RB",
 			"team":"CIN",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -39,6 +43,7 @@
 			"lastName":"Gay",
 			"position":"K",
 			"team":"IND",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -47,6 +52,7 @@
 			"lastName":"Texans",
 			"position":"DEF",
 			"team":"HOU",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -55,6 +61,7 @@
 			"lastName":"Diggs",
 			"position":"WR",
 			"team":"BUF",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -63,6 +70,7 @@
 			"lastName":"Conner",
 			"position":"RB",
 			"team":"ARI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -71,6 +79,7 @@
 			"lastName":"Swift",
 			"position":"RB",
 			"team":"PHI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
@@ -79,6 +88,7 @@
 			"lastName":"Kraft",
 			"position":"TE",
 			"team":"GB",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -87,6 +97,7 @@
 			"lastName":"Pollard",
 			"position":"RB",
 			"team":"DAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"1"}},
@@ -95,6 +106,7 @@
 			"lastName":"Flowers",
 			"position":"WR",
 			"team":"BAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -103,6 +115,7 @@
 			"lastName":"Sutton",
 			"position":"WR",
 			"team":"DEN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
@@ -111,6 +124,7 @@
 			"lastName":"Hockenson",
 			"position":"TE",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}}

@@ -7,6 +7,7 @@
 			"lastName":"Allen",
 			"position":"QB",
 			"team":"BUF",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -15,6 +16,7 @@
 			"lastName":"Jefferson",
 			"position":"WR",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -23,6 +25,7 @@
 			"lastName":"Moore",
 			"position":"WR",
 			"team":"CHI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -31,6 +34,7 @@
 			"lastName":"Etienne Jr.",
 			"position":"RB",
 			"team":"JAX",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -39,6 +43,7 @@
 			"lastName":"Kamara",
 			"position":"RB",
 			"team":"NO",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -47,6 +52,7 @@
 			"lastName":"Kittle",
 			"position":"TE",
 			"team":"SF",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -55,6 +61,7 @@
 			"lastName":"Shaheed",
 			"position":"WR",
 			"team":"NO",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -63,6 +70,7 @@
 			"lastName":"Lockett",
 			"position":"WR",
 			"team":"SEA",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -71,6 +79,7 @@
 			"lastName":"Engram",
 			"position":"TE",
 			"team":"JAX",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
@@ -79,6 +88,7 @@
 			"lastName":"Reed",
 			"position":"WR",
 			"team":"GB",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -87,6 +97,7 @@
 			"lastName":"Dotson",
 			"position":"WR",
 			"team":"WAS",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -95,6 +106,7 @@
 			"lastName":"Osborn",
 			"position":"WR",
 			"team":"MIN",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -103,6 +115,7 @@
 			"lastName":"Elliott",
 			"position":"K",
 			"team":"PHI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"14",
 				"keep":"0"}},
@@ -111,6 +124,7 @@
 			"lastName":"Rams",
 			"position":"DEF",
 			"team":"LAR",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}}

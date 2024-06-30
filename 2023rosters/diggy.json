@@ -7,6 +7,7 @@
 			"lastName":"Lawrence",
 			"position":"QB",
 			"team":"JAX",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -15,6 +16,7 @@
 			"lastName":"St. Brown",
 			"position":"WR",
 			"team":"DET",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -23,6 +25,7 @@
 			"lastName":"Wilson",
 			"position":"WR",
 			"team":"NYJ",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -31,6 +34,7 @@
 			"lastName":"Montgomery",
 			"position":"RB",
 			"team":"DET",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -39,6 +43,7 @@
 			"lastName":"Edwards",
 			"position":"RB",
 			"team":"BAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -47,6 +52,7 @@
 			"lastName":"Kmet",
 			"position":"TE",
 			"team":"CHI",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"14",
 				"keep":"0"}},
@@ -55,6 +61,7 @@
 			"lastName":"Thielen",
 			"position":"WR",
 			"team":"CAR",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}},
@@ -63,6 +70,7 @@
 			"lastName":"Wilson",
 			"position":"QB",
 			"team":"DEN",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -71,6 +79,7 @@
 			"lastName":"Cooper",
 			"position":"WR",
 			"team":"CLE",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -79,6 +88,7 @@
 			"lastName":"Perine",
 			"position":"RB",
 			"team":"DEN",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -87,6 +97,7 @@
 			"lastName":"Walker III",
 			"position":"RB",
 			"team":"SEA",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"1"}},
@@ -95,6 +106,7 @@
 			"lastName":"Howell",
 			"position":"QB",
 			"team":"WAS",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -103,6 +115,7 @@
 			"lastName":"Andrews",
 			"position":"TE",
 			"team":"BAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -111,6 +124,7 @@
 			"lastName":"Lutz",
 			"position":"K",
 			"team":"DEN",
+			"addDate":"01/01/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -119,6 +133,7 @@
 			"lastName":"Cowboys",
 			"position":"DEF",
 			"team":"DAL",
+			"addDate":"11/17/23",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}}
