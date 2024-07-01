@@ -7,7 +7,7 @@
 			"lastName":"Mayfield",
 			"position":"QB",
 			"team":"TB",
-			"addDate":"11/17/23",
+			"addDate":"12/20/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -16,7 +16,7 @@
 			"lastName":"Godwin",
 			"position":"WR",
 			"team":"TB",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -25,7 +25,7 @@
 			"lastName":"Adams",
 			"position":"WR",
 			"team":"LV",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -34,7 +34,7 @@
 			"lastName":"Mostert",
 			"position":"RB",
 			"team":"MIA",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"9",
 				"keep":"0"}},
@@ -43,7 +43,7 @@
 			"lastName":"Robinson",
 			"position":"RB",
 			"team":"ATL",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -52,7 +52,7 @@
 			"lastName":"Njoku",
 			"position":"TE",
 			"team":"CLE",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -61,7 +61,7 @@
 			"lastName":"Jacobs",
 			"position":"RB",
 			"team":"LV",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"1"}},
@@ -70,7 +70,7 @@
 			"lastName":"Singletary",
 			"position":"RB",
 			"team":"HOU",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -79,7 +79,7 @@
 			"lastName":"Ford",
 			"position":"RB",
 			"team":"CLE",
-			"addDate":"11/17/23",
+			"addDate":"09/20/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -88,7 +88,7 @@
 			"lastName":"Ferguson",
 			"position":"TE",
 			"team":"DAL",
-			"addDate":"11/17/23",
+			"addDate":"10/04/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -97,7 +97,7 @@
 			"lastName":"Brown",
 			"position":"WR",
 			"team":"BAL",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
@@ -106,7 +106,7 @@
 			"lastName":"Flacco",
 			"position":"QB",
 			"team":"CLE",
-			"addDate":"01/01/24",
+			"addDate":"12/20/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -115,7 +115,7 @@
 			"lastName":"Moody",
 			"position":"K",
 			"team":"SF",
-			"addDate":"01/01/24",
+			"addDate":"12/27/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -124,7 +124,7 @@
 			"lastName":"Bills",
 			"position":"DEF",
 			"team":"BUF",
-			"addDate":"01/01/24",
+			"addDate":"12/20/23",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}}

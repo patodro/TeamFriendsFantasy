@@ -7,7 +7,7 @@
 			"lastName":"Murray",
 			"position":"QB",
 			"team":"ARI",
-			"addDate":"11/17/23",
+			"addDate":"11/01/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -16,7 +16,7 @@
 			"lastName":"Hopkins",
 			"position":"WR",
 			"team":"TEN",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -25,7 +25,7 @@
 			"lastName":"Johnson",
 			"position":"WR",
 			"team":"LAC",
-			"addDate":"01/01/24",
+			"addDate":"12/13/23",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
@@ -34,7 +34,7 @@
 			"lastName":"Barkley",
 			"position":"RB",
 			"team":"NYG",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -43,7 +43,7 @@
 			"lastName":"Pacheco",
 			"position":"RB",
 			"team":"KC",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"13",
 				"keep":"1"}},
@@ -52,7 +52,7 @@
 			"lastName":"Waller",
 			"position":"TE",
 			"team":"NYG",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -61,7 +61,7 @@
 			"lastName":"Achane",
 			"position":"RB",
 			"team":"MIA",
-			"addDate":"11/17/23",
+			"addDate":"09/27/23",
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"0"}},
@@ -70,7 +70,7 @@
 			"lastName":"Mixon",
 			"position":"RB",
 			"team":"CIN",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -79,7 +79,7 @@
 			"lastName":"Conklin",
 			"position":"TE",
 			"team":"NYJ",
-			"addDate":"11/17/23",
+			"addDate":"11/01/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -88,7 +88,7 @@
 			"lastName":"Stafford",
 			"position":"QB",
 			"team":"LAR",
-			"addDate":"01/01/24",
+			"addDate":"12/13/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -97,7 +97,7 @@
 			"lastName":"Williams",
 			"position":"RB",
 			"team":"DEN",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -106,7 +106,7 @@
 			"lastName":"Stroud",
 			"position":"QB",
 			"team":"HOU",
-			"addDate":"11/17/23",
+			"addDate":"10/28/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -115,7 +115,7 @@
 			"lastName":"Allen",
 			"position":"WR",
 			"team":"LAC",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -124,7 +124,7 @@
 			"lastName":"McKinnon",
 			"position":"RB",
 			"team":"KC",
-			"addDate":"01/01/24",
+			"addDate":"12/28/23",
 			"draftInfo":{
 				"draftRound":"9",
 				"keep":"0"}},
@@ -133,7 +133,7 @@
 			"lastName":"McManus",
 			"position":"K",
 			"team":"JAX",
-			"addDate":"11/17/23",
+			"addDate":"10/12/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -142,7 +142,7 @@
 			"lastName":"Chiefs",
 			"position":"DEF",
 			"team":"KC",
-			"addDate":"11/17/23",
+			"addDate":"11/08/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}}

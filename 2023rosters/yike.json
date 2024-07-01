@@ -7,7 +7,7 @@
 			"lastName":"Mahomes",
 			"position":"QB",
 			"team":"KC",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -16,7 +16,7 @@
 			"lastName":"Brown",
 			"position":"WR",
 			"team":"PHI",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -25,7 +25,7 @@
 			"lastName":"Samuel",
 			"position":"WR",
 			"team":"SF",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -34,7 +34,7 @@
 			"lastName":"Chandler",
 			"position":"RB",
 			"team":"MIN",
-			"addDate":"01/01/24",
+			"addDate":"12/20/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -43,7 +43,7 @@
 			"lastName":"Hill",
 			"position":"RB",
 			"team":"BAL",
-			"addDate":"01/01/24",
+			"addDate":"12/20/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -52,7 +52,7 @@
 			"lastName":"Everett",
 			"position":"TE",
 			"team":"LAC",
-			"addDate":"01/01/24",
+			"addDate":"11/29/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -61,7 +61,7 @@
 			"lastName":"Addison",
 			"position":"WR",
 			"team":"MIN",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
@@ -70,7 +70,7 @@
 			"lastName":"McLaurin",
 			"position":"WR",
 			"team":"WAS",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -79,7 +79,7 @@
 			"lastName":"Robinson Jr.",
 			"position":"RB",
 			"team":"WAS",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
@@ -88,7 +88,7 @@
 			"lastName":"London",
 			"position":"WR",
 			"team":"ATL",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"0"}},
@@ -97,7 +97,7 @@
 			"lastName":"Robinson",
 			"position":"WR",
 			"team":"LAC",
-			"addDate":"01/01/24",
+			"addDate":"12/28/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -106,7 +106,7 @@
 			"lastName":"Stevenson",
 			"position":"RB",
 			"team":"NE",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -115,7 +115,7 @@
 			"lastName":"McPherson",
 			"position":"K",
 			"team":"CIN",
-			"addDate":"11/17/23",
+			"addDate":"10/23/23",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
@@ -124,7 +124,7 @@
 			"lastName":"Saints",
 			"position":"DEF",
 			"team":"NO",
-			"addDate":"11/17/23",
+			"addDate":"09/27/23",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}}

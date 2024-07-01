@@ -7,7 +7,7 @@
 			"lastName":"Hurts",
 			"position":"QB",
 			"team":"PHI",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -16,7 +16,7 @@
 			"lastName":"Olave",
 			"position":"WR",
 			"team":"NO",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -25,7 +25,7 @@
 			"lastName":"Evans",
 			"position":"WR",
 			"team":"TB",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -34,7 +34,7 @@
 			"lastName":"White",
 			"position":"RB",
 			"team":"TB",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"7",
 				"keep":"0"}},
@@ -43,7 +43,7 @@
 			"lastName":"White",
 			"position":"RB",
 			"team":"LV",
-			"addDate":"11/18/23",
+			"addDate":"12/27/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -52,7 +52,7 @@
 			"lastName":"McBride",
 			"position":"TE",
 			"team":"ARI",
-			"addDate":"11/17/23",
+			"addDate":"11/01/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -61,7 +61,7 @@
 			"lastName":"Hill",
 			"position":"WR",
 			"team":"MIA",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -70,7 +70,7 @@
 			"lastName":"Spears",
 			"position":"RB",
 			"team":"TEN",
-			"addDate":"11/20/23",
+			"addDate":"12/02/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -79,7 +79,7 @@
 			"lastName":"Rice",
 			"position":"WR",
 			"team":"KC",
-			"addDate":"11/17/23",
+			"addDate":"11/15/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -88,7 +88,7 @@
 			"lastName":"Samuel",
 			"position":"WR",
 			"team":"WAS",
-			"addDate":"11/20/23",
+			"addDate":"12/13/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -97,7 +97,7 @@
 			"lastName":"Edwards-Helaire",
 			"position":"RB",
 			"team":"KC",
-			"addDate":"11/20/23",
+			"addDate":"12/27/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -106,7 +106,7 @@
 			"lastName":"Aubrey",
 			"position":"K",
 			"team":"DAL",
-			"addDate":"11/17/23",
+			"addDate":"11/08/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -115,7 +115,7 @@
 			"lastName":"Browns",
 			"position":"DEF",
 			"team":"CLE",
-			"addDate":"11/17/23",
+			"addDate":"10/18/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -124,7 +124,7 @@
 			"lastName":"Broncos",
 			"position":"DEF",
 			"team":"DEN",
-			"addDate":"01/01/24",
+			"addDate":"12/21/23",
 			"draftInfo":{
 				"draftRound":"14",
 				"keep":"0"}}

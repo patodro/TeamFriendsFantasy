@@ -7,7 +7,7 @@
 			"lastName":"Prescott",
 			"position":"QB",
 			"team":"DAL",
-			"addDate":"11/17/23",
+			"addDate":"10/14/23",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -16,7 +16,7 @@
 			"lastName":"Aiyuk",
 			"position":"WR",
 			"team":"SF",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"4",
 				"keep":"0"}},
@@ -25,7 +25,7 @@
 			"lastName":"Metcalf",
 			"position":"WR",
 			"team":"SEA",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
@@ -34,7 +34,7 @@
 			"lastName":"Ekeler",
 			"position":"RB",
 			"team":"LAC",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
@@ -43,7 +43,7 @@
 			"lastName":"Pierce",
 			"position":"RB",
 			"team":"HOU",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
 				"keep":"1"}},
@@ -52,7 +52,7 @@
 			"lastName":"LaPorta",
 			"position":"TE",
 			"team":"DET",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"13",
 				"keep":"0"}},
@@ -61,7 +61,7 @@
 			"lastName":"Doubs",
 			"position":"WR",
 			"team":"GB",
-			"addDate":"01/01/24",
+			"addDate":"11/19/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -70,7 +70,7 @@
 			"lastName":"Pittman Jr.",
 			"position":"WR",
 			"team":"IND",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
@@ -79,7 +79,7 @@
 			"lastName":"Foreman",
 			"position":"RB",
 			"team":"CHI",
-			"addDate":"11/17/23",
+			"addDate":"11/15/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
@@ -88,7 +88,7 @@
 			"lastName":"Higgins",
 			"position":"WR",
 			"team":"CIN",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
@@ -97,7 +97,7 @@
 			"lastName":"Higbee",
 			"position":"TE",
 			"team":"LAR",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"10",
 				"keep":"0"}},
@@ -106,7 +106,7 @@
 			"lastName":"Richardson",
 			"position":"QB",
 			"team":"IND",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"0"}},
@@ -115,7 +115,7 @@
 			"lastName":"Butker",
 			"position":"K",
 			"team":"KC",
-			"addDate":"11/17/23",
+			"addDate":"11/15/23",
 			"draftInfo":{
 				"draftRound":"11",
 				"keep":"0"}},
@@ -124,7 +124,7 @@
 			"lastName":"Koo",
 			"position":"K",
 			"team":"ATL",
-			"addDate":"11/17/23",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}},
@@ -133,7 +133,7 @@
 			"lastName":"Buccaneers",
 			"position":"DEF",
 			"team":"TB",
-			"addDate":"01/01/24",
+			"addDate":"11/29/23",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}}
