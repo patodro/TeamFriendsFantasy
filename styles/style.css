@@ -120,3 +120,8 @@ th[keep='1'] {	font-style: italic; background-color: #000; color: #03ff00;}
 .column {
 	flex: 50%;
 }
+
+#announce {
+	display: flex;
+	text-align: center;
+}
