@@ -25,7 +25,9 @@ function PickComp() {
 			keep = 0;
 			draft.children[1].children[1].insertAdjacentText("beforeend", 0);
 		}
-		
+	if (keep > 0) {
+		draft.children[1].style.color = "gold";
+	}
 		
 		let stt = keep + 1;
 		let comp = drRound - stt;
