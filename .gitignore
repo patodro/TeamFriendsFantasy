@@ -1,2 +1,4 @@
-
+commish/private.json
 commish/token.txt
+*.bak
+*.php
