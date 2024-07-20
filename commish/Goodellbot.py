@@ -9,23 +9,31 @@ commishChannelID = 1256234378443362376
 generalChannelID = 1237187300547367036
 infoChannelID = 1256224215011557448
 
+cnlCommish = client.get_channel(commishChannelID)
+
+web = "https://patodro.github.io/TeamFriendsFantasy"
+
 @client.event
 async def on_ready():
     print(f'We have logged in as {client.user}')
     print('------')
-    for server in client.guilds:
-        for channel in server.channels:
-            print(f'{channel.type} | {channel} | {channel.id}')
 
 @client.event
 async def on_message(message):
     if message.author == client.user:
         return
         
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
+    if message.content.startswith('$Roger'):
+        await send_CommishMsg("I'm the captain now")
         
-        
+#send <message> to the defined <channel>
+async def send_CommishMsg(message):
+    await cnlCommish.send(message)
+
+#make Roger pimp the website
+async def send_CommishWebsite():
+    await cnlCommit.send(web)
+
 tokFile = open("token.txt", "r")
 token = tokFile.readline()
 client.run(token)
