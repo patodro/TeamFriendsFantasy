@@ -43,6 +43,7 @@ def parse_auth():
 auth_key, auth_secret = parse_auth()
 
 def get_season():
+    #season = 2023
     season = 2024
     return season
 
@@ -69,23 +70,15 @@ game_code = get_game_code()
 
 def get_game_id():
     #https://developer.yahoo.com/fantasysports/guide/#game-resource
-    #Fantasy Football
     #game_id = 423   #NFL - 2023
     game_id = 449   #NFL - 2024
     return game_id
     
 game_id = get_game_id()
 
-def get_game_key():
-    #Fantasy Football
-    #game_key = "423"  #NFL - 2023
-    game_key = "449"    #NFL - 2024
-    return game_key
-
-game_key = get_game_key()
-
 def get_league_id():
     #Fantasy Football
+    #league_id = "17343"	#2023 season
     league_id = "27808" #2024 season
     return league_id
     
@@ -143,10 +136,28 @@ yahoo_query.league_key = f"{game_id}.l.{league_id}"
 
 teamsDict = yahoo_query.get_league_teams()
 for team in teamsDict:
-    print(f'{team.managers[0].nickname} - {team.name.decode('UTF-8')}')
-print('-----------------------')
+    print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode('UTF-8')}')
 #with open(os.path.join(data_dir,'allTeams.json'), 'w+') as fp:
-#    json.dump(repr(teamsDict), fp)
+#    json.dump(teamsDict.to_json(), fp)
+print('-----------------------')
+
+scores = {}
+fileScore = os.path.join(data_dir, 'scores.json')
+for i in range(1,13):
+	wkScores = yahoo_query.get_team_stats_by_week(i, chosen_week)
+	scores[teamsDict[i-1].name.decode('UTF-8')] = wkScores['team_points'].total
+print(json.dumps(max(scores.items(), key=lambda k: k[1])))
+with open(fileScore, 'a+') as fp:
+#    if (os.stat(fileScore).st_size == 0):
+    fp.write(json.dumps(max(scores.items(), key=lambda k: k[1])))
+#    else:
+#        oldScore = fp.read().splitlines()
+#        oldScore.append(json.dumps(max(scores.items(), key=lambda k: k[1])))
+#        fp.write(json.dumps(oldScore))
+		
+#with open(os.path.join(data_dir, f'scoreboard{chosen_week}.json'), 'w+') as fp:
+#    json.dump(scrBoard.to_json(), fp)
+    
 ##############################################################
 ################ QUERY EXAMPLES ##############################
 ##############################################################

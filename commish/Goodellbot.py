@@ -33,6 +33,10 @@ async def send_CommishMsg(message):
 #make Roger pimp the website
 async def send_CommishWebsite():
     await cnlCommit.send(web)
+    
+#make some noise for the hi score of the week
+#async def hiScore():
+	#something here
 
 tokFile = open("token.txt", "r")
 token = tokFile.readline()
