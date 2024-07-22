@@ -23,7 +23,7 @@ Team Friends Fantasy league URL: https://football.fantasysports.yahoo.com/league
 auth_dir = project_dir
 
 #set target directory for data output
-data_dir = Path(__file__).parent.parent / "2024rosters"
+data_dir = Path(__file__).parent.parent / "dataStore"
 
 #create YFPY Data instance for saving/loading data
 data = Data(data_dir)
@@ -134,13 +134,19 @@ yahoo_query.league_key = f"{game_id}.l.{league_id}"
 #manually override player key for example code to work
 #player_key = f"{game_id}.p.{player_id}"
 
+#------------Team Info store----------------------------------
 teamsDict = yahoo_query.get_league_teams()
+writeList = list()
 for team in teamsDict:
+    writeDict = {"team_id": team.team_id, "name": team.managers[0].nickname, "teamname": team.name.decode('UTF-8')}
+    writeList.append(writeDict)
     print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode('UTF-8')}')
-#with open(os.path.join(data_dir,'allTeams.json'), 'w+') as fp:
-#    json.dump(teamsDict.to_json(), fp)
+
+with open(os.path.join(data_dir,'allTeams.json'), 'w+') as fp:
+    json.dump(writeList, fp)
 print('-----------------------')
 
+#------------Weekly Hi Score store----------------------------
 scores = {}
 fileScore = os.path.join(data_dir, 'scores.json')
 for i in range(1,13):
