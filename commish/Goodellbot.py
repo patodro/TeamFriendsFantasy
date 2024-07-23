@@ -36,9 +36,10 @@ async def on_message(message):
         return
         
     if message.content.startswith('$Roger'):
-    		goodellGIF = tenorGIF("goodell")
-    		embed = discord.Embed(title="Goodell",color=discord.Color.purple())	###does this need to be client.Embed?
-    		embed.set_image(url=goodellGIF)
+        goodellGIF = tenorGIF("goodell")
+        embed = discord.Embed(color=discord.Color.purple())
+        embed.set_image(url=goodellGIF)
+        await message.channel.send(embed=embed)
         
 #send <message> to the defined <channel>
 async def send_CommishMsg(message):
@@ -55,10 +56,10 @@ async def send_CommishWebsite():
 def tenorGIF(search_term):
 	lmt = 12
 	
-	r = requests.get("https://tenor.googleapis.com/v2/search?q=%s&key=%s&limit=%s" % (search_term, apikey, lmt))
+	r = requests.get("https://tenor.googleapis.com/v2/search?q=%s&key=%s&limit=%s" % (search_term, tenorKey, lmt))
 	results = []
 	
-	if r.status.code == 200:
+	if r.status_code == 200:
 		gifs = r.json()
 		
 		for i in range(lmt):
@@ -72,7 +73,6 @@ def tenorGIF(search_term):
 				
 		if len(results) > 0:
 			gif = random.choice(results)
-			print(f"Here are the results for {search_term} ({lmt} url limit) (gif horizontal or square embed discord format): ")
 			print(f"Printing 1 random result of {len(results)}")
 			print(gif)
 		else:
@@ -82,4 +82,4 @@ def tenorGIF(search_term):
 		print("ERROR: Something failed during the TENOR API request")			
 	return gif
 
-client.run(token)
+client.run(discordToken)
