@@ -146,7 +146,8 @@ for team in teamsDict:
 			ownerMatch["teamname"] = team.name.decode('UTF-8')
 			owner = ownerMatch["name"].replace(" ","")
 			print(f'****{owner} changed their team name to {team.name}****')
-			open(f'{owner}.name','w')
+			with open(os.path.join(data_dir,f'{owner}.name','w') as np:
+				np.write(ownerMatch["teamname"])
 #    writeDict = {"team_id": team.team_id, "name": team.managers[0].nickname, "teamname": team.name.decode('UTF-8')}
 #    writeList.append(writeDict)
     print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode('UTF-8')}')

@@ -90,6 +90,8 @@ def tenorGIF(search_term):
 		gifs = None
 		print("ERROR: Something failed during the TENOR API request")			
 	return gif
+	
+#need something to monitor dataStore for changes in teamnames
 
 
 client.run(discordToken)
