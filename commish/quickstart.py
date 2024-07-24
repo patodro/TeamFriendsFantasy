@@ -136,14 +136,25 @@ yahoo_query.league_key = f"{game_id}.l.{league_id}"
 
 #------------Team Info store----------------------------------
 teamsDict = yahoo_query.get_league_teams()
-writeList = list()
+
+op = open(os.path.join(data_dir,'allTeams.json'), 'w+')
+currentList = json.load(op)
+#writeList = list()
 for team in teamsDict:
-    writeDict = {"team_id": team.team_id, "name": team.managers[0].nickname, "teamname": team.name.decode('UTF-8')}
-    writeList.append(writeDict)
+		ownerMatch = next((item for item in currentList if item["name"] == team.managers[0].nickname), None)
+		if (ownerMatch["teamname"] != team.name.decode('UTF-8')):
+			ownerMatch["teamname"] = team.name.decode('UTF-8')
+			owner = ownerMatch["name"].replace(" ","")
+			print(f'****{owner} changed their team name to {team.name}****')
+			open(f'{owner}.name','w')
+#    writeDict = {"team_id": team.team_id, "name": team.managers[0].nickname, "teamname": team.name.decode('UTF-8')}
+#    writeList.append(writeDict)
     print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode('UTF-8')}')
 
-with open(os.path.join(data_dir,'allTeams.json'), 'w+') as fp:
-    json.dump(writeList, fp)
+json.dump(currentList, op)
+op.close()
+#with open(os.path.join(data_dir,'allTeams.json'), 'w+') as fp:
+#    json.dump(writeList, fp)
 print('-----------------------')
 
 #------------Weekly Hi Score store----------------------------

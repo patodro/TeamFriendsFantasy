@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import requests
 import random
+import os
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -24,6 +25,8 @@ tenorKey = tenorFile.readline()
 tokFile.close()
 tenorFile.close()
 #---------------------------------------------------
+
+data_dir = Path(__file__).parent.parent / "dataStore"
 
 @client.event
 async def on_ready():
@@ -52,6 +55,12 @@ async def send_CommishWebsite():
 #make some noise for the hi score of the week
 #async def hiScore():
 	#something here
+	
+#update nicknames based on dataStore info
+@client.command(pass_context=True)
+async def chnick(ctx, member: discord.Member, nick):
+	await member.edit(nick=nick)
+	await ctx.send(f'{member.mention} changed their teamname')
 
 def tenorGIF(search_term):
 	lmt = 12
@@ -81,5 +90,6 @@ def tenorGIF(search_term):
 		gifs = None
 		print("ERROR: Something failed during the TENOR API request")			
 	return gif
+
 
 client.run(discordToken)
