@@ -129,3 +129,19 @@ th[keep='1'] {	font-style: italic; background-color: #000; color: #03ff00;}
 .champ {
 	color: #ffbb33;
 }
+
+.dead {
+	color: #808080;
+	font-style: italic;
+}
+
+#PlayoffNotes {
+	margin-left: 50px;
+}
+
+dt {
+	margin-bottom: 5px;
+}
+dd {
+	margin-bottom: 5px;
+}
