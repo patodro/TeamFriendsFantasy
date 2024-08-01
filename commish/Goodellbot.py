@@ -1,19 +1,18 @@
 import discord
-from discord.ext import commands
+from discord.ext import tasks, commands
 import requests
 import random
 import os
+from pathlib import Path
+import datetime
 
 intents = discord.Intents.default()
 intents.message_content = True
 
-client = discord.Client(intents=intents)
-
 commishChannelID = 1256234378443362376
 generalChannelID = 1237187300547367036
 infoChannelID = 1256224215011557448
-
-cnlCommish = client.get_channel(commishChannelID)
+guildID = 1237187300547367033
 
 web = "https://patodro.github.io/TeamFriendsFantasy"
 
@@ -27,40 +26,68 @@ tenorFile.close()
 #---------------------------------------------------
 
 data_dir = Path(__file__).parent.parent / "dataStore"
+time = datetime.time(hour=12)
 
-@client.event
-async def on_ready():
-    print(f'We have logged in as {client.user}')
-    print('------')
+memberDict = {
+    'dave' = ''
+}
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-        
-    if message.content.startswith('$Roger'):
-        goodellGIF = tenorGIF("goodell")
-        embed = discord.Embed(color=discord.Color.purple())
-        embed.set_image(url=goodellGIF)
-        await message.channel.send(embed=embed)
-        
-#send <message> to the defined <channel>
-async def send_CommishMsg(message):
-    await cnlCommish.send(message)
 
-#make Roger pimp the website
-async def send_CommishWebsite():
-    await cnlCommit.send(web)
+class MyClient(discord.Client):
+    async def setup_hook(self) -> None:
+        #start tasks in background
+        print('background')
+#        self.readTeams.start()
+        #self.readTeams()
+
+    async def on_ready(self):
+        print(f'We have logged in as {self.user}')
+        print('------')
+        self.readTeams()
     
-#make some noise for the hi score of the week
-#async def hiScore():
-	#something here
-	
-#update nicknames based on dataStore info
-@client.command(pass_context=True)
-async def chnick(ctx, member: discord.Member, nick):
-	await member.edit(nick=nick)
-	await ctx.send(f'{member.mention} changed their teamname')
+    async def on_message(self, message):
+        if message.author == self.user:
+            return
+            
+        if message.content.startswith('$Roger'):
+            goodellGIF = tenorGIF("goodell")
+            embed = discord.Embed(color=discord.Color.purple())
+            embed.set_image(url=goodellGIF)
+            await message.channel.send(embed=embed)
+            
+        if message.content.startswith('guild'):
+            await message.channel.send(message.guild.id)
+        
+    #send <message> to the defined <channel>
+    async def send_CommishMsg(self, message):
+        cnlCommish = client.get_channel(commishChannelID)
+        await cnlCommish.send(message)
+
+    #make Roger pimp the website
+    async def send_CommishWebsite():
+        cnlCommish = client.get_channel(commishChannelID)
+        await cnlCommish.send(web)
+        
+    #make some noise for the hi score of the week
+    #async def hiScore():
+        #something here
+        
+    #@tasks.loop(seconds=7.0)
+    def readTeams(self):
+        print('Checking for updated teamnames....')
+        for file in os.listdir(data_dir):
+            if file.endswith(".name"):
+                with open(os.path.join(data_dir, file), 'r+') as tf:
+                    newName = tf.readline()
+                oldName = Path(os.path.join(data_dir, file)).stem
+                os.remove(os.path.join(data_dir, file))
+                self.chnick(oldName, newName)    
+        
+    #update nicknames based on dataStore info
+    async def chnick(self, oldNick, newNick):
+        self.get_all_members()
+        await member.edit(nick=nick)
+        await ctx.send(f'{member.mention} changed their teamname')
 
 def tenorGIF(search_term):
 	lmt = 12
@@ -90,8 +117,7 @@ def tenorGIF(search_term):
 		gifs = None
 		print("ERROR: Something failed during the TENOR API request")			
 	return gif
-	
-#need something to monitor dataStore for changes in teamnames
 
-
+            
+client = MyClient(intents=intents)
 client.run(discordToken)
