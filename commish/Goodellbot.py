@@ -8,6 +8,7 @@ import datetime
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 
 commishChannelID = 1256234378443362376
 generalChannelID = 1237187300547367036
@@ -29,21 +30,35 @@ data_dir = Path(__file__).parent.parent / "dataStore"
 time = datetime.time(hour=12)
 
 memberDict = {
-    'dave' = ''
+    'dave':'dc1133._10969',
+    'boyce':'tlb1224',
+    'tony':'tcarbone31_24880',
+    'sean':'sean1928',
+    'katie':'karmy0804',
+    'josh':'joshwsutton',
+    'z':'zman9074',
+    'bobby':'bobbygiambra',
+    'mike':'obiwan088',
+    'andy':'hopscotch33',
+    'pat':'patodro'
 }
 
 
 class MyClient(discord.Client):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        # an attribute we can access from our task
+        self.counter = 0
+    
     async def setup_hook(self) -> None:
         #start tasks in background
         print('background')
-#        self.readTeams.start()
-        #self.readTeams()
+        self.readTeams.start()
 
     async def on_ready(self):
         print(f'We have logged in as {self.user}')
         print('------')
-        self.readTeams()
     
     async def on_message(self, message):
         if message.author == self.user:
@@ -72,22 +87,23 @@ class MyClient(discord.Client):
     #async def hiScore():
         #something here
         
-    #@tasks.loop(seconds=7.0)
-    def readTeams(self):
+    @tasks.loop(time=time)
+    async def readTeams(self):
         print('Checking for updated teamnames....')
         for file in os.listdir(data_dir):
             if file.endswith(".name"):
                 with open(os.path.join(data_dir, file), 'r+') as tf:
                     newName = tf.readline()
-                oldName = Path(os.path.join(data_dir, file)).stem
+                owner = Path(os.path.join(data_dir, file)).stem
                 os.remove(os.path.join(data_dir, file))
-                self.chnick(oldName, newName)    
+                await self.chnick(owner, newName)    
         
     #update nicknames based on dataStore info
-    async def chnick(self, oldNick, newNick):
-        self.get_all_members()
-        await member.edit(nick=nick)
-        await ctx.send(f'{member.mention} changed their teamname')
+    async def chnick(self, owner, newNick):
+        member = self.guilds[0].get_member_named(memberDict[owner])
+        print(f'{member.name} changed their teamname')
+        await member.edit(nick=newNick)
+        
 
 def tenorGIF(search_term):
 	lmt = 12
