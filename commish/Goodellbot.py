@@ -40,7 +40,8 @@ memberDict = {
     'bobby':'bobbygiambra',
     'mike':'obiwan088',
     'andy':'hopscotch33',
-    'pat':'patodro'
+    'pat':'patodro',
+    'lepo':'johnlepo_06200'
 }
 
 
