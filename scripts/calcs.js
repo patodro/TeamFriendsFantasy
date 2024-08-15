@@ -20,6 +20,10 @@ function PickComp() {
 		}
 		
 		if (draft.children[1].children[1].innerText) {
+			if (draft.children[1].children[1].innerText.includes("y")) {
+				play.parentNode.className = "KEEP";
+				draft.children[1].children[1].innerText = draft.children[1].children[1].innerText.replace('y','');;
+			} 
 			keep = Number(draft.children[1].children[1].innerText);
 		} else {
 			keep = 0;
