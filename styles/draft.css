@@ -1,0 +1,50 @@
+.draftBoard {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: sans-serif;
+}
+
+.draftBoard thead tr {
+	background-color: gray;
+	line-height: 2.5;
+}
+
+.draftBoard thead th {
+	border: thin solid blue;
+	width: 25px;
+}
+
+.draftBoard tbody tr {
+	background-color: white;
+	color: black;
+	line-height: 2;
+}
+
+.draftBoard tbody th {
+	border: thin solid blue;
+	width: auto;
+}
+
+#QB {	background-color: #e08282;}
+#RB {	background-color: #8ccf8c;}
+#WR {	background-color: #dedb97;}
+#TE {	background-color: #97acde;}
+#K {	background-color: #a684c2;}
+#DEF {	background-color: #e3a976;}
+#keep {	font-style: italic; background-color: #000; color: #03ff00;}
+
+.playerCard {
+	width:85px;
+	margin:auto;
+}
+
+.playerInfo {
+	font-variant:all-petite-caps;
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.player {
+	display:block;
+	font-family:'Staatliches';
+}
