@@ -32,6 +32,7 @@
 #K {	background-color: #a684c2;}
 #DEF {	background-color: #e3a976;}
 #keep {	font-style: italic; background-color: #000; color: #03ff00;}
+#trade { border: thin solid red;}
 
 .playerCard {
 	width:85px;
