@@ -84,3 +84,33 @@ function buildRoster() {
 	}
 }
 
+function buildDraft(year) {
+	var pick;
+	var player;
+	var pos;
+	var team;
+	var owner;
+	var keep;
+	var request = new XMLHttpRequest();
+	request.open("GET", `${year}draft.json`, false);
+	request.send(null)
+	var draft = JSON.parse(request.responseText);
+	for (let i=0; i < draft.draft.length; i++) {
+		pick = draft.draft[i].round +"."+ draft.draft[i].pick;
+		player = draft.draft[i].player.name;
+		pos = draft.draft[i].player.pos;
+		team = draft.draft[i].player.team;
+		keep = draft.draft[i].player.keep;
+		dbpk = document.querySelector('th[pk="'+pick+'"]')
+		if (keep > 0) {
+			dbpk.id = "keep";
+		} else {
+			dbpk.id = pos;
+		}
+		dbpk.insertAdjacentHTML("beforeend",'<div class="playerCard"><div class="playerInfo"><div class="position"></div><div class="team"></div></div>\n\t\t\t\t\t\t<div class="player"></div></div>');
+		card = dbpk.getElementsByClassName("playerCard")[0];
+		card.getElementsByClassName("player")[0].insertAdjacentText("beforeend",player);
+		card.getElementsByClassName("playerInfo")[0].children[0].insertAdjacentText("beforeend",pos);
+		card.getElementsByClassName("playerInfo")[0].children[1].insertAdjacentText("beforeend",team);
+	}
+}
