@@ -45,6 +45,13 @@
 	justify-content:space-evenly;
 }
 
+.pickTrade {
+	font-variant:all-petite-caps;
+	display:flex;
+	justify-content:space-evenly;
+	color: #FF0000
+}
+
 .player {
 	display:block;
 	font-family:'Staatliches';

@@ -101,6 +101,7 @@ function buildDraft(year) {
 		pos = draft.draft[i].player.pos;
 		team = draft.draft[i].player.team;
 		keep = draft.draft[i].player.keep;
+		owner = draft.draft[i].owner
 		dbpk = document.querySelector('th[pk="'+pick+'"]')
 		if (keep > 0) {
 			dbpk.id = "keep";
@@ -112,5 +113,9 @@ function buildDraft(year) {
 		card.getElementsByClassName("player")[0].insertAdjacentText("beforeend",player);
 		card.getElementsByClassName("playerInfo")[0].children[0].insertAdjacentText("beforeend",pos);
 		card.getElementsByClassName("playerInfo")[0].children[1].insertAdjacentText("beforeend",team);
+		if (owner != dbpk.closest('table').firstElementChild.children[0].children[dbpk.cellIndex].innerText) {
+			card.insertAdjacentHTML("afterbegin",'<div class="pickTrade">*-></div>');
+			card.getElementsByClassName("pickTrade")[0].insertAdjacentText("beforeend",owner+"*")
+		}
 	}
 }
