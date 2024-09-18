@@ -88,6 +88,8 @@ table {
 
 #announce {
 	text-align: center;
+	margin: auto;
+	width: 50%;
 }
 
 .champ {
@@ -108,4 +110,22 @@ dt {
 }
 dd {
 	margin-bottom: 5px;
+}
+
+#pickTrade {
+	display: inline-flex;
+}
+
+#tradeCol {
+	display: block;
+	width: 225px;
+}
+
+.playerCard {
+	border-radius:10px;
+	border-color:#d8dade;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	width: max-content;
 }
