@@ -49,7 +49,7 @@ function draftExclusion (player, comp) {
 }
 
 function faExclusion (addDate) {
-	let cutDate = new Date("11/18/23");
+	let cutDate = new Date("11/16/24");
 	let FADate = new Date(addDate);
 	if (FADate >= cutDate)
 	{
