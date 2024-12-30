@@ -50,7 +50,7 @@ def get_season():
 season = get_season()
 
 def get_chosen_week():
-    chosen_week = 1
+    chosen_week = 17
     return chosen_week
 
 chosen_week = get_chosen_week()
@@ -211,7 +211,7 @@ with open(fileScore, 'a+') as fp:
 # print(repr(yahoo_query.get_team_stats(team_id)))
 # print(repr(yahoo_query.get_team_stats_by_week(team_id, chosen_week)))
 # print(repr(yahoo_query.get_team_standings(team_id)))
-# print(repr(yahoo_query.get_team_roster_by_week(team_id, chosen_week)))
+#print(repr(yahoo_query.get_team_roster_by_week(team_id, chosen_week)))
 # print(repr(yahoo_query.get_team_roster_player_info_by_week(team_id, chosen_week)))
 # # print(repr(yahoo_query.get_team_roster_player_info_by_date(team_id, chosen_date)))  # NHL/MLB/NBA
 # print(repr(yahoo_query.get_team_roster_player_stats(team_id)))
