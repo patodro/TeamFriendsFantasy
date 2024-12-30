@@ -1,141 +1,141 @@
 {
-	"owner":"Bobby",
-	"teamName":"Double Cheeked Up",
+	"owner":"Sean",
+	"teamName":"Live Laugh Toaster Bath",
 	"roster":[
 		{
-			"firstName":"Jared",
-			"lastName":"Goff",
+			"firstName":"Tua",
+			"lastName":"Tagovailoa",
 			"position":"QB",
-			"team":"DET",
-			"addDate":"n/a",
+			"team":"MIA",
+			"addDate":"11/10/24",
 			"draftInfo":{
-				"draftRound":"8",
+				"draftRound":"9",
 				"keep":"0"}},
 		{
-			"firstName":"CeeDee",
-			"lastName":"Lamb",
+			"firstName":"Tyreek",
+			"lastName":"Hill",
 			"position":"WR",
-			"team":"DAL",
+			"team":"MIA",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"1",
 				"keep":"0"}},
 		{
-			"firstName":"Ja'Marr",
-			"lastName":"Chase",
+			"firstName":"Tank",
+			"lastName":"Dell",
 			"position":"WR",
-			"team":"CIN",
+			"team":"HOU",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"5",
-				"keep":"2"}},
-		{
-			"firstName":"Breece",
-			"lastName":"Hall",
-			"position":"RB",
-			"team":"NYJ",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"4",
 				"keep":"0"}},
 		{
-			"firstName":"Kyren",
-			"lastName":"Williams",
+			"firstName":"Travis",
+			"lastName":"Etienne Jr.",
 			"position":"RB",
-			"team":"LAR",
-			"addDate":"09/23/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"y0"}},
-		{
-			"firstName":"Isaiah",
-			"lastName":"Likely",
-			"position":"TE",
-			"team":"BAL",
-			"addDate":"11/22/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Derrick",
-			"lastName":"Henry",
-			"position":"RB",
-			"team":"TEN",
+			"team":"JAC",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
 		{
-			"firstName":"Dallas",
-			"lastName":"Goedert",
+			"firstName":"T.J.",
+			"lastName":"Hockenson",
 			"position":"TE",
-			"team":"PHI",
+			"team":"MIN",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"6",
+				"draftRound":"14",
 				"keep":"0"}},
 		{
-			"firstName":"Cade",
-			"lastName":"Otton",
-			"position":"TE",
-			"team":"TB",
-			"addDate":"11/09/23",
+			"firstName":"Jordan",
+			"lastName":"Love",
+			"position":"QB",
+			"team":"GB",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"5",
+				"keep":"0"}},
+		{
+			"firstName":"Brian",
+			"lastName":"Robinson Jr.",
+			"position":"RB",
+			"team":"WAS",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"7",
+				"keep":"0"}},
+		{
+			"firstName":"Jordan",
+			"lastName":"Addison",
+			"position":"WR",
+			"team":"MIN",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"9",
+				"keep":"0"}},
+		{
+			"firstName":"Deebo",
+			"lastName":"Samuel Sr.",
+			"position":"WR",
+			"team":"SF",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"3",
+				"keep":"1"}},
+		{
+			"firstName":"Ameer",
+			"lastName":"Abdullah",
+			"position":"RB",
+			"team":"LV",
+			"addDate":"12/05/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Tyler",
-			"lastName":"Boyd",
+			"firstName":"Romeo",
+			"lastName":"Doubs",
 			"position":"WR",
-			"team":"CIN",
-			"addDate":"n/a",
+			"team":"GB",
+			"addDate":"10/17/24",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}},
 		{
-			"firstName":"AJ",
-			"lastName":"Dillon",
+			"firstName":"J.K.",
+			"lastName":"Dobbins",
 			"position":"RB",
-			"team":"GB",
-			"addDate":"10/29/23",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"Aaron",
-			"lastName":"Jones",
-			"position":"RB",
-			"team":"GB",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"3",
-				"keep":"0"}},
-		{
-			"firstName":"Joshua",
-			"lastName":"Palmer",
-			"position":"WR",
 			"team":"LAC",
-			"addDate":"09/27/23",
+			"addDate":"09/05/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Justin",
-			"lastName":"Tucker",
+			"firstName":"Brandon",
+			"lastName":"McManus",
 			"position":"K",
-			"team":"BAL",
-			"addDate":"12/07/23",
+			"team":"GB",
+			"addDate":"11/14/24",
 			"draftInfo":{
-				"draftRound":"8",
+				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Pittsburgh",
-			"lastName":"Steelers",
+			"firstName":"Buffalo",
+			"lastName":"Bills",
 			"position":"DEF",
-			"team":"PIT",
+			"team":"BUF",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"13",
+				"draftRound":"10",
+				"keep":"0"}},
+		{
+			"firstName":"Miami",
+			"lastName":"Dolphins",
+			"position":"DEF",
+			"team":"MIA",
+			"addDate":"11/23/24",
+			"draftInfo":{
+				"draftRound":"12",
 				"keep":"0"}}
 	]
 }

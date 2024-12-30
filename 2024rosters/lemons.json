@@ -1,34 +1,43 @@
 {
-	"owner":"Bobby",
-	"teamName":"Double Cheeked Up",
+	"owner":"Dave",
+	"teamName":"Lemons? Too Bad I Prefer Limes",
 	"roster":[
 		{
-			"firstName":"Jared",
-			"lastName":"Goff",
+			"firstName":"Lamar",
+			"lastName":"Jackson",
 			"position":"QB",
-			"team":"DET",
+			"team":"BAL",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"8",
+				"draftRound":"3",
 				"keep":"0"}},
 		{
-			"firstName":"CeeDee",
-			"lastName":"Lamb",
+			"firstName":"Keenan",
+			"lastName":"Allen",
 			"position":"WR",
-			"team":"DAL",
+			"team":"CHI",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"1",
+				"draftRound":"7",
 				"keep":"0"}},
 		{
-			"firstName":"Ja'Marr",
-			"lastName":"Chase",
+			"firstName":"Tee",
+			"lastName":"Higgins",
 			"position":"WR",
 			"team":"CIN",
 			"addDate":"n/a",
 			"draftInfo":{
+				"draftRound":"6",
+				"keep":"0"}},
+		{
+			"firstName":"James",
+			"lastName":"Conner",
+			"position":"RB",
+			"team":"ARI",
+			"addDate":"n/a",
+			"draftInfo":{
 				"draftRound":"5",
-				"keep":"2"}},
+				"keep":"0"}},
 		{
 			"firstName":"Breece",
 			"lastName":"Hall",
@@ -36,97 +45,79 @@
 			"team":"NYJ",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"4",
+				"draftRound":"1",
 				"keep":"0"}},
 		{
-			"firstName":"Kyren",
-			"lastName":"Williams",
-			"position":"RB",
-			"team":"LAR",
-			"addDate":"09/23/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"y0"}},
-		{
-			"firstName":"Isaiah",
-			"lastName":"Likely",
+			"firstName":"Sam",
+			"lastName":"LaPorta",
 			"position":"TE",
-			"team":"BAL",
-			"addDate":"11/22/23",
+			"team":"DET",
+			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
+				"draftRound":"12",
+				"keep":"1"}},
 		{
-			"firstName":"Derrick",
-			"lastName":"Henry",
-			"position":"RB",
-			"team":"TEN",
+			"firstName":"Davante",
+			"lastName":"Adams",
+			"position":"WR",
+			"team":"NYJ",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
 		{
-			"firstName":"Dallas",
-			"lastName":"Goedert",
-			"position":"TE",
-			"team":"PHI",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"6",
-				"keep":"0"}},
-		{
-			"firstName":"Cade",
-			"lastName":"Otton",
-			"position":"TE",
-			"team":"TB",
-			"addDate":"11/09/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Tyler",
-			"lastName":"Boyd",
-			"position":"WR",
-			"team":"CIN",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"12",
-				"keep":"0"}},
-		{
-			"firstName":"AJ",
-			"lastName":"Dillon",
+			"firstName":"Chuba",
+			"lastName":"Hubbard",
 			"position":"RB",
-			"team":"GB",
-			"addDate":"10/29/23",
+			"team":"CAR",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"13",
+				"keep":"0"}},
+		{
+			"firstName":"Brock",
+			"lastName":"Purdy",
+			"position":"QB",
+			"team":"SF",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
 		{
-			"firstName":"Aaron",
-			"lastName":"Jones",
+			"firstName":"Jerome",
+			"lastName":"Ford",
 			"position":"RB",
-			"team":"GB",
-			"addDate":"n/a",
+			"team":"CLE",
+			"addDate":"11/13/24",
 			"draftInfo":{
-				"draftRound":"3",
+				"draftRound":"9",
 				"keep":"0"}},
 		{
-			"firstName":"Joshua",
-			"lastName":"Palmer",
+			"firstName":"Xavier",
+			"lastName":"Worthy",
 			"position":"WR",
-			"team":"LAC",
-			"addDate":"09/27/23",
+			"team":"KC",
+			"addDate":"11/20/24",
+			"draftInfo":{
+				"draftRound":"7",
+				"keep":"0"}},
+		{
+			"firstName":"Colby",
+			"lastName":"Parkinson",
+			"position":"TE",
+			"team":"LAR",
+			"addDate":"10/06/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Justin",
-			"lastName":"Tucker",
+			"firstName":"Jake",
+			"lastName":"Bates",
 			"position":"K",
-			"team":"BAL",
-			"addDate":"12/07/23",
+			"team":"DET",
+			"addDate":"11/13/24",
 			"draftInfo":{
-				"draftRound":"8",
+				"draftRound":"--",
 				"keep":"0"}},
 		{
 			"firstName":"Pittsburgh",
@@ -135,7 +126,7 @@
 			"team":"PIT",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"13",
+				"draftRound":"10",
 				"keep":"0"}}
 	]
 }

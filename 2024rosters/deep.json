@@ -1,141 +1,132 @@
 {
-	"owner":"Bobby",
-	"teamName":"Double Cheeked Up",
+	"owner":"Josh",
+	"teamName":"FootBalls Deep",
 	"roster":[
 		{
-			"firstName":"Jared",
-			"lastName":"Goff",
+			"firstName":"Joe",
+			"lastName":"Burrow",
 			"position":"QB",
-			"team":"DET",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"CeeDee",
-			"lastName":"Lamb",
-			"position":"WR",
-			"team":"DAL",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"1",
-				"keep":"0"}},
-		{
-			"firstName":"Ja'Marr",
-			"lastName":"Chase",
-			"position":"WR",
 			"team":"CIN",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"5",
-				"keep":"2"}},
-		{
-			"firstName":"Breece",
-			"lastName":"Hall",
-			"position":"RB",
-			"team":"NYJ",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"4",
-				"keep":"0"}},
-		{
-			"firstName":"Kyren",
-			"lastName":"Williams",
-			"position":"RB",
-			"team":"LAR",
-			"addDate":"09/23/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"y0"}},
-		{
-			"firstName":"Isaiah",
-			"lastName":"Likely",
-			"position":"TE",
-			"team":"BAL",
-			"addDate":"11/22/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Derrick",
-			"lastName":"Henry",
-			"position":"RB",
-			"team":"TEN",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"2",
-				"keep":"0"}},
-		{
-			"firstName":"Dallas",
-			"lastName":"Goedert",
-			"position":"TE",
-			"team":"PHI",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
 		{
-			"firstName":"Cade",
-			"lastName":"Otton",
+			"firstName":"DJ",
+			"lastName":"Moore",
+			"position":"WR",
+			"team":"CHI",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"3",
+				"keep":"1"}},
+		{
+			"firstName":"Garrett",
+			"lastName":"Wilson",
+			"position":"WR",
+			"team":"NYJ",
+			"addDate":"10/27/24",
+			"draftInfo":{
+				"draftRound":"1",
+				"keep":"0"}},
+		{
+			"firstName":"Jaylen",
+			"lastName":"Warren",
+			"position":"RB",
+			"team":"PIT",
+			"addDate":"11/20/24",
+			"draftInfo":{
+				"draftRound":"10",
+				"keep":"1"}},
+		{
+			"firstName":"James",
+			"lastName":"Cook",
+			"position":"RB",
+			"team":"BUF",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"4",
+				"keep":"0"}},
+		{
+			"firstName":"Travis",
+			"lastName":"Kelce",
 			"position":"TE",
-			"team":"TB",
-			"addDate":"11/09/23",
+			"team":"KC",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"2",
+				"keep":"0"}},
+		{
+			"firstName":"Courtland",
+			"lastName":"Sutton",
+			"position":"WR",
+			"team":"DEN",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"7",
+				"keep":"0"}},
+		{
+			"firstName":"Tank",
+			"lastName":"Bigsby",
+			"position":"RB",
+			"team":"JAC",
+			"addDate":"10/10/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Tyler",
-			"lastName":"Boyd",
+			"firstName":"Devin",
+			"lastName":"Singletary",
+			"position":"RB",
+			"team":"NYG",
+			"addDate":"11/20/24",
+			"draftInfo":{
+				"draftRound":"13",
+				"keep":"1"}},
+		{
+			"firstName":"Diontae",
+			"lastName":"Johnson",
 			"position":"WR",
-			"team":"CIN",
+			"team":"HOU",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"5",
+				"keep":"0"}},
+		{
+			"firstName":"Justin",
+			"lastName":"Herbert",
+			"position":"QB",
+			"team":"LAC",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"11",
+				"keep":"0"}},
+		{
+			"firstName":"Cole",
+			"lastName":"Kmet",
+			"position":"TE",
+			"team":"CHI",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"12",
 				"keep":"0"}},
 		{
-			"firstName":"AJ",
-			"lastName":"Dillon",
-			"position":"RB",
-			"team":"GB",
-			"addDate":"10/29/23",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"Aaron",
-			"lastName":"Jones",
-			"position":"RB",
-			"team":"GB",
+			"firstName":"Ka'imi",
+			"lastName":"Fairbairn",
+			"position":"K",
+			"team":"HOU",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"3",
+				"draftRound":"10",
 				"keep":"0"}},
 		{
-			"firstName":"Joshua",
-			"lastName":"Palmer",
-			"position":"WR",
-			"team":"LAC",
-			"addDate":"09/27/23",
+			"firstName":"Washington",
+			"lastName":"Commanders",
+			"position":"DEF",
+			"team":"WAS",
+			"addDate":"11/20/24",
 			"draftInfo":{
 				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Justin",
-			"lastName":"Tucker",
-			"position":"K",
-			"team":"BAL",
-			"addDate":"12/07/23",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"Pittsburgh",
-			"lastName":"Steelers",
-			"position":"DEF",
-			"team":"PIT",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"13",
 				"keep":"0"}}
 	]
 }

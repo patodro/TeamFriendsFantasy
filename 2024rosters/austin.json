@@ -1,109 +1,37 @@
 {
-	"owner":"Bobby",
-	"teamName":"Double Cheeked Up",
+	"owner":"Lepo",
+	"teamName":"The Austin Bills",
 	"roster":[
 		{
-			"firstName":"Jared",
-			"lastName":"Goff",
+			"firstName":"Baker",
+			"lastName":"Mayfield",
 			"position":"QB",
-			"team":"DET",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"CeeDee",
-			"lastName":"Lamb",
-			"position":"WR",
-			"team":"DAL",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"1",
-				"keep":"0"}},
-		{
-			"firstName":"Ja'Marr",
-			"lastName":"Chase",
-			"position":"WR",
-			"team":"CIN",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"5",
-				"keep":"2"}},
-		{
-			"firstName":"Breece",
-			"lastName":"Hall",
-			"position":"RB",
-			"team":"NYJ",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"4",
-				"keep":"0"}},
-		{
-			"firstName":"Kyren",
-			"lastName":"Williams",
-			"position":"RB",
-			"team":"LAR",
-			"addDate":"09/23/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"y0"}},
-		{
-			"firstName":"Isaiah",
-			"lastName":"Likely",
-			"position":"TE",
-			"team":"BAL",
-			"addDate":"11/22/23",
+			"team":"TB",
+			"addDate":"09/21/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Derrick",
-			"lastName":"Henry",
-			"position":"RB",
-			"team":"TEN",
+			"firstName":"Marvin",
+			"lastName":"Harrison Jr.",
+			"position":"WR",
+			"team":"ARI",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"2",
 				"keep":"0"}},
 		{
-			"firstName":"Dallas",
-			"lastName":"Goedert",
-			"position":"TE",
-			"team":"PHI",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"6",
-				"keep":"0"}},
-		{
-			"firstName":"Cade",
-			"lastName":"Otton",
-			"position":"TE",
-			"team":"TB",
-			"addDate":"11/09/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Tyler",
-			"lastName":"Boyd",
+			"firstName":"Rome",
+			"lastName":"Odunze",
 			"position":"WR",
-			"team":"CIN",
-			"addDate":"n/a",
+			"team":"CHI",
+			"addDate":"11/07/24",
 			"draftInfo":{
-				"draftRound":"12",
+				"draftRound":"10",
 				"keep":"0"}},
 		{
-			"firstName":"AJ",
-			"lastName":"Dillon",
-			"position":"RB",
-			"team":"GB",
-			"addDate":"10/29/23",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"Aaron",
-			"lastName":"Jones",
+			"firstName":"Josh",
+			"lastName":"Jacobs",
 			"position":"RB",
 			"team":"GB",
 			"addDate":"n/a",
@@ -111,31 +39,94 @@
 				"draftRound":"3",
 				"keep":"0"}},
 		{
-			"firstName":"Joshua",
-			"lastName":"Palmer",
-			"position":"WR",
-			"team":"LAC",
-			"addDate":"09/27/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Justin",
-			"lastName":"Tucker",
-			"position":"K",
-			"team":"BAL",
-			"addDate":"12/07/23",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"Pittsburgh",
-			"lastName":"Steelers",
-			"position":"DEF",
+			"firstName":"Pat",
+			"lastName":"Freiermuth",
+			"position":"TE",
 			"team":"PIT",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"13",
+				"keep":"0"}},
+		{
+			"firstName":"Zay",
+			"lastName":"Flowers",
+			"position":"WR",
+			"team":"BAL",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"5",
+				"keep":"0"}},
+		{
+			"firstName":"Derrick",
+			"lastName":"Henry",
+			"position":"RB",
+			"team":"BAL",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"1",
+				"keep":"0"}},
+		{
+			"firstName":"Jerry",
+			"lastName":"Jeudy",
+			"position":"WR",
+			"team":"CLE",
+			"addDate":"09/19/24",
+			"draftInfo":{
+				"draftRound":"--",
+				"keep":"0"}},
+		{
+			"firstName":"Gus",
+			"lastName":"Edwards",
+			"position":"RB",
+			"team":"LAC",
+			"addDate":"12/07/24",
+			"draftInfo":{
+				"draftRound":"8",
+				"keep":"0"}},
+		{
+			"firstName":"Rhamondre",
+			"lastName":"Stevenson",
+			"position":"RB",
+			"team":"NE",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"6",
+				"keep":"0"}},
+		{
+			"firstName":"C.J.",
+			"lastName":"Stroud",
+			"position":"QB",
+			"team":"HOU",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"4",
+				"keep":"0"}},
+		{
+			"firstName":"Amari",
+			"lastName":"Cooper",
+			"position":"WR",
+			"team":"BUF",
+			"addDate":"12/19/24",
+			"draftInfo":{
+				"draftRound":"4",
+				"keep":"0"}},
+		{
+			"firstName":"Cameron",
+			"lastName":"Dicker",
+			"position":"K",
+			"team":"LAC",
+			"addDate":"10/17/24",
+			"draftInfo":{
+				"draftRound":"13",
+				"keep":"0"}},
+		{
+			"firstName":"Philadelphia",
+			"lastName":"Eagles",
+			"position":"DEF",
+			"team":"PHI",
+			"addDate":"12/25/24",
+			"draftInfo":{
+				"draftRound":"11",
 				"keep":"0"}}
 	]
 }
