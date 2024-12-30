@@ -1,141 +1,132 @@
 {
-	"owner":"Bobby",
-	"teamName":"Double Cheeked Up",
+	"owner":"Katie",
+	"teamName":"I Want Nor-Wood",
 	"roster":[
 		{
-			"firstName":"Jared",
-			"lastName":"Goff",
-			"position":"QB",
-			"team":"DET",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"8",
-				"keep":"0"}},
-		{
-			"firstName":"CeeDee",
-			"lastName":"Lamb",
-			"position":"WR",
-			"team":"DAL",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"1",
-				"keep":"0"}},
-		{
-			"firstName":"Ja'Marr",
-			"lastName":"Chase",
-			"position":"WR",
-			"team":"CIN",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"5",
-				"keep":"2"}},
-		{
-			"firstName":"Breece",
-			"lastName":"Hall",
-			"position":"RB",
-			"team":"NYJ",
-			"addDate":"n/a",
-			"draftInfo":{
-				"draftRound":"4",
-				"keep":"0"}},
-		{
-			"firstName":"Kyren",
+			"firstName":"Caleb",
 			"lastName":"Williams",
-			"position":"RB",
-			"team":"LAR",
-			"addDate":"09/23/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"y0"}},
-		{
-			"firstName":"Isaiah",
-			"lastName":"Likely",
-			"position":"TE",
-			"team":"BAL",
-			"addDate":"11/22/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Derrick",
-			"lastName":"Henry",
-			"position":"RB",
-			"team":"TEN",
+			"position":"QB",
+			"team":"CHI",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"2",
+				"draftRound":"7",
 				"keep":"0"}},
 		{
-			"firstName":"Dallas",
-			"lastName":"Goedert",
-			"position":"TE",
-			"team":"PHI",
+			"firstName":"Puka",
+			"lastName":"Nacua",
+			"position":"WR",
+			"team":"LAR",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"13",
+				"keep":"1"}},
+		{
+			"firstName":"Jayden",
+			"lastName":"Reed",
+			"position":"WR",
+			"team":"GB",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"6",
 				"keep":"0"}},
 		{
-			"firstName":"Cade",
-			"lastName":"Otton",
-			"position":"TE",
-			"team":"TB",
-			"addDate":"11/09/23",
-			"draftInfo":{
-				"draftRound":"--",
-				"keep":"0"}},
-		{
-			"firstName":"Tyler",
-			"lastName":"Boyd",
-			"position":"WR",
-			"team":"CIN",
+			"firstName":"Bijan",
+			"lastName":"Robinson",
+			"position":"RB",
+			"team":"ATL",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"12",
+				"draftRound":"1",
 				"keep":"0"}},
 		{
-			"firstName":"AJ",
-			"lastName":"Dillon",
+			"firstName":"De'Von",
+			"lastName":"Achane",
 			"position":"RB",
-			"team":"GB",
-			"addDate":"10/29/23",
+			"team":"MIA",
+			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"8",
+				"draftRound":"2",
 				"keep":"0"}},
 		{
-			"firstName":"Aaron",
-			"lastName":"Jones",
-			"position":"RB",
-			"team":"GB",
+			"firstName":"Dalton",
+			"lastName":"Kincaid",
+			"position":"TE",
+			"team":"BUF",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"5",
+				"keep":"0"}},
+		{
+			"firstName":"Terry",
+			"lastName":"McLaurin",
+			"position":"WR",
+			"team":"WAS",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"4",
+				"keep":"0"}},
+		{
+			"firstName":"David",
+			"lastName":"Njoku",
+			"position":"TE",
+			"team":"CLE",
+			"addDate":"n/a",
+			"draftInfo":{
+				"draftRound":"9",
+				"keep":"0"}},
+		{
+			"firstName":"DK",
+			"lastName":"Metcalf",
+			"position":"WR",
+			"team":"SEA",
 			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"3",
 				"keep":"0"}},
 		{
-			"firstName":"Joshua",
-			"lastName":"Palmer",
+			"firstName":"Michael",
+			"lastName":"Wilson",
 			"position":"WR",
-			"team":"LAC",
-			"addDate":"09/27/23",
+			"team":"ARI",
+			"addDate":"10/11/24",
 			"draftInfo":{
 				"draftRound":"--",
 				"keep":"0"}},
 		{
-			"firstName":"Justin",
-			"lastName":"Tucker",
-			"position":"K",
-			"team":"BAL",
-			"addDate":"12/07/23",
+			"firstName":"Austin",
+			"lastName":"Ekeler",
+			"position":"RB",
+			"team":"WAS",
+			"addDate":"n/a",
 			"draftInfo":{
 				"draftRound":"8",
 				"keep":"0"}},
 		{
-			"firstName":"Pittsburgh",
-			"lastName":"Steelers",
-			"position":"DEF",
-			"team":"PIT",
+			"firstName":"Braelon",
+			"lastName":"Allen",
+			"position":"RB",
+			"team":"NYJ",
+			"addDate":"12/11/24",
+			"draftInfo":{
+				"draftRound":"14",
+				"keep":"0"}},
+		{
+			"firstName":"Younghoe",
+			"lastName":"Koo",
+			"position":"K",
+			"team":"ATL",
 			"addDate":"n/a",
 			"draftInfo":{
-				"draftRound":"13",
+				"draftRound":"12",
+				"keep":"0"}},
+		{
+			"firstName":"San Francisco",
+			"lastName":"49ers",
+			"position":"DEF",
+			"team":"SF",
+			"addDate":"12/08/24",
+			"draftInfo":{
+				"draftRound":"7",
 				"keep":"0"}}
 	]
 }
