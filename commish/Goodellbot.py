@@ -12,6 +12,7 @@ intents.members = True
 
 commishChannelID = 1256234378443362376
 generalChannelID = 1237187300547367036
+testChannelID = 1265092780393238749
 infoChannelID = 1256224215011557448
 guildID = 1237187300547367033
 
@@ -71,8 +72,8 @@ class MyClient(discord.Client):
             embed.set_image(url=goodellGIF)
             await message.channel.send(embed=embed)
             
-        if message.content.startswith('guild'):
-            await message.channel.send(message.guild.id)
+        if (message.content.startswith('%repeat') and message.channel.name == 'test'):
+            await self.send_CommishMsg(message.content.replace('%repeat',""))
         
     #send <message> to the defined <channel>
     async def send_CommishMsg(self, message):
