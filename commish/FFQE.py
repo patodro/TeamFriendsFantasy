@@ -44,7 +44,7 @@ auth_key, auth_secret = parse_auth()
 
 def get_season():
     #season = 2023
-    season = 2024
+    season = 2025
     return season
 
 season = get_season()
@@ -56,7 +56,7 @@ def get_chosen_week():
 chosen_week = get_chosen_week()
 
 def get_chosen_date():
-    chosen_date = "2024-09-05"  #NFL season opener
+    chosen_date = "2025-09-05"  #NFL season opener
     return chosen_date
     
 chosen_date = get_chosen_date()
@@ -71,7 +71,7 @@ game_code = get_game_code()
 def get_game_id():
     #https://developer.yahoo.com/fantasysports/guide/#game-resource
     #game_id = 423   #NFL - 2023
-    game_id = 449   #NFL - 2024
+    game_id = 461   #NFL - 2024
     return game_id
     
 game_id = get_game_id()
@@ -79,7 +79,7 @@ game_id = get_game_id()
 def get_league_id():
     #Fantasy Football
     #league_id = "17343"	#2023 season
-    league_id = "27808" #2024 season
+    league_id = "31501" #2024 season
     return league_id
     
 league_id = get_league_id()
