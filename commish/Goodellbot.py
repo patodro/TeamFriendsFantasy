@@ -32,7 +32,7 @@ time = datetime.time(hour=12)
 
 memberDict = {
     'dave':'dc1133._10969',
-    'boyce':'tlb1224',
+    'steve':'hashedfuzzy',
     'tony':'tcarbone31_24880',
     'sean':'sean1928',
     'katie':'karmy0804',
