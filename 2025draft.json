@@ -1263,12 +1263,12 @@
 		{
 			"round": 11,
 			"pick": 7,
-			"owner": "",
+			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Trey McBride",
+				"pos": "TE",
+				"team": "ARI",
+				"keep": 1
 			}},
 		{
 			"round": 11,
