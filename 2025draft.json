@@ -513,12 +513,12 @@
 		{
 			"round": 5,
 			"pick": 4,
-			"owner": "",
+			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Joe Burrow",
+				"pos": "QB",
+				"team": "CIN",
+				"keep": 1
 			}},
 		{
 			"round": 5,
@@ -693,12 +693,12 @@
 		{
 			"round": 6,
 			"pick": 10,
-			"owner": "",
+			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Kenneth Walker III",
+				"pos": "RB",
+				"team": "SEA",
+				"keep": 1
 			}},
 		{
 			"round": 6,
@@ -813,12 +813,12 @@
 		{
 			"round": 7,
 			"pick": 10,
-			"owner": "",
+			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Brian Thomas Jr",
+				"pos": "WR",
+				"team": "JAC",
+				"keep": 1
 			}},
 		{
 			"round": 7,
@@ -1043,12 +1043,12 @@
 		{
 			"round": 9,
 			"pick": 9,
-			"owner": "",
+			"owner": "Mike",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Isiah Pacheco",
+				"pos": "RB",
+				"team": "KC",
+				"keep": 1
 			}},
 		{
 			"round": 9,
@@ -1273,12 +1273,12 @@
 		{
 			"round": 11,
 			"pick": 8,
-			"owner": "",
+			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Puka Nacua",
+				"pos": "WR",
+				"team": "LAR",
+				"keep": 1
 			}},
 		{
 			"round": 11,
@@ -1393,12 +1393,12 @@
 		{
 			"round": 12,
 			"pick": 8,
-			"owner": "",
+			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Chuba Hubbard",
+				"pos": "RB",
+				"team": "CAR",
+				"keep": 1
 			}},
 		{
 			"round": 12,
