@@ -1443,12 +1443,12 @@
 		{
 			"round": 13,
 			"pick": 1,
-			"owner": "",
+			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "TJ Hockenson",
+				"pos": "TE",
+				"team": "MIN",
+				"keep": 1
 			}},
 		{
 			"round": 13,
