@@ -843,12 +843,12 @@
 		{
 			"round": 8,
 			"pick": 1,
-			"owner": "",
+			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Chase Brown",
+				"pos": "RB",
+				"team": "CIN",
+				"keep": 1
 			}},
 		{
 			"round": 8,
@@ -1543,12 +1543,12 @@
 		{
 			"round": 13,
 			"pick": 11,
-			"owner": "",
+			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": 0
+				"name": "Bucky Irving",
+				"pos": "RB",
+				"team": "TB",
+				"keep": 1
 			}},
 		{
 			"round": 13,
