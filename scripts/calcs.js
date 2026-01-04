@@ -119,3 +119,28 @@ function buildDraft(year) {
 		}
 	}
 }
+
+function buildWikiDraft(year) {
+	var pick;
+	var player;
+	var pos;
+	var team;
+	var owner;
+	var keep;
+	var request = new XMLHttpRequest();
+	request.open("GET", `${year}draft.json`, false);
+	request.send(null)
+	var draft = JSON.parse(request.responseText);
+	for (let i=0; i < draft.draft.length; i++) {
+		pick = draft.draft[i].round +"."+ draft.draft[i].pick;
+		player = draft.draft[i].player.name;
+		pos = draft.draft[i].player.pos;
+		team = draft.draft[i].player.team;
+		keep = draft.draft[i].player.keep;
+		owner = draft.draft[i].owner
+		row = document.getElementById(pick)
+		row.cells.namedItem("player").innerText = player
+		row.cells.namedItem("team").innerText = team
+		row.cells.namedItem("pos").innerText = pos
+	}
+}
