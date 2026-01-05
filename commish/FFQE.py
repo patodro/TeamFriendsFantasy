@@ -3,6 +3,7 @@ import sys
 from logging import DEBUG
 from pathlib import Path
 import json
+from datetime import datetime
 
 project_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(project_dir))
@@ -50,10 +51,17 @@ def get_season():
 season = get_season()
 
 def get_chosen_week():
-    chosen_week = 17
-    return chosen_week
+    finalWeek = 17
+    today = datetime.now().strftime("%Y-%m-%d")
+    lstWeeks = yahoo_query.get_game_weeks_by_game_id(game_id)
+    for wk in lstWeeks:
+        if wk.week == finalWeek:
+            return wk.week
+        else:
+            if wk.start <= today <= wk.end:
+                return wk.week
 
-chosen_week = get_chosen_week()
+#chosen_week = get_chosen_week()
 
 def get_chosen_date():
     chosen_date = "2025-09-05"  #NFL season opener
@@ -134,6 +142,10 @@ yahoo_query.league_key = f"{game_id}.l.{league_id}"
 #manually override player key for example code to work
 #player_key = f"{game_id}.p.{player_id}"
 
+#-----------League Setup--------------------------------------
+chosen_week = get_chosen_week()
+print(f"Current Week: {chosen_week}")
+
 #------------Team Info store----------------------------------
 teamsDict = yahoo_query.get_league_teams()
 
@@ -161,21 +173,22 @@ print('-----------------------')
 
 #------------Weekly Hi Score store----------------------------
 scores = {}
-fileScore = os.path.join(data_dir, 'scores.json')
-for i in range(1,13):
-	wkScores = yahoo_query.get_team_stats_by_week(i, chosen_week)
-	scores[teamsDict[i-1].name.decode('UTF-8')] = wkScores['team_points'].total
-print(json.dumps(max(scores.items(), key=lambda k: k[1])))
-with open(fileScore, 'a+') as fp:
-#    if (os.stat(fileScore).st_size == 0):
-    fp.write(json.dumps(max(scores.items(), key=lambda k: k[1])))
-#    else:
-#        oldScore = fp.read().splitlines()
-#        oldScore.append(json.dumps(max(scores.items(), key=lambda k: k[1])))
-#        fp.write(json.dumps(oldScore))
-		
-#with open(os.path.join(data_dir, f'scoreboard{chosen_week}.json'), 'w+') as fp:
-#    json.dump(scrBoard.to_json(), fp)
+lstHighs = []
+fileScore = os.path.join(data_dir, f"{season}scores.json")
+for j in range(1,18):   # 14 reg season, plus 3 playoff weeks
+    print(f"Finding hiScore for week {j}...")
+    for i in range(1,13):
+        wkScores = yahoo_query.get_team_stats_by_week(i, j)
+        scores[teamsDict[i-1].name.decode('UTF-8')] = wkScores['team_points'].total
+    max_key, max_value = max(scores.items(), key=lambda k: k[1])
+    hiScore = {}
+    hiScore['week'] = j
+    hiScore['team'] = max_key
+    hiScore['score'] = max_value
+    lstHighs.append(hiScore)
+
+with open(fileScore, 'w+') as fp:
+    fp.write(json.dumps(lstHighs, indent=4))
     
 ##############################################################
 ################ QUERY EXAMPLES ##############################
@@ -187,7 +200,7 @@ with open(fileScore, 'a+') as fp:
 #print(repr(yahoo_query.get_current_game_metadata()))
 #print(repr(yahoo_query.get_game_info_by_game_id(game_id)))
 # print(repr(yahoo_query.get_game_metadata_by_game_id(game_id)))
-# print(repr(yahoo_query.get_game_weeks_by_game_id(game_id)))
+#print(repr(yahoo_query.get_game_weeks_by_game_id(game_id)))
 # print(repr(yahoo_query.get_game_stat_categories_by_game_id(game_id)))
 # print(repr(yahoo_query.get_game_position_types_by_game_id(game_id)))
 # print(repr(yahoo_query.get_game_roster_positions_by_game_id(game_id)))
