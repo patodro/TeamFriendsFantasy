@@ -10,109 +10,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
-<style>
-/* -------------------------------------------------
-   Global layout – similar to Wikipedia’s default CSS
-   ------------------------------------------------- */
-body {
-    font-family: "Linux Libertine", "Georgia", Times, serif;
-    line-height: 1.6;
-    color:#202122;
-    background:#fff;
-    margin:0;
-    padding:0;
-}
-a { color:#0645ad; text-decoration:none; }
-a:hover { text-decoration:underline; }
-
-/* Header bar (the blue‑gray strip) */
-#mw-header {
-    background:#f8f9fa;
-    border-bottom:1px solid #a2a9b1;
-    padding:0.5rem 1rem;
-    font-size:0.875rem;
-}
-#mw-header a { color:#36c; }
-
-/* Main container – centered, max‑width 960 px */
-#content {
-    max-width:960px;
-    margin:auto;
-    padding:1rem 2rem;
-}
-
-/* Title & subtitle */
-#firstHeading {
-    font-size:2rem;
-    margin-top:0.5rem;
-    margin-bottom:0.2rem;
-}
-#siteSub { font-size:0.875rem; color:#54595d; }
-
-/* Table of contents – collapsible */
-#toc {
-    background:#f8f9fa;
-    border:1px solid #a2a9b1;
-    padding:0.5rem 1rem;
-    margin:1rem 0;
-    font-size:0.875rem;
-}
-#toc ul { list-style:none; margin-left:0; }
-#toc li { margin:0.2rem 0; }
-
-/* Section headings – mimic Wikipedia hierarchy */
-h2 { font-size:1.5rem; margin-top:1.5rem; border-bottom:1px solid #a2a9b1; }
-h3 { font-size:1.25rem; margin-top:1.2rem; }
-h4 { font-size:1.125rem; margin-top:1rem; }
-
-/* Infobox – floated right, light gray background */
-.infobox {
-    float:right;
-    clear:right;
-    width:22rem;
-    margin:0 0 1rem 1rem;
-    background:#f8f9fa;
-    border:1px solid #a2a9b1;
-    font-size:0.875rem;
-}
-.infobox th, .infobox td {
-    padding:0.25rem 0.5rem;
-    vertical-align:top;
-}
-.infobox th {
-    text-align:left;
-    font-weight:bold;
-    background:#eaecf0;
-}
-.infobox caption {
-    font-weight:bold;
-    text-align:center;
-    padding:0.25rem;
-    background:#eaecf0;
-    border-bottom:1px solid #a2a9b1;
-}
-
-/* Reference list */
-ol.references {
-    font-size:0.875rem;
-    margin-top:2rem;
-}
-ol.references li {
-    margin-bottom:0.4rem;
-}
-
-/* Clear floats after content */
-.clearfix::after {
-    content:"";
-    display:block;
-    clear:both;
-}
-
-/* Simple responsive tweak */
-@media (max-width:720px) {
-    .infobox { float:none; width:auto; margin:0 0 1rem 0; }
-}
-</style>
 </head>
 
 <body>
@@ -297,25 +194,25 @@ ol.references li {
             <li>&#x1F949 3rd Place – TBD</li>
         </ul>
     </td>
-    <td style="padding-left:40px;">
+    <td id='hiScores' style="padding-left:40px;">
         <h4>Weekly Hi Scores</h4>
-        <li><b>Week 1: </b>TBD - ? pts</li>
-        <li><b>Week 2: </b>TBD - ? pts</li>
-        <li><b>Week 3: </b>TBD - ? pts</li>
-        <li><b>Week 4: </b>TBD - ? pts</li>
-        <li><b>Week 5: </b>TBD - ? pts</li>
-        <li><b>Week 6: </b>TBD - ? pts</li>
-        <li><b>Week 7: </b>TBD - ? pts</li>
-        <li><b>Week 8: </b>TBD - ? pts</li>
-        <li><b>Week 9: </b>TBD - ? pts</li>
-        <li><b>Week 10: </b>TBD - ? pts</li>
-        <li><b>Week 11: </b>TBD - ? pts</li>
-        <li><b>Week 12: </b>TBD - ? pts</li>
-        <li><b>Week 13: </b>TBD - ? pts</li>
-        <li><b>Week 14: </b>TBD - ? pts</li>
-        <li><b>Week 15: </b>TBD - ? pts</li>
-        <li><b>Week 16: </b>TBD - ? pts</li>
-        <li><b>Week 17: </b>TBD - ? pts</li>
+        <li id='hi1'><b>Week 1: </b>TBD - ? pts</li>
+        <li id='hi2'><b>Week 2: </b>TBD - ? pts</li>
+        <li id='hi3'><b>Week 3: </b>TBD - ? pts</li>
+        <li id='hi4'><b>Week 4: </b>TBD - ? pts</li>
+        <li id='hi5'><b>Week 5: </b>TBD - ? pts</li>
+        <li id='hi6'><b>Week 6: </b>TBD - ? pts</li>
+        <li id='hi7'><b>Week 7: </b>TBD - ? pts</li>
+        <li id='hi8'><b>Week 8: </b>TBD - ? pts</li>
+        <li id='hi9'><b>Week 9: </b>TBD - ? pts</li>
+        <li id='hi10'><b>Week 10: </b>TBD - ? pts</li>
+        <li id='hi11'><b>Week 11: </b>TBD - ? pts</li>
+        <li id='hi12'><b>Week 12: </b>TBD - ? pts</li>
+        <li id='hi13'><b>Week 13: </b>TBD - ? pts</li>
+        <li id='hi14'><b>Week 14: </b>TBD - ? pts</li>
+        <li id='hi15'><b>Week 15: </b>TBD - ? pts</li>
+        <li id='hi16'><b>Week 16: </b>TBD - ? pts</li>
+        <li id='hi1'7><b>Week 17: </b>TBD - ? pts</li>
     </td>
 </tr></tbody></table>
 
@@ -325,10 +222,9 @@ ol.references li {
 <h2 id="References">References</h2>
 <ol class="references">
     <li id="ref1">Your Mom, <cite>yourmom.com</cite>, April 20, 1969.</li>
-    <!-- Add more citations -->
 </ol>
 
-</div> <!-- end #content -->
+</div>
 
 </body>
 </html>

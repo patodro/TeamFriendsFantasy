@@ -136,10 +136,154 @@ dd {
    ------------------------------------------------- */
 
 /* Base page background */
-html {
+html, body {
     background-color: #0c0d0e;          /* Very dark gray */
     color: #dadada;                     /* Light gray text */
     font-family: system-ui, sans-serif;
+}
+
+/* Links – normal, visited, hover, active */
+a {
+    color: #539bf5;                 /* primary link colour */
+}
+a:visited {
+    color: #a558a8;                 /* visited link colour */
+}
+a:hover, a:focus {
+    color: #72b0ff;
+    text-decoration: underline;
+}
+a:active {
+    color: #ff9800;
+}
+
+/* Header (logo, navigation bar, search box) */
+#p-logo a,
+#p-logo a:hover {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
+    background-size: contain;
+    filter: invert(1) hue-rotate(180deg);   /* white logo on dark bg */
+}
+
+/* Header bar (the blue‑gray strip) */
+#mw-header {
+    background:#111314;
+    border-color:#303335;
+    border-bottom:1px solid #a2a9b1;
+    padding:0.5rem 1rem;
+    font-size:0.875rem;
+}
+#mw-header a { color:#36c; }
+
+/* Main container – centered, max‑width 960 px */
+#content {
+    max-width:960px;
+    margin:auto;
+    padding:1rem 2rem;
+    background: #202122;
+}
+
+/* Title & subtitle */
+#firstHeading {
+    font-size:2rem;
+    margin-top:0.5rem;
+    margin-bottom:0.2rem;
+}
+#siteSub { font-size:0.875rem; color:#54595d; }
+
+/* Table of contents – collapsible */
+#toc {
+    background:#54595d;
+    border:1px solid #a2a9b1;
+    padding:0.5rem 1rem;
+    margin:1rem 0;
+    font-size:0.875rem;
+}
+#toc ul { list-style:none; margin-left:0; }
+#toc li { margin:0.2rem 0; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    border-color: #444;
+}
+h2 { border-bottom: 1px solid #444; padding-bottom: 0.2rem; }
+h3 { font-size:1.25rem; margin-top:1.2rem; }
+h4 { font-size:1.125rem; margin-top:1rem; }
+
+/* Tables (infoboxes, navboxes, plain wikitables) */
+table.infobox,
+table.navbox,
+table.wikitable,
+table.vertical-navbox,
+table.standard {
+    background: #2c2f33;
+    color: #c8c8c8;
+    border: 1px solid #444;
+}
+table.infobox th,
+table.navbox th,
+table.wikitable th {
+    background: #3c4045;
+    color: #ffffff;
+}
+table.infobox td,
+table.navbox td,
+table.wikitable td {
+    background: #2c2f33;
+}
+
+/* Infobox – floated right, light gray background */
+.infobox {
+    float:right;
+    clear:right;
+    width:22rem;
+    margin:0 0 1rem 1rem;
+    font-size:0.875rem;
+}
+.infobox th, .infobox td {
+    padding:0.25rem 0.5rem;
+    vertical-align:top;
+}
+.infobox th {
+    text-align:left;
+    font-weight:bold;
+}
+.infobox caption {
+    font-weight:bold;
+    text-align:center;
+    padding:0.25rem;
+}
+
+/* Collapsible boxes (e.g., “See also”, “References”) */
+.mw-collapsible,
+.mw-collapsed {
+    background: #2c2f33;
+    border: 1px solid #444;
+}
+.mw-collapsible .mw-collapsible-toggle {
+    color: #539bf5;
+}
+
+/* Lists */
+ul, ol {
+    color: #c8c8c8;
+}
+/* Reference list */
+ol.references {
+    font-size:0.875rem;
+    margin-top:2rem;
+}
+ol.references li {
+    margin-bottom:0.4rem;
+}
+
+/* Blockquotes & citation templates */
+blockquote,
+.cite {
+    background: #2c2f33;
+    border-left: 4px solid #444;
+    color: #c8c8c8;
 }
 
 /* Center the content and give it a max width */
@@ -198,4 +342,16 @@ html {
         overflow-x: auto;
         white-space: nowrap;
     }
+}
+
+/* Clear floats after content */
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* Simple responsive tweak */
+@media (max-width:720px) {
+    .infobox { float:none; width:auto; margin:0 0 1rem 0; }
 }
