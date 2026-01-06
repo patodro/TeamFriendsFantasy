@@ -24,7 +24,7 @@ table {
 
 .FAexcl {
 	font-style: italic;
-	background-color: #c0c0c0;
+	background-color: #c0c0c0; 
 	color: #000000;
 }
 
@@ -212,6 +212,18 @@ h3 { font-size:1.25rem; margin-top:1.2rem; }
 h4 { font-size:1.125rem; margin-top:1rem; }
 
 /* Tables (infoboxes, navboxes, plain wikitables) */
+#tblRoster {
+    border-collapse: collapse;
+}
+#tblRoster th {
+    background-color: #00338D !important;
+    color: #FFFFFF !important;
+    box-shadow: inset 2px 2px 0 #C60C30, inset -2px -2px 0 #C60C30;
+}
+#tblRoster td {
+    border: 1px solid #a2a9b1;
+    padding: 0.25rem;
+}
 table.infobox,
 table.navbox,
 table.wikitable,

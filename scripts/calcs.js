@@ -29,9 +29,9 @@ function PickComp() {
 			keep = 0;
 			draft.children[1].children[1].insertAdjacentText("beforeend", 0);
 		}
-	if (keep > 0) {
-		draft.children[1].style.color = "gold";
-	}
+        if (keep > 0) {
+            draft.children[1].style.color = "gold";
+        }
 		
 		let stt = keep + 1;
 		let comp = drRound - stt;
@@ -142,5 +142,76 @@ function buildWikiDraft(year) {
 		row.cells.namedItem("player").innerText = player
 		row.cells.namedItem("team").innerText = team
 		row.cells.namedItem("pos").innerText = pos
+	}
+}
+
+function buildWikiRoster() {
+	var FAexcl;
+    var drRound;
+    var keep;
+    var stt;
+    var cmp;
+	var name = document.querySelector("#json-lookup").dataset.jsonName;
+    var emptyRos = document.getElementById('tblRoster').getElementsByTagName('tbody')[0];
+	var request = new XMLHttpRequest();
+	request.open("GET", `${name}.json`, false);
+	request.send(null);
+	var roster = JSON.parse(request.responseText);
+	for (let n = 0; n < roster.roster.length; n++) {
+		// Insert row at end of tbody
+        var newRow = emptyRos.insertRow(-1)
+        
+        // Build cells in the newRow
+        var pos = newRow.insertCell(0);
+        var play = newRow.insertCell(1);
+        var team = newRow.insertCell(2);
+        var rd = newRow.insertCell(3);
+        var add = newRow.insertCell(4);
+        var kp = newRow.insertCell(5);
+        var comp = newRow.insertCell(6);
+        
+        // Populate row with player info from JSON db file
+        pos.textContent = roster.roster[n].position;
+        play.textContent = roster.roster[n].firstName + " " + roster.roster[n].lastName;
+        team.textContent = roster.roster[n].team;
+        rd.textContent = roster.roster[n].draftInfo.draftRound;
+        add.textContent = roster.roster[n].addDate;
+        kp.textContent = roster.roster[n].draftInfo.keep;
+        
+        // Check if player has FA Exclusion
+        FAexcl = faExclusion(roster.roster[n].addDate)
+        if (FAexcl)	{
+			newRow.className = "FAexcl";
+		}
+        
+        //FA add equivalence
+        if (rd.textContent === "--") {
+			drRound = 14;
+		} else {
+			drRound = Number(rd.textContent);
+		}
+        
+        // Keeper with 'y' present indicates an active keeper selection
+        if (kp.textContent) {
+			if (kp.textContent.includes("y")) {
+				newRow.className = "KEEP";
+				kp.textContent = kp.textContent.replace('y','');;
+			} 
+			keep = Number(kp.textContent);
+		} else {
+			keep = 0;
+		}
+        
+        if (keep > 0) {
+            kp.style.color = "gold";
+        }
+		
+		let stt = keep + 1;
+        let cmp = drRound - stt;
+		
+		comp.textContent = cmp;
+		if (cmp <= 2) {
+            newRow.className = "DRexcl";
+        }
 	}
 }
