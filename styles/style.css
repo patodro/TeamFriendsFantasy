@@ -269,7 +269,18 @@ table.wikitable td {
     text-align:center;
     padding:0.25rem;
 }
-
+/* Optional navigation row – lighter background */
+.infobox-navigation td {
+    background: #f0f0f0;
+    text-align: center;
+    font-size: 90%;
+    /* NEW PART – shrink the cell and centre it */
+    max-width: 18rem;             /* limit width (adjust as you like) */
+    margin: 0.4rem auto;          /* top/bottom margin + auto‑horizontal centering */
+    padding: 0.3rem 0;            /* vertical padding for a nicer “pill” look */
+    border-radius: 4px;           /* optional rounded corners */
+    border: 1px solid #a2a9b1;    /* keep the thin border that matches other rows */
+}
 /* Collapsible boxes (e.g., “See also”, “References”) */
 .mw-collapsible,
 .mw-collapsed {
