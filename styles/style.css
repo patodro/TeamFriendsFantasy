@@ -1,16 +1,4 @@
-body {
-	background: black;
-	color: white;
-}
 
-h1 {
-	text-align: center;
-	font-family: 'Staatliches', cursive;
-}
-
-h2 {
-	text-align: center;
-}
 
 img {
 	display: block;
@@ -46,33 +34,6 @@ table {
 	text-align: center;
 }
 
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-	position: relative;
-	font-family: 'Staatliches', cursive;
-}
-.topnav #myLinks {
-	display: none;
-}
-.topnav a {
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-}
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 .active {
   background-color: #04AA6D;
   color: white;
@@ -157,14 +118,6 @@ a:active {
     color: #ff9800;
 }
 
-/* Header (logo, navigation bar, search box) */
-#p-logo a,
-#p-logo a:hover {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
-    background-size: contain;
-    filter: invert(1) hue-rotate(180deg);   /* white logo on dark bg */
-}
-
 /* Header bar (the blue‑gray strip) */
 #mw-header {
     background:#111314;
@@ -207,26 +160,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     border-color: #444;
 }
+h1 { font-family: 'Staatliches', cursive;}
 h2 { border-bottom: 1px solid #444; padding-bottom: 0.2rem; }
 h3 { font-size:1.25rem; margin-top:1.2rem; }
 h4 { font-size:1.125rem; margin-top:1rem; }
 
 /* Tables (infoboxes, navboxes, plain wikitables) */
-#tblRoster {
-    border-collapse: collapse;
-}
-#tblRoster th {
-    background-color: #00338D !important;
-    color: #FFFFFF !important;
-    box-shadow: inset 2px 2px 0 #C60C30, inset -2px -2px 0 #C60C30;
-}
-#tblRoster td {
-    border: 1px solid #a2a9b1;
-    padding: 0.25rem;
-}
-#tblRoster caption {
-    caption-side: bottom;
-}
 table.infobox,
 table.navbox,
 table.wikitable,
