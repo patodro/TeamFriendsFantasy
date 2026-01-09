@@ -137,11 +137,14 @@ function buildWikiDraft(year) {
 		pos = draft.draft[i].player.pos;
 		team = draft.draft[i].player.team;
 		keep = draft.draft[i].player.keep;
-		owner = draft.draft[i].owner
+		owner = draft.draft[i].owner;
 		row = document.getElementById(pick)
 		row.cells.namedItem("player").innerText = player
+        row.cells.namedItem("player").className = pos
 		row.cells.namedItem("team").innerText = team
 		row.cells.namedItem("pos").innerText = pos
+        row.cells.namedItem("pos").className = pos
+        row.cells.namedItem("owner").innerText = owner
 	}
 }
 
@@ -214,4 +217,19 @@ function buildWikiRoster() {
             newRow.className = "DRexcl";
         }
 	}
+}
+
+function draftBorder() {
+    document.addEventListener('DOMContentLoaded', () => {
+        const table = document.querySelector('.draft-table');
+        const interval = parseInt(getComputedStyle(table).getPropertyValue('--interval'), 10) || 3;
+        
+        //Loop over all rows and add the class where needed
+        table.querySelectorAll('tr').forEach((row, index) => {
+            //index is zero-based; +1 makes it human-friendly -1 to account for header
+            if ((index) % interval === 0) {
+                row.classList.add('border-row');
+            }
+        });
+    });
 }
