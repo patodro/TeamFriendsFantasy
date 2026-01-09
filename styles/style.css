@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     border-color: #444;
 }
-h1 { font-family: 'Staatliches', cursive;}
+h1 { font-family: 'Staatliches', cursive; text-align: center;}
 h2 { border-bottom: 1px solid #444; padding-bottom: 0.2rem; }
 h3 { font-size:1.25rem; margin-top:1.2rem; }
 h4 { font-size:1.125rem; margin-top:1rem; }
@@ -277,4 +277,65 @@ blockquote,
 /* Simple responsive tweak */
 @media (max-width:720px) {
     .infobox { float:none; width:auto; margin:0 0 1rem 0; }
+}
+
+/*-----Playoff brackets---------*/
+.bracket {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 1rem 2rem;
+    align-items: start;
+    justify-items: stretch;
+}
+.round {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;               /* space between match‑ups */
+}
+
+.round-title {
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:.5rem;
+}
+.match {
+    background:#54595d;
+    border:2px solid #333;
+    border-radius:6px;
+    overflow:hidden;
+    position:relative;
+}
+
+.team {
+padding:.5rem 0.75rem;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #ddd;
+}
+
+.team:last-child { border-bottom:none; }
+
+.team.winner {
+background:#469746;        /* highlight the winner */
+font-weight:bold;
+}
+
+.seed {
+font-size:.85em;
+color:#555;
+margin-right:.5rem;
+}
+
+.score {
+font-weight:bold;
+margin-left:.5rem;
+}
+
+/* -------------------------------------------------
+ Responsive tweak – stack on narrow screens
+ ------------------------------------------------- */
+@media (max-width: 800px) {
+.bracket { grid-template-columns: 1fr; }
+.match::after, .match::before { display:none; }
 }
