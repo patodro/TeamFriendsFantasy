@@ -139,6 +139,9 @@ function buildWikiDraft(year) {
 		keep = draft.draft[i].player.keep;
 		owner = draft.draft[i].owner;
 		row = document.getElementById(pick)
+        if (keep != 0) {
+            row.className = "keep";
+        }
 		row.cells.namedItem("player").innerText = player
         row.cells.namedItem("player").className = pos
 		row.cells.namedItem("team").innerText = team
