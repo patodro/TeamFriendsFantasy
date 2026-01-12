@@ -127,14 +127,13 @@ print('-----------------------')
 ##############################################################
 #configure Yahoo Fantasy Sports query (change all_output_as_json_str=True if you want to output JSON strings)
 yahoo_query = YahooFantasySportsQuery(
-    auth_dir,
     league_id,
     game_code,
     game_id=game_id,
     offline=False,
     all_output_as_json_str=False,
-    consumer_key=auth_key,
-    consumer_secret=auth_secret)
+    yahoo_consumer_key=auth_key,
+    yahoo_consumer_secret=auth_secret)
     
 #manually override league key for example code to work
 yahoo_query.league_key = f"{game_id}.l.{league_id}"
@@ -162,7 +161,7 @@ for team in teamsDict:
             np.write(ownerMatch["teamname"])
 #    writeDict = {"team_id": team.team_id, "name": team.managers[0].nickname, "teamname": team.name.decode('UTF-8')}
 #    writeList.append(writeDict)
-    print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode('UTF-8')}')
+    print(f'{team.team_id} - {team.managers[0].nickname} - {team.name.decode("UTF-8")}')
 op.seek(0)
 json.dump(currentList, op)
 op.truncate()
