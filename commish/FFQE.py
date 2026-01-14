@@ -130,10 +130,11 @@ yahoo_query = YahooFantasySportsQuery(
     league_id,
     game_code,
     game_id=game_id,
-    offline=False,
     all_output_as_json_str=False,
     yahoo_consumer_key=auth_key,
-    yahoo_consumer_secret=auth_secret)
+    yahoo_consumer_secret=auth_secret,
+    env_file_location=project_dir,
+    save_token_data_to_env_file=True)
     
 #manually override league key for example code to work
 yahoo_query.league_key = f"{game_id}.l.{league_id}"
