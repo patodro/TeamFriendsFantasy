@@ -5,9 +5,9 @@
 			"pick": 1,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Kareem Hunt",
+				"pos": "RB",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -15,9 +15,9 @@
 			"pick": 2,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Saquon Barkley",
+				"pos": "RB",
+				"team": "NYG",
 				"keep": "0"
 			}},
 		{
@@ -25,9 +25,9 @@
 			"pick": 3,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Odell Beckham Jr",
+				"pos": "WR",
+				"team": "NYG",
 				"keep": "0"
 			}},
 		{
@@ -35,9 +35,9 @@
 			"pick": 4,
 			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Davante Adams",
+				"pos": "WR",
+				"team": "GB",
 				"keep": "0"
 			}},
 		{
@@ -45,9 +45,9 @@
 			"pick": 5,
 			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Melvin Gordon",
+				"pos": "RB",
+				"team": "LAC",
 				"keep": "0"
 			}},
 		{
@@ -55,9 +55,9 @@
 			"pick": 6,
 			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "AJ Green",
+				"pos": "WR",
+				"team": "CIN",
 				"keep": "0"
 			}},
 		{
@@ -65,9 +65,9 @@
 			"pick": 7,
 			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Christian McCaffrey",
+				"pos": "RB",
+				"team": "CAR",
 				"keep": "0"
 			}},
 		{
@@ -75,9 +75,9 @@
 			"pick": 8,
 			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Dalvin Cook",
+				"pos": "RB",
+				"team": "MIN",
 				"keep": "0"
 			}},
         {
@@ -85,9 +85,9 @@
 			"pick": 9,
 			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Leonard Fournette",
+				"pos": "RB",
+				"team": "JAC",
 				"keep": "0"
 			}},
 		{
@@ -95,9 +95,9 @@
 			"pick": 10,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Devonta Freeman",
+				"pos": "RB",
+				"team": "ATL",
 				"keep": "0"
 			}},
 		{
@@ -105,9 +105,9 @@
 			"pick": 11,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Tyreek Hill",
+				"pos": "WR",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -115,9 +115,9 @@
 			"pick": 12,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Mike Evans",
+				"pos": "WR",
+				"team": "TB",
 				"keep": "0"
 			}},
          {
@@ -125,9 +125,9 @@
 			"pick": 1,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Jordan Howard",
+				"pos": "RB",
+				"team": "CHI",
 				"keep": "0"
 			}},
 		{
@@ -135,9 +135,9 @@
 			"pick": 2,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Joe Mixon",
+				"pos": "RB",
+				"team": "CIN",
 				"keep": "0"
 			}},
 		{
@@ -145,9 +145,9 @@
 			"pick": 3,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Stefon Diggs",
+				"pos": "WR",
+				"team": "MIN",
 				"keep": "0"
 			}},
 		{
@@ -155,9 +155,9 @@
 			"pick": 4,
 			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Adam Thielen",
+				"pos": "WR",
+				"team": "MIN",
 				"keep": "0"
 			}},
 		{
@@ -165,9 +165,9 @@
 			"pick": 5,
 			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "TY Hilton",
+				"pos": "WR",
+				"team": "IND",
 				"keep": "0"
 			}},
 		{
@@ -175,9 +175,9 @@
 			"pick": 6,
 			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Larry Fitzgerald",
+				"pos": "WR",
+				"team": "ARI",
 				"keep": "0"
 			}},
 		{
@@ -185,9 +185,9 @@
 			"pick": 7,
 			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Jarvis Landry",
+				"pos": "WR",
+				"team": "CLE",
 				"keep": "0"
 			}},
 		{
@@ -195,9 +195,9 @@
 			"pick": 8,
 			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Rob Gronkowski",
+				"pos": "TE",
+				"team": "NE",
 				"keep": "0"
 			}},
         {
@@ -205,9 +205,9 @@
 			"pick": 9,
 			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Travis Kelce",
+				"pos": "TE",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -215,9 +215,9 @@
 			"pick": 10,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Doug Baldwin",
+				"pos": "WR",
+				"team": "SEA",
 				"keep": "0"
 			}},
 		{
@@ -225,9 +225,9 @@
 			"pick": 11,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Zach Ertz",
+				"pos": "TE",
+				"team": "PHI",
 				"keep": "0"
 			}},
 		{
@@ -235,9 +235,9 @@
 			"pick": 12,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Amari Cooper",
+				"pos": "WR",
+				"team": "OAK",
 				"keep": "0"
 			}},   
         {
@@ -245,9 +245,9 @@
 			"pick": 1,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Golden Tate",
+				"pos": "WR",
+				"team": "DET",
 				"keep": "0"
 			}},
 		{
@@ -255,9 +255,9 @@
 			"pick": 2,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "JuJu Smith-Schuster",
+				"pos": "WR",
+				"team": "PIT",
 				"keep": "0"
 			}},
 		{
@@ -265,1279 +265,1279 @@
 			"pick": 3,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 3,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 10,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 11,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 3,
-			"pick": 12,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 4,
-			"pick": 1,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 2,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 3,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 4,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 5,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 6,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 7,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 8,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 4,
-			"pick": 9,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 10,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 11,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 4,
-			"pick": 12,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},   
-        {
-			"round": 5,
-			"pick": 1,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 2,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 3,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 5,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 10,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 11,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 5,
-			"pick": 12,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 6,
-			"pick": 1,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 2,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 3,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 4,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 5,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 6,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 7,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 8,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 6,
-			"pick": 9,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 10,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 11,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 6,
-			"pick": 12,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},   
-        {
-			"round": 7,
-			"pick": 1,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 2,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 3,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 7,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 10,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 11,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 7,
-			"pick": 12,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 8,
-			"pick": 1,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 2,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 3,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 4,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 5,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 6,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 7,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 8,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 8,
-			"pick": 9,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 10,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 11,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 8,
-			"pick": 12,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},   
-        {
-			"round": 9,
-			"pick": 1,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 2,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 3,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 9,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 10,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 11,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 9,
-			"pick": 12,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 10,
-			"pick": 1,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 2,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 3,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 4,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 5,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 6,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 7,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 8,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 10,
-			"pick": 9,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 10,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 11,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 10,
-			"pick": 12,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},   
-        {
-			"round": 11,
-			"pick": 1,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 2,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 3,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 11,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 10,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 11,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 11,
-			"pick": 12,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 12,
-			"pick": 1,
-			"owner": "Bobby",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 2,
-			"owner": "Kujo",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 3,
-			"owner": "Josh",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 4,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 5,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 6,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 7,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 8,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 12,
-			"pick": 9,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 10,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 11,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 12,
-			"pick": 12,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},   
-        {
-			"round": 13,
-			"pick": 1,
-			"owner": "Z",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 2,
-			"owner": "Lepo",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 3,
-			"owner": "Boyce",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 4,
-			"owner": "Dave",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 5,
-			"owner": "Sean",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 6,
-			"owner": "Tony",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 7,
-			"owner": "Andy",
-			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
-			}},
-		{
-			"round": 13,
-			"pick": 8,
-			"owner": "Pat",
-			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
-			}},
-        {
-			"round": 13,
-			"pick": 9,
-			"owner": "Katie",
-			"player": {
-				"name": "",
-				"pos": "K",
+				"name": "Jerick McKinnon",
+				"pos": "RB",
 				"team": "--",
 				"keep": "0"
 			}},
 		{
+			"round": 3,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "Deshaun Watson",
+				"pos": "QB",
+				"team": "HOU",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Cam Newton",
+				"pos": "QB",
+				"team": "CAR",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Tom Brady",
+				"pos": "QB",
+				"team": "NE",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "Russell Wilson",
+				"pos": "QB",
+				"team": "SEA",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Alex Collins",
+				"pos": "RB",
+				"team": "BAL",
+				"keep": "0"
+			}},
+        {
+			"round": 3,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "LeSean McCoy",
+				"pos": "RB",
+				"team": "BUF",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 10,
+			"owner": "Josh",
+			"player": {
+				"name": "Philip Rivers",
+				"pos": "QB",
+				"team": "LAC",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 11,
+			"owner": "Kujo",
+			"player": {
+				"name": "Derrick Henry",
+				"pos": "RB",
+				"team": "TEN",
+				"keep": "0"
+			}},
+		{
+			"round": 3,
+			"pick": 12,
+			"owner": "Bobby",
+			"player": {
+				"name": "Marvin Jones Jr",
+				"pos": "WR",
+				"team": "DET",
+				"keep": "0"
+			}},
+        {
+			"round": 4,
+			"pick": 1,
+			"owner": "Bobby",
+			"player": {
+				"name": "Jimmy Graham",
+				"pos": "TE",
+				"team": "GB",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 2,
+			"owner": "Kujo",
+			"player": {
+				"name": "Drew Brees",
+				"pos": "QB",
+				"team": "NO",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 3,
+			"owner": "Josh",
+			"player": {
+				"name": "Allen Robinson",
+				"pos": "WR",
+				"team": "CHI",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 4,
+			"owner": "Katie",
+			"player": {
+				"name": "Trey Burton",
+				"pos": "TE",
+				"team": "CHI",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 5,
+			"owner": "Pat",
+			"player": {
+				"name": "Josh Gordon",
+				"pos": "WR",
+				"team": "CLE",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 6,
+			"owner": "Andy",
+			"player": {
+				"name": "Kenyan Drake",
+				"pos": "RB",
+				"team": "MIA",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 7,
+			"owner": "Tony",
+			"player": {
+				"name": "Greg Olsen",
+				"pos": "TE",
+				"team": "CAR",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 8,
+			"owner": "Sean",
+			"player": {
+				"name": "Chris Hogan",
+				"pos": "WR",
+				"team": "NE",
+				"keep": "0"
+			}},
+        {
+			"round": 4,
+			"pick": 9,
+			"owner": "Dave",
+			"player": {
+				"name": "Royce Freeman",
+				"pos": "RB",
+				"team": "DEN",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 10,
+			"owner": "Boyce",
+			"player": {
+				"name": "Jay Ajayi",
+				"pos": "RB",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 11,
+			"owner": "Lepo",
+			"player": {
+				"name": "Dion Lewis",
+				"pos": "RB",
+				"team": "TEN",
+				"keep": "0"
+			}},
+		{
+			"round": 4,
+			"pick": 12,
+			"owner": "Z",
+			"player": {
+				"name": "Lamar Miller",
+				"pos": "RB",
+				"team": "HOU",
+				"keep": "0"
+			}},   
+        {
+			"round": 5,
+			"pick": 1,
+			"owner": "Z",
+			"player": {
+				"name": "Marquise Goodwin",
+				"pos": "WR",
+				"team": "SF",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 2,
+			"owner": "Lepo",
+			"player": {
+				"name": "Kirk Cousins",
+				"pos": "QB",
+				"team": "MIN",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 3,
+			"owner": "Boyce",
+			"player": {
+				"name": "Corey Davis",
+				"pos": "WR",
+				"team": "TEN",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "Brandin Cooks",
+				"pos": "WR",
+				"team": "LAR",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Emmanuel Sanders",
+				"pos": "WR",
+				"team": "DEN",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Bilal Powell",
+				"pos": "RB",
+				"team": "NYJ",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "Cooper Kupp",
+				"pos": "WR",
+				"team": "LAR",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Matthew Stafford",
+				"pos": "QB",
+				"team": "DET",
+				"keep": "0"
+			}},
+        {
+			"round": 5,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "Patrick Mahomes",
+				"pos": "QB",
+				"team": "KC",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 10,
+			"owner": "Josh",
+			"player": {
+				"name": "Delanie Walker",
+				"pos": "TE",
+				"team": "TEN",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 11,
+			"owner": "Kujo",
+			"player": {
+				"name": "Marshawn Lynch",
+				"pos": "RB",
+				"team": "OAK",
+				"keep": "0"
+			}},
+		{
+			"round": 5,
+			"pick": 12,
+			"owner": "Bobby",
+			"player": {
+				"name": "Devin Funchess",
+				"pos": "WR",
+				"team": "CAR",
+				"keep": "0"
+			}},
+        {
+			"round": 6,
+			"pick": 1,
+			"owner": "Bobby",
+			"player": {
+				"name": "Sterling Shepard",
+				"pos": "WR",
+				"team": "NYG",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 2,
+			"owner": "Kujo",
+			"player": {
+				"name": "Alshon Jeffery",
+				"pos": "WR",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 3,
+			"owner": "Josh",
+			"player": {
+				"name": "Carlos Hyde",
+				"pos": "RB",
+				"team": "JAC",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 4,
+			"owner": "Katie",
+			"player": {
+				"name": "Michael Crabtree",
+				"pos": "WR",
+				"team": "BAL",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 5,
+			"owner": "Pat",
+			"player": {
+				"name": "Evan Engram",
+				"pos": "TE",
+				"team": "NYG",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 6,
+			"owner": "Andy",
+			"player": {
+				"name": "Rex Burkhead",
+				"pos": "RB",
+				"team": "NE",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 7,
+			"owner": "Tony",
+			"player": {
+				"name": "Adrian Peterson",
+				"pos": "RB",
+				"team": "WAS",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 8,
+			"owner": "Sean",
+			"player": {
+				"name": "Chris Carson",
+				"pos": "RB",
+				"team": "SEA",
+				"keep": "0"
+			}},
+        {
+			"round": 6,
+			"pick": 9,
+			"owner": "Dave",
+			"player": {
+				"name": "Robbie Anderson",
+				"pos": "WR",
+				"team": "NYJ",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 10,
+			"owner": "Boyce",
+			"player": {
+				"name": "Kyle Rudolph",
+				"pos": "TE",
+				"team": "MIN",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 11,
+			"owner": "Lepo",
+			"player": {
+				"name": "Robert Woods",
+				"pos": "WR",
+				"team": "LAR",
+				"keep": "0"
+			}},
+		{
+			"round": 6,
+			"pick": 12,
+			"owner": "Z",
+			"player": {
+				"name": "Will Fuller V",
+				"pos": "WR",
+				"team": "HOU",
+				"keep": "0"
+			}},   
+        {
+			"round": 7,
+			"pick": 1,
+			"owner": "Z",
+			"player": {
+				"name": "Carson Wentz",
+				"pos": "QB",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 2,
+			"owner": "Lepo",
+			"player": {
+				"name": "Kerryon Johnson",
+				"pos": "RB",
+				"team": "DET",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 3,
+			"owner": "Boyce",
+			"player": {
+				"name": "Jaguars",
+				"pos": "DEF",
+				"team": "JAC",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "Tevin Coleman",
+				"pos": "RB",
+				"team": "ATL",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Mark Ingram II",
+				"pos": "RB",
+				"team": "NO",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Eagles",
+				"pos": "DEF",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "Jamaal Williams",
+				"pos": "RB",
+				"team": "GB",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Vikings",
+				"pos": "DEF",
+				"team": "MIN",
+				"keep": "0"
+			}},
+        {
+			"round": 7,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "Sony Michel",
+				"pos": "RB",
+				"team": "NE",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 10,
+			"owner": "Josh",
+			"player": {
+				"name": "Jimmy Garoppolo",
+				"pos": "QB",
+				"team": "SF",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 11,
+			"owner": "Kujo",
+			"player": {
+				"name": "Jordan Reed",
+				"pos": "TE",
+				"team": "WAS",
+				"keep": "0"
+			}},
+		{
+			"round": 7,
+			"pick": 12,
+			"owner": "Bobby",
+			"player": {
+				"name": "Jared Goff",
+				"pos": "QB",
+				"team": "LAR",
+				"keep": "0"
+			}},
+        {
+			"round": 8,
+			"pick": 1,
+			"owner": "Bobby",
+			"player": {
+				"name": "Tarik Cohen",
+				"pos": "RB",
+				"team": "CHI",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 2,
+			"owner": "Kujo",
+			"player": {
+				"name": "Anthony Miller",
+				"pos": "WR",
+				"team": "CHI",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 3,
+			"owner": "Josh",
+			"player": {
+				"name": "Sammy Watkins",
+				"pos": "WR",
+				"team": "KC",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 4,
+			"owner": "Katie",
+			"player": {
+				"name": "Rams",
+				"pos": "DEF",
+				"team": "LAR",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 5,
+			"owner": "Pat",
+			"player": {
+				"name": "Stephen Gostkowski",
+				"pos": "K",
+				"team": "NE",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 6,
+			"owner": "Andy",
+			"player": {
+				"name": "Nelson Agholor",
+				"pos": "WR",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 7,
+			"owner": "Tony",
+			"player": {
+				"name": "Pierre Garcon",
+				"pos": "WR",
+				"team": "SF",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 8,
+			"owner": "Sean",
+			"player": {
+				"name": "Peyton Barber",
+				"pos": "RB",
+				"team": "TB",
+				"keep": "0"
+			}},
+        {
+			"round": 8,
+			"pick": 9,
+			"owner": "Dave",
+			"player": {
+				"name": "Chargers",
+				"pos": "DEF",
+				"team": "LAC",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 10,
+			"owner": "Boyce",
+			"player": {
+				"name": "Greg Zuerlein",
+				"pos": "K",
+				"team": "LAR",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 11,
+			"owner": "Lepo",
+			"player": {
+				"name": "Texans",
+				"pos": "DEF",
+				"team": "HOU",
+				"keep": "0"
+			}},
+		{
+			"round": 8,
+			"pick": 12,
+			"owner": "Z",
+			"player": {
+				"name": "Ravens",
+				"pos": "DEF",
+				"team": "BAL",
+				"keep": "0"
+			}},   
+        {
+			"round": 9,
+			"pick": 1,
+			"owner": "Z",
+			"player": {
+				"name": "Ben Roethlisberger",
+				"pos": "QB",
+				"team": "PIT",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 2,
+			"owner": "Lepo",
+			"player": {
+				"name": "Justin Tucker",
+				"pos": "K",
+				"team": "BAL",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 3,
+			"owner": "Boyce",
+			"player": {
+				"name": "Jamison Crowder",
+				"pos": "WR",
+				"team": "WAS",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "Matt Bryant",
+				"pos": "K",
+				"team": "ATL",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Julian Edelman",
+				"pos": "WR",
+				"team": "NE",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Chris Boswell",
+				"pos": "K",
+				"team": "PIT",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "David Njoku",
+				"pos": "TE",
+				"team": "CLE",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Andrew Luck",
+				"pos": "QB",
+				"team": "IND",
+				"keep": "0"
+			}},
+        {
+			"round": 9,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "Wil Lutz",
+				"pos": "K",
+				"team": "NO",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 10,
+			"owner": "Josh",
+			"player": {
+				"name": "Jordy Nelson",
+				"pos": "WR",
+				"team": "OAK",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 11,
+			"owner": "Kujo",
+			"player": {
+				"name": "Broncos",
+				"pos": "DEF",
+				"team": "DEN",
+				"keep": "0"
+			}},
+		{
+			"round": 9,
+			"pick": 12,
+			"owner": "Bobby",
+			"player": {
+				"name": "Randall Cobb",
+				"pos": "WR",
+				"team": "GB",
+				"keep": "0"
+			}},
+        {
+			"round": 10,
+			"pick": 1,
+			"owner": "Bobby",
+			"player": {
+				"name": "Marlon Mack",
+				"pos": "RB",
+				"team": "IND",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 2,
+			"owner": "Kujo",
+			"player": {
+				"name": "John Brown",
+				"pos": "WR",
+				"team": "BAL",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 3,
+			"owner": "Josh",
+			"player": {
+				"name": "Rashaad Penny",
+				"pos": "RB",
+				"team": "SEA",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 4,
+			"owner": "Katie",
+			"player": {
+				"name": "Eric Ebron",
+				"pos": "TE",
+				"team": "IND",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 5,
+			"owner": "Pat",
+			"player": {
+				"name": "Isaiah Crowell",
+				"pos": "RB",
+				"team": "NYJ",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 6,
+			"owner": "Andy",
+			"player": {
+				"name": "Tyler Lockett",
+				"pos": "WR",
+				"team": "SEA",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 7,
+			"owner": "Tony",
+			"player": {
+				"name": "Giovani Bernard",
+				"pos": "RB",
+				"team": "CIN",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 8,
+			"owner": "Sean",
+			"player": {
+				"name": "Stephen Hauschka",
+				"pos": "K",
+				"team": "BUF",
+				"keep": "0"
+			}},
+        {
+			"round": 10,
+			"pick": 9,
+			"owner": "Dave",
+			"player": {
+				"name": "Marcus Mariota",
+				"pos": "QB",
+				"team": "TEN",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 10,
+			"owner": "Boyce",
+			"player": {
+				"name": "Matt Ryan",
+				"pos": "QB",
+				"team": "ATL",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 11,
+			"owner": "Lepo",
+			"player": {
+				"name": "George Kittle",
+				"pos": "TE",
+				"team": "SF",
+				"keep": "0"
+			}},
+		{
+			"round": 10,
+			"pick": 12,
+			"owner": "Z",
+			"player": {
+				"name": "Jack Doyle",
+				"pos": "TE",
+				"team": "IND",
+				"keep": "0"
+			}},   
+        {
+			"round": 11,
+			"pick": 1,
+			"owner": "Z",
+			"player": {
+				"name": "Tyler Eifert",
+				"pos": "TE",
+				"team": "CIN",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 2,
+			"owner": "Lepo",
+			"player": {
+				"name": "Alex Smith",
+				"pos": "QB",
+				"team": "WAS",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 3,
+			"owner": "Boyce",
+			"player": {
+				"name": "Ronald Jones",
+				"pos": "RB",
+				"team": "TB",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "OJ Howard",
+				"pos": "TE",
+				"team": "TB",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Bills",
+				"pos": "DEF",
+				"team": "BUF",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Martavis Bryant",
+				"pos": "WR",
+				"team": "OAK",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "Saints",
+				"pos": "DEF",
+				"team": "NO",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Duke Johnson",
+				"pos": "RB",
+				"team": "CLE",
+				"keep": "0"
+			}},
+        {
+			"round": 11,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "Kenny Golladay",
+				"pos": "WR",
+				"team": "DET",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 10,
+			"owner": "Josh",
+			"player": {
+				"name": "Jake Elliott",
+				"pos": "K",
+				"team": "PHI",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 11,
+			"owner": "Kujo",
+			"player": {
+				"name": "Ty Montgomery",
+				"pos": "RB",
+				"team": "GB",
+				"keep": "0"
+			}},
+		{
+			"round": 11,
+			"pick": 12,
+			"owner": "Bobby",
+			"player": {
+				"name": "Nick Chubb",
+				"pos": "RB",
+				"team": "CLE",
+				"keep": "0"
+			}},
+        {
+			"round": 12,
+			"pick": 1,
+			"owner": "Bobby",
+			"player": {
+				"name": "Dan Bailey",
+				"pos": "K",
+				"team": "MIN",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 2,
+			"owner": "Kujo",
+			"player": {
+				"name": "Matt Prater",
+				"pos": "K",
+				"team": "DET",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 3,
+			"owner": "Josh",
+			"player": {
+				"name": "Falcons",
+				"pos": "DEF",
+				"team": "ATL",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 4,
+			"owner": "Katie",
+			"player": {
+				"name": "Latavius Murray",
+				"pos": "RB",
+				"team": "MIN",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 5,
+			"owner": "Pat",
+			"player": {
+				"name": "Cameron Brate",
+				"pos": "TE",
+				"team": "TB",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 6,
+			"owner": "Andy",
+			"player": {
+				"name": "Kevlin Benjamin",
+				"pos": "WR",
+				"team": "BUF",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 7,
+			"owner": "Tony",
+			"player": {
+				"name": "Chris Thompson",
+				"pos": "RB",
+				"team": "WAS",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 8,
+			"owner": "Sean",
+			"player": {
+				"name": "Dak Prescott",
+				"pos": "QB",
+				"team": "DAL",
+				"keep": "0"
+			}},
+        {
+			"round": 12,
+			"pick": 9,
+			"owner": "Dave",
+			"player": {
+				"name": "Aaron Jones",
+				"pos": "RB",
+				"team": "GB",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 10,
+			"owner": "Boyce",
+			"player": {
+				"name": "Kenny Stills",
+				"pos": "WR",
+				"team": "MIA",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 11,
+			"owner": "Lepo",
+			"player": {
+				"name": "CJ Anderson",
+				"pos": "RB",
+				"team": "CAR",
+				"keep": "0"
+			}},
+		{
+			"round": 12,
+			"pick": 12,
+			"owner": "Z",
+			"player": {
+				"name": "Robbie Gould",
+				"pos": "K",
+				"team": "SF",
+				"keep": "0"
+			}},   
+        {
+			"round": 13,
+			"pick": 1,
+			"owner": "Z",
+			"player": {
+				"name": "DJ Moore",
+				"pos": "WR",
+				"team": "CAR",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 2,
+			"owner": "Lepo",
+			"player": {
+				"name": "Mike Williams",
+				"pos": "WR",
+				"team": "LAC",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 3,
+			"owner": "Boyce",
+			"player": {
+				"name": "Jared Cook",
+				"pos": "TE",
+				"team": "OAK",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 4,
+			"owner": "Dave",
+			"player": {
+				"name": "Keelan Cole",
+				"pos": "WR",
+				"team": "JAC",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 5,
+			"owner": "Sean",
+			"player": {
+				"name": "Dez Bryant",
+				"pos": "WR",
+				"team": "DAL",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 6,
+			"owner": "Tony",
+			"player": {
+				"name": "Derek Carr",
+				"pos": "QB",
+				"team": "OAK",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 7,
+			"owner": "Andy",
+			"player": {
+				"name": "Ricky Seals-Jones",
+				"pos": "TE",
+				"team": "ARI",
+				"keep": "0"
+			}},
+		{
+			"round": 13,
+			"pick": 8,
+			"owner": "Pat",
+			"player": {
+				"name": "Rishard Matthews",
+				"pos": "WR",
+				"team": "NYJ",
+				"keep": "0"
+			}},
+        {
+			"round": 13,
+			"pick": 9,
+			"owner": "Katie",
+			"player": {
+				"name": "Case Keenum",
+				"pos": "QB",
+				"team": "DEN",
+				"keep": "0"
+			}},
+		{
 			"round": 13,
 			"pick": 10,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Josh Docston",
+				"pos": "WR",
+				"team": "WAS",
 				"keep": "0"
 			}},
 		{
@@ -1545,9 +1545,9 @@
 			"pick": 11,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Josh Allen",
+				"pos": "QB",
+				"team": "BUF",
 				"keep": "0"
 			}},
 		{
@@ -1555,9 +1555,9 @@
 			"pick": 12,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
+				"name": "Calvin Ridley",
+				"pos": "WR",
+				"team": "ATL",
 				"keep": "0"
 			}},
         {
@@ -1565,120 +1565,120 @@
 			"pick": 1,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Alvin Kamara",
+				"pos": "RB",
+				"team": "NO",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 2,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Antonio Brown",
+				"pos": "RB",
+				"team": "PIT",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 3,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Demaryius Thomas",
+				"pos": "WR",
+				"team": "DEN",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 4,
 			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Michael Thomas",
+				"pos": "WR",
+				"team": "NO",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 5,
 			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "DeAndre Hopkins",
+				"pos": "WR",
+				"team": "HOU",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 6,
 			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Keenan Allen",
+				"pos": "WR",
+				"team": "LAC",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 7,
 			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Todd Gurley",
+				"pos": "RB",
+				"team": "LAR",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 8,
 			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
+				"name": "Ezekiel Elliott",
+				"pos": "RB",
+				"team": "DAL",
+				"keep": "y"
 			}},
         {
 			"round": 14,
 			"pick": 9,
 			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Le'Veon Bell",
+				"pos": "RB",
+				"team": "--",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 10,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Aaron Rodgers",
+				"pos": "QB",
+				"team": "GB",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 11,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
-				"keep": "0"
+				"name": "Julio Jones",
+				"pos": "WR",
+				"team": "ATL",
+				"keep": "y"
 			}},
 		{
 			"round": 14,
 			"pick": 12,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "K",
-				"team": "",
-				"keep": "0"
+				"name": "David Johnson",
+				"pos": "RB",
+				"team": "ARI",
+				"keep": "y"
 			}}
 	]
 }
