@@ -5,9 +5,9 @@
 			"pick": 1,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Saquon Barkley",
+				"pos": "RB",
+				"team": "NYG",
 				"keep": "0"
 			}},
 		{
@@ -15,9 +15,9 @@
 			"pick": 2,
 			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Christian McCaffrey",
+				"pos": "RB",
+				"team": "CAR",
 				"keep": "0"
 			}},
 		{
@@ -25,9 +25,9 @@
 			"pick": 3,
 			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Alvin Kamara",
+				"pos": "RB",
+				"team": "NO",
 				"keep": "0"
 			}},
 		{
@@ -35,9 +35,9 @@
 			"pick": 4,
 			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Le'Veon Bell",
+				"pos": "RB",
+				"team": "NYJ",
 				"keep": "0"
 			}},
 		{
@@ -45,9 +45,9 @@
 			"pick": 5,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "DeAndre Hopkins",
+				"pos": "WR",
+				"team": "HOU",
 				"keep": "0"
 			}},
 		{
@@ -55,9 +55,9 @@
 			"pick": 6,
 			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "JuJu Smith-Schuster",
+				"pos": "WR",
+				"team": "PIT",
 				"keep": "0"
 			}},
 		{
@@ -65,9 +65,9 @@
 			"pick": 7,
 			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Nick Chubb",
+				"pos": "RB",
+				"team": "CLE",
 				"keep": "0"
 			}},
 		{
@@ -75,9 +75,9 @@
 			"pick": 8,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "James Conner",
+				"pos": "RB",
+				"team": "PIT",
 				"keep": "0"
 			}},
         {
@@ -85,9 +85,9 @@
 			"pick": 9,
 			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Davante Adams",
+				"pos": "WR",
+				"team": "GB",
 				"keep": "0"
 			}},
 		{
@@ -95,9 +95,9 @@
 			"pick": 10,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Ezekiel Elliott",
+				"pos": "RB",
+				"team": "DAL",
 				"keep": "0"
 			}},
 		{
@@ -105,9 +105,9 @@
 			"pick": 11,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "David Johnson",
+				"pos": "RB",
+				"team": "ARI",
 				"keep": "0"
 			}},
 		{
@@ -115,9 +115,9 @@
 			"pick": 12,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Michael Thomas",
+				"pos": "WR",
+				"team": "NO",
 				"keep": "0"
 			}},
          {
@@ -125,9 +125,9 @@
 			"pick": 1,
 			"owner": "Kujo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Dalvin Cook",
+				"pos": "RB",
+				"team": "MIN",
 				"keep": "0"
 			}},
 		{
@@ -135,9 +135,9 @@
 			"pick": 2,
 			"owner": "Boyce",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Patrick Mahomes",
+				"pos": "QB",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -145,9 +145,9 @@
 			"pick": 3,
 			"owner": "Josh",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Julio Jones",
+				"pos": "WR",
+				"team": "ATL",
 				"keep": "0"
 			}},
 		{
@@ -155,9 +155,9 @@
 			"pick": 4,
 			"owner": "Sean",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Odell Beckham Jr",
+				"pos": "WR",
+				"team": "CLE",
 				"keep": "0"
 			}},
 		{
@@ -165,9 +165,9 @@
 			"pick": 5,
 			"owner": "Bobby",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Travis Kelce",
+				"pos": "TE",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -175,9 +175,9 @@
 			"pick": 6,
 			"owner": "Tony",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Tyreek Hill",
+				"pos": "WR",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -185,9 +185,9 @@
 			"pick": 7,
 			"owner": "Katie",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Todd Gurley",
+				"pos": "RB",
+				"team": "LAR",
 				"keep": "0"
 			}},
 		{
@@ -195,9 +195,9 @@
 			"pick": 8,
 			"owner": "Z",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Joe Mixon",
+				"pos": "RB",
+				"team": "CIN",
 				"keep": "0"
 			}},
         {
@@ -205,9 +205,9 @@
 			"pick": 9,
 			"owner": "Andy",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Antonio Brown",
+				"pos": "WR",
+				"team": "NE",
 				"keep": "0"
 			}},
 		{
@@ -215,9 +215,9 @@
 			"pick": 10,
 			"owner": "Dave",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "George Kittle",
+				"pos": "TE",
+				"team": "SF",
 				"keep": "0"
 			}},
 		{
@@ -225,9 +225,9 @@
 			"pick": 11,
 			"owner": "Pat",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Damien Williams",
+				"pos": "RB",
+				"team": "KC",
 				"keep": "0"
 			}},
 		{
@@ -235,9 +235,9 @@
 			"pick": 12,
 			"owner": "Lepo",
 			"player": {
-				"name": "",
-				"pos": "",
-				"team": "",
+				"name": "Mike Evans",
+				"pos": "WR",
+				"team": "TB",
 				"keep": "0"
 			}},   
         {
