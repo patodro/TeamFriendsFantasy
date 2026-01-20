@@ -25,7 +25,9 @@ net_values_df = pd.DataFrame(net_values_list.tolist())
 net_values_df.insert(0, 'Year', df['Year'])
 
 # Compute the cumulative sum for each manager
-df_netcum = net_values_df.set_index('Year').cumsum().fillna(0).reset_index()
+df_netcum = net_values_df.set_index('Year').cumsum().reset_index()
+# forward-fill NaN values to persist the last known value
+df_netcum.fillna(method='ffill', inplace=True)
 
 # Melt the DataFrame to a long format
 df_melt = df_netcum.melt(id_vars=["Year"], var_name="Name", value_name="Value")
