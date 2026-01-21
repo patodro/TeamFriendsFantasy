@@ -48,15 +48,45 @@ function draftExclusion (player, comp) {
 	}
 }
 
-function faExclusion (addDate) {
-	let cutDate = new Date("11/22/25");
-	let FADate = new Date(addDate);
-	if (FADate >= cutDate)
-	{
-		return 1;
-	} else {
-		return 0;
-	}
+function faExclusion(year, addDate) {
+  // -------------------------------------------------
+  // 1️⃣ Resolve the year (default = current year)
+  // -------------------------------------------------
+  const targetYear =
+    typeof year === "number" ? year : new Date().getFullYear();
+
+  // -------------------------------------------------
+  // 2️⃣ Map of known cutoff dates (ISO‑8601 format)
+  // -------------------------------------------------
+  const cutoffMap = {
+    2025: "2025-11-22",
+    2024: "2024-11-16",
+    2023: "2023-11-18",
+    2022: "2022-11-19",
+    2021: "2021-11-20"
+  };
+
+  // -------------------------------------------------
+  // 3️⃣ Pick the appropriate cutoff, falling back to 2025‑11‑22
+  // -------------------------------------------------
+  const isoCutoff = cutoffMap[targetYear] ?? "2025-11-22";
+  const cutDate = new Date(isoCutoff); // guaranteed valid ISO string
+
+  // -------------------------------------------------
+  // 4️⃣ Convert the incoming date to a Date object
+  // -------------------------------------------------
+  const FADate = addDate instanceof Date ? addDate : new Date(addDate);
+
+  // Defensive guard: if parsing failed, treat as “not eligible”
+  if (Number.isNaN(FADate.getTime())) {
+    console.warn("faExclusion: invalid addDate supplied");
+    return 0;
+  }
+
+  // -------------------------------------------------
+  // 5️⃣ Comparison – return 1 if on/after cutoff, else 0
+  // -------------------------------------------------
+  return FADate >= cutDate ? 1 : 0;
 }
 
 function buildRoster() {
@@ -151,7 +181,7 @@ function buildWikiDraft(year) {
 	}
 }
 
-function buildWikiRoster() {
+function buildWikiRoster(year=null) {
 	var FAexcl;
     var drRound;
     var keep;
@@ -185,7 +215,7 @@ function buildWikiRoster() {
         kp.textContent = roster.roster[n].draftInfo.keep;
         
         // Check if player has FA Exclusion
-        FAexcl = faExclusion(roster.roster[n].addDate)
+        FAexcl = faExclusion(year, roster.roster[n].addDate)
         if (FAexcl)	{
 			newRow.className = "FAexcl";
 		}
