@@ -12,452 +12,52 @@
 
 	<meta name="description" content="Lil Billies End of 2021 season Roster" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="../scripts/calcs.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" href="../styles/style.css" type="text/css" />
+	<link rel="stylesheet" href="../styles/rosters.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
+	<article id="json-lookup" data-json-name="billies"></article>
 </head>
 
 
 
 <body>
 
-
-
-	<header>
-
-		<nav class="nav-container">
-			<div class="grid-item menu">
-				<div class="menu-container">
-					<a href="../index.html">Home</a>
-					<a href="../2022draft.html">Back to 2022 Draft Order</a>
-				</div>
-			</div>
-			<div class="grid-item notice">
-				<p>Keeper selections due on Yahoo site 01Sep22!</p>
-			</div>
-		</nav>
-
-	</header>
-
-
-
-	<h1>2021 Final Roster - Lil Billes</h1>
-	<!-- content goes here -->
-	<br></br>
-	<div class="exclKey" style="width:75%; margin:auto; display:flex;">
-		<div style="width:100%; "text-align: left;">
-			<a class="FAexcl">Free Agency Exclusion</a>			
-		</div>
-		<div style="width:100%; text-align: right;">
-			<a class="DRexcl">Draft Round Exclusion</a>			
-		</div>
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
 	</div>
-	<table style="border-collapse: collapse; border-color: gray; padding: 0px; border-spacing: 0px; font-size: 13px; width: 75%; overflow: auto; clear: left; vertical-align: middle; display: table;">
-		<thead style="box-sizing: border-box; border-color: inherit; vertical-align: middle; display: table-header-group;">
-			<tr style="background-position: 0% 0%; background-clip: initial; background-color: rgb(243, 243, 243); background-origin: initial; vertical-align: inherit; display: table-row; background-size: initial; border-top-width: initial; background-attachment: initial; border-right-color: inherit; border-top-style: none; border-left-color: inherit; border-top-color: initial; border-bottom-color: inherit; background-repeat: repeat; background-image: none;">
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; border-width: initial; font-style: normal; border-image-outset: initial; width: 10%; border-image-width: 1; text-align: left; display: table-cell;">Pos</th>
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; border-width: initial; font-style: normal; border-image-outset: initial; width: 10%; border-image-width: 1; text-align: left; display: table-cell;">Team</th>
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); border-width: initial; font-style: normal; border-image-outset: initial; font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; display: table-cell; border-image-width: 1; text-align: left;">Player</th>
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); border-width: initial; font-style: normal; border-image-outset: initial; font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; display: table-cell; border-image-width: 1; text-align: left;">2021 Draft Rd</th>
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); border-width: initial; font-style: normal; border-image-outset: initial; font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; display: table-cell; border-image-width: 1; text-align: left;">Keeper Tenure</th>
-				<th style="font-weight: normal; padding: 8px 2px; border-color: initial; color: rgb(117, 117, 117); border-width: initial; font-style: normal; border-image-outset: initial; font-size: 11px; border-style: none; border-image-slice: initial; border-image-repeat: initial; vertical-align: top; border-image-source: initial; display: table-cell; border-image-width: 1; text-align: left;">2022 Draft comp</th>
-			</tr>
-		</thead>
-		<tbody style="box-sizing: border-box; border-color: inherit; vertical-align: middle; display: table-row-group;">
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>QB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>GB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Aaron Rodgers</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>7</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>6</a>
-				</td>
-			</tr>
-			<tr class="KEEP" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>WR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>CIN</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Ja'Marr Chase</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>8</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>7</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>WR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>IND</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Michael Pittman Jr.</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>11</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>10</a>
-				</td>
-			</tr>
-			<tr class="DRexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>GB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Aaron Jones</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>1</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>ARI</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Chase Edmonds</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>6</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>5</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>TE</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>MIA</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Mike Gesicki</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>8</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>7</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>WR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>SEA</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Tyler Lockett</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>4</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>3</a>
-				</td>
-			</tr>
-			<tr class="FAexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>TE</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>ARI</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Zach Ertz</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="FAexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>SF</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Jeff Wilson Jr.</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>ARI</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>James Conner</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>9</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>8</a>
-				</td>
-			</tr>
-			<tr class="FAexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>QB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>WAS</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Taylor Heinicke</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="FAexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>LAR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="line-height: 16.25px; text-align: left; display: block;">
-							<a>Cam Akers</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>RB</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>SF</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="overflow: hidden; line-height: 16.25px; text-align: left; display: block;">
-							<a>Eli Mitchell</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="DRexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>WR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>ATL</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="overflow: hidden; line-height: 16.25px; text-align: left; display: block;">
-							<a>Calvin Ridley</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>2</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>1</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>K</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>CAR</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="overflow: hidden; line-height: 16.25px; text-align: left; display: block;">
-							<a>Graham Gano</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-			<tr class="NONexcl" style="display: table-row;">
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>DEF</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>ARI</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<div style="display: block;">
-						<div style="overflow: hidden; line-height: 16.25px; text-align: left; display: block;">
-							<a>Arizona</a>
-						</div>
-					</div>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>-</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>0</a>
-				</td>
-				<td style="padding: 6px 2px; vertical-align: top; display: table-cell; border-top: 1px solid rgb(231, 231, 231);">
-					<a>13</a>
-				</td>
-			</tr>
-	
-	<footer>
 
-	</footer>
+	<script>
+		$(function(){
+			$("#nav-placeholder").load("/nav.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
 
 
 
-</body>
+	<h1>2021 Final Roster - Lil Billies</h1>
+	<!-- content goes here -->
+	<!--<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/5/keepers" target="_blank">Select Keeper on Yahoo</a></h2>-->
+	<br></br>
+	<table id="tblRoster" style="text-align:center">
+		<thead><tr>
+			<th>Position</th>
+			<th>Player</th>
+			<th>2021 Team</th>
+			<th>Draft Round</th>
+			<th>Date Acquired</th>
+			<th>Keeper Status</th>
+			<th>Compensatory Round</th>
+		</tr></thead>
+		<tbody></tbody>
+	</table>
+			
+	<script>buildWikiRoster(2021)</script>
 
-
-
+	</body>
 </html>
