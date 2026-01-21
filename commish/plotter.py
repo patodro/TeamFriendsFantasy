@@ -50,4 +50,4 @@ html_str = pio.to_html(fig, include_plotlyjs='cdn')
 print("Generating HTML snippet for embedding NetEarnings graph...")
 # Save HTML string to a file (for embedding)
 with open('plot_embed.html', 'w') as f:
-    f.write(html_str)
+    f.write(html_str) 
