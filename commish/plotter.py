@@ -5,7 +5,7 @@ import numpy as np
 import os, sys, glob
 
 # read in payouts as dataFrame
-df = pd.read_csv("payouts.csv")
+df = pd.read_csv("../dataStore/payouts.csv")
 
 # Function to calculate net values for a year
 def calculate_net_values(row):
@@ -42,12 +42,12 @@ pay_templ = pio.templates["plotly_dark"]
 fig = px.line(otherDF, x="Year", y="Value", color="Name", template=pay_templ)
 
 #export plot to html
-pio.write_html(fig, file='NetEarnings.html', auto_open=True)
+#pio.write_html(fig, file='../dataStore/NetEarnings.html', auto_open=True)
 
 # Generate HTML string to embed in a webpage
 html_str = pio.to_html(fig, include_plotlyjs='cdn')
 
 print("Generating HTML snippet for embedding NetEarnings graph...")
 # Save HTML string to a file (for embedding)
-with open('plot_embed.html', 'w') as f:
+with open('../plot_embed.html', 'w') as f:
     f.write(html_str) 
