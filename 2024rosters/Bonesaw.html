@@ -33,7 +33,7 @@
 
 	<script>
 		$(function(){
-			$("#nav-placeholder").load("../nav.html");
+			$("#nav-placeholder").load("/nav.html");
 		});
 	</script>
 	<!--end of Navigation bar-->
@@ -42,23 +42,21 @@
 
 	<h1>2024 Final Roster - Bonesaw</h1>
 	<!-- content goes here -->
-	<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/4/keepers" target="_blank">Select Keeper on Yahoo</a></h2>
+	<!--<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/4/keepers" target="_blank">Select Keeper on Yahoo</a></h2>-->
 	<br></br>
-	<ul class="" alt="roster"></ul>	
+	<table id="tblRoster" style="text-align:center">
+		<thead><tr>
+			<th>Position</th>
+			<th>Player</th>
+			<th>2024 Team</th>
+			<th>Draft Round</th>
+			<th>Date Acquired</th>
+			<th>Keeper Status</th>
+			<th>Compensatory Round</th>
+		</tr></thead>
+		<tbody></tbody>
+	</table>
 
-		<script>
-			function myFunction() {
-				var x = document.getElementById("myLinks");
-				if (x.style.display === "block") {
-	  			x.style.display = "none";
-				} else {
-	  			x.style.display = "block";
-				}
-			}
-		</script>
-		<script>buildRoster()</script>
-		<script>PickComp()</script>
-
-
+	<script>buildWikiRoster(2024)</script>
 	</body>
 </html>
