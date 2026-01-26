@@ -128,6 +128,82 @@ a:active {
 }
 #mw-header a { color:#36c; }
 
+/* -------------------------------------------------
+   Header container – behaves like a Wikipedia top bar
+   ------------------------------------------------- */
+.header-wrapper {
+    display: flex;                     /* put children on one line */
+    align-items: center;               /* vertical centering */
+    justify-content: space-between;    /* left ↔ right separation */
+    padding: 0.4rem 1rem;              /* a little breathing room */
+    background: #f8f9fa;               /* light gray, similar to Wikipedia */
+    border-bottom: 1px solid #a2a9b1;   /* subtle bottom line */
+}
+
+/* -------------------------------------------------
+   Left‑side navigation links
+   ------------------------------------------------- */
+.nav-links a {
+    margin-right: 1rem;                /* space between links */
+    color: #0645ad;                    /* Wikipedia link blue */
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.nav-links a:last-child { margin-right: 0; }
+
+/* Hover effect (optional) */
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------
+   Right‑side payment buttons
+   ------------------------------------------------- */
+.payment-links {
+    display: flex;
+    gap: 0.5rem;                       /* space between PayPal & Venmo */
+}
+
+/* Shared button styling – keeps the “inline‑flex” you already had */
+.pay-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.6rem;
+    background: #000000;
+    border-radius: 0.4rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover colors – you can keep your custom green if you like */
+.pay-btn:hover {
+    background: #4f7942;               /* your green */
+    color: #fff;
+}
+
+/* Ensure the SVG scales nicely */
+.pay-btn svg {
+    width: 30px;   /* adjust size to taste */
+    height: auto;
+}
+
+/* -------------------------------------------------
+   Responsive tweak – stack on very narrow screens
+   ------------------------------------------------- */
+@media (max-width: 500px) {
+    .header-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .nav-links, .payment-links {
+        justify-content: center;
+        margin: 0.3rem 0;
+    }
+    .nav-links a {
+        margin-right: 0.5rem;
+    }
+}
+
 /* Main container – centered, max‑width 960 px */
 #content {
     max-width:960px;
