@@ -29,9 +29,9 @@ function PickComp() {
 			keep = 0;
 			draft.children[1].children[1].insertAdjacentText("beforeend", 0);
 		}
-	if (keep > 0) {
-		draft.children[1].style.color = "gold";
-	}
+        if (keep > 0) {
+            draft.children[1].style.color = "gold";
+        }
 		
 		let stt = keep + 1;
 		let comp = drRound - stt;
@@ -48,15 +48,45 @@ function draftExclusion (player, comp) {
 	}
 }
 
-function faExclusion (addDate) {
-	let cutDate = new Date("11/04/25");
-	let FADate = new Date(addDate);
-	if (FADate >= cutDate)
-	{
-		return 1;
-	} else {
-		return 0;
-	}
+function faExclusion(year, addDate) {
+  // -------------------------------------------------
+  // 1️⃣ Resolve the year (default = current year)
+  // -------------------------------------------------
+  const targetYear =
+    typeof year === "number" ? year : new Date().getFullYear();
+
+  // -------------------------------------------------
+  // 2️⃣ Map of known cutoff dates (ISO‑8601 format)
+  // -------------------------------------------------
+  const cutoffMap = {
+    2025: "2025-11-22",
+    2024: "2024-11-16",
+    2023: "2023-11-18",
+    2022: "2022-11-19",
+    2021: "2021-11-20"
+  };
+
+  // -------------------------------------------------
+  // 3️⃣ Pick the appropriate cutoff, falling back to 2025‑11‑22
+  // -------------------------------------------------
+  const isoCutoff = cutoffMap[targetYear] ?? "2025-11-22";
+  const cutDate = new Date(isoCutoff); // guaranteed valid ISO string
+
+  // -------------------------------------------------
+  // 4️⃣ Convert the incoming date to a Date object
+  // -------------------------------------------------
+  const FADate = addDate instanceof Date ? addDate : new Date(addDate);
+
+  // Defensive guard: if parsing failed, treat as “not eligible”
+  if (Number.isNaN(FADate.getTime())) {
+    console.warn("faExclusion: invalid addDate supplied");
+    return 0;
+  }
+
+  // -------------------------------------------------
+  // 5️⃣ Comparison – return 1 if on/after cutoff, else 0
+  // -------------------------------------------------
+  return FADate >= cutDate ? 1 : 0;
 }
 
 function buildRoster() {
@@ -118,4 +148,121 @@ function buildDraft(year) {
 			card.getElementsByClassName("pickTrade")[0].insertAdjacentText("beforeend",owner+"*")
 		}
 	}
+}
+
+function buildWikiDraft(year) {
+	var pick;
+	var player;
+	var pos;
+	var team;
+	var owner;
+	var keep;
+	var request = new XMLHttpRequest();
+	request.open("GET", `${year}draft.json`, false);
+	request.send(null)
+	var draft = JSON.parse(request.responseText);
+	for (let i=0; i < draft.draft.length; i++) {
+		pick = draft.draft[i].round +"."+ draft.draft[i].pick;
+		player = draft.draft[i].player.name;
+		pos = draft.draft[i].player.pos;
+		team = draft.draft[i].player.team;
+		keep = draft.draft[i].player.keep;
+		owner = draft.draft[i].owner;
+		row = document.getElementById(pick)
+        if (keep != 0) {
+            row.className = "keep";
+        }
+		row.cells.namedItem("player").innerText = player
+        row.cells.namedItem("player").className = pos
+		row.cells.namedItem("team").innerText = team
+		row.cells.namedItem("pos").innerText = pos
+        row.cells.namedItem("pos").className = pos
+        row.cells.namedItem("owner").innerText = owner
+	}
+}
+
+function buildWikiRoster(year=null) {
+	var FAexcl;
+    var drRound;
+    var keep;
+    var stt;
+    var cmp;
+	var name = document.querySelector("#json-lookup").dataset.jsonName;
+    var emptyRos = document.getElementById('tblRoster').getElementsByTagName('tbody')[0];
+	var request = new XMLHttpRequest();
+	request.open("GET", `${name}.json`, false);
+	request.send(null);
+	var roster = JSON.parse(request.responseText);
+	for (let n = 0; n < roster.roster.length; n++) {
+		// Insert row at end of tbody
+        var newRow = emptyRos.insertRow(-1)
+        
+        // Build cells in the newRow
+        var pos = newRow.insertCell(0);
+        var play = newRow.insertCell(1);
+        var team = newRow.insertCell(2);
+        var rd = newRow.insertCell(3);
+        var add = newRow.insertCell(4);
+        var kp = newRow.insertCell(5);
+        var comp = newRow.insertCell(6);
+        
+        // Populate row with player info from JSON db file
+        pos.textContent = roster.roster[n].position;
+        play.textContent = roster.roster[n].firstName + " " + roster.roster[n].lastName;
+        team.textContent = roster.roster[n].team;
+        rd.textContent = roster.roster[n].draftInfo.draftRound;
+        add.textContent = roster.roster[n].addDate;
+        kp.textContent = roster.roster[n].draftInfo.keep;
+        
+        // Check if player has FA Exclusion
+        FAexcl = faExclusion(year, roster.roster[n].addDate)
+        if (FAexcl)	{
+			newRow.className = "FAexcl";
+		}
+        
+        //FA add equivalence
+        if (rd.textContent === "--") {
+			drRound = 14;
+		} else {
+			drRound = Number(rd.textContent);
+		}
+        
+        // Keeper with 'y' present indicates an active keeper selection
+        if (kp.textContent) {
+			if (kp.textContent.includes("y")) {
+				newRow.className = "KEEP";
+				kp.textContent = kp.textContent.replace('y','');;
+			} 
+			keep = Number(kp.textContent);
+		} else {
+			keep = 0;
+		}
+        
+        if (keep > 0) {
+            kp.style.color = "gold";
+        }
+		
+		let stt = keep + 1;
+        let cmp = drRound - stt;
+		
+		comp.textContent = cmp;
+		if (cmp <= 2) {
+            newRow.className = "DRexcl";
+        }
+	}
+}
+
+function draftBorder() {
+    document.addEventListener('DOMContentLoaded', () => {
+        const table = document.querySelector('.draft-table');
+        const interval = parseInt(getComputedStyle(table).getPropertyValue('--interval'), 10) || 3;
+        
+        //Loop over all rows and add the class where needed
+        table.querySelectorAll('tr').forEach((row, index) => {
+            //index is zero-based; +1 makes it human-friendly -1 to account for header
+            if ((index) % interval === 0) {
+                row.classList.add('border-row');
+            }
+        });
+    });
 }

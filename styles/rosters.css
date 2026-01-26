@@ -1,46 +1,16 @@
-ul {
-	margin:0;
-	padding-left:0;
-	list-style-type:none;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
+/* Tables (infoboxes, navboxes, plain wikitables) */
+#tblRoster {
+    border-collapse: collapse;
 }
-
-li {
-	margin:5px;
-	border-radius:10px;
+#tblRoster th {
+    background-color: #00338D !important;
+    color: #FFFFFF !important;
+    box-shadow: inset 2px 2px 0 #C60C30, inset -2px -2px 0 #C60C30;
 }
-
-.playerCard {
-	border-radius:10px;
-	border-color:#d8dade;
-	border-style:solid;
-	border-width:1px;
-	padding:5px;
-	width:150px;
+#tblRoster td {
+    border: 1px solid #a2a9b1;
+    padding: 0.25rem;
 }
-
-.playInfo {
-	font-variant:all-petite-caps;
-	display:flex;
-	justify-content:space-evenly;
-}
-
-.player {
-	display:flex;
-	font-family:'Staatliches';
-}
-.draftInfo {
-	display:flex;
-	justify-content:space-evenly;
-	margin-top:2px;
-}
-
-.picks {
-	display:grid;
-	justify-items:center;
-	text-align:center;
-	font:small-caption;
-	font-size:x-small;
+#tblRoster caption {
+    caption-side: bottom;
 }

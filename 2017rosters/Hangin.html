@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>2017 Final Roster - Hangin wit Hernandez</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="description" content="Hangin wit Hernandez End of 2017 season Roster" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="../scripts/calcs.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="../styles/style.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/rosters.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <article id="json-lookup" data-json-name="hangin"></article>
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+        </div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("/nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+
+        <center><h1>2017 Final Roster - Hangin wit Hernandez</h1></center>
+        <!--<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/11/keepers" target="_blank">Select Keeper on Yahoo</a></h2>-->
+        <br></br>
+        
+        <table id="tblRoster" style="text-align:center">
+            <thead><tr>
+                <th>Position</th>
+                <th>Player</th>
+                <th>2017 Team</th>
+                <th>Draft Round</th>
+                <th>Date Acquired</th>
+                <th>Keeper Status</th>
+                <th>Compensatory Round</th>
+            </tr></thead>
+            <tbody></tbody>
+        </table>
+                
+        <script>buildWikiRoster()</script>
+        
+    </body>
+</html>

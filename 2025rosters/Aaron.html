@@ -39,25 +39,27 @@
 	<!--end of Navigation bar-->
 
 
-	<h1>2025 Final Roster - Aaron's Heroes</h1>
-	<!-- content goes here -->
-	<!--<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/2/keepers" target="_blank">Select Keeper on Yahoo</a></h2>-->
-	<br></br>
-	<ul class="" alt="roster"></ul>	
-
-		<script>
-			function myFunction() {
-				var x = document.getElementById("myLinks");
-				if (x.style.display === "block") {
-	  			x.style.display = "none";
-				} else {
-	  			x.style.display = "block";
-				}
-			}
-		</script>
-		<script>buildRoster()</script>
-		<script>PickComp()</script>
-
-
+	<center><h1>2025 Final Roster - TC31</h1></center>
+        <!-- content goes here -->
+        <!--<h2><a href="https://football.fantasysports.yahoo.com/f1/31501/11/keepers" target="_blank">Select Keeper on Yahoo</a></h2>-->
+        <br></br>
+        
+        <table id="tblRoster" style="text-align:center">
+            <caption class="DRexcl">Draft Round Exclusion</caption>
+            <caption class="FAexcl">Free Agency Exclusion</caption>
+            <thead><tr>
+                <th>Position</th>
+                <th>Player</th>
+                <th>2025 Team</th>
+                <th>Draft Round</th>
+                <th>Date Acquired</th>
+                <th>Keeper Status</th>
+                <th>Compensatory Round</th>
+            </tr></thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+                
+        <script>buildWikiRoster()</script>
 	</body>
 </html>

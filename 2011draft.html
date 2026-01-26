@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2011 Draft Board</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="description" content="Team Friends 201 Draft Board" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="scripts/calcs.js" type="text/javascript"></script>
+		
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		<link rel="stylesheet" href="styles/draft.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>	
+    <!--Navigation bar-->
+	<div id="nav-placeholder">
+	</div>
+
+	<script>
+		$(function(){
+			$("#nav-placeholder").load("../nav.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
+    
+    <main class="container">
+        <h1>2011 Team Friends Draft Board</h1>
+
+        <table class="draft-table" style="--interval: 8;">
+            <thead><tr>
+                <th>#</th>
+                <th>Owner</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Position</th>
+            </tr></thead>
+            <tbody>
+                <tr id="1.1"><td id='pick'>1.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.2"><td id='pick'>1.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.3"><td id='pick'>1.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.4"><td id='pick'>1.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.5"><td id='pick'>1.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.6"><td id='pick'>1.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.7"><td id='pick'>1.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="1.8"><td id='pick'>1.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.1"><td id='pick'>2.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.2"><td id='pick'>2.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.3"><td id='pick'>2.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.4"><td id='pick'>2.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.5"><td id='pick'>2.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.6"><td id='pick'>2.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.7"><td id='pick'>2.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="2.8"><td id='pick'>2.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.1"><td id='pick'>3.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.2"><td id='pick'>3.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.3"><td id='pick'>3.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.4"><td id='pick'>3.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.5"><td id='pick'>3.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.6"><td id='pick'>3.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.7"><td id='pick'>3.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="3.8"><td id='pick'>3.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.1"><td id='pick'>4.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.2"><td id='pick'>4.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.3"><td id='pick'>4.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.4"><td id='pick'>4.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.5"><td id='pick'>4.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.6"><td id='pick'>4.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.7"><td id='pick'>4.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="4.8"><td id='pick'>4.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.1"><td id='pick'>5.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.2"><td id='pick'>5.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.3"><td id='pick'>5.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.4"><td id='pick'>5.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.5"><td id='pick'>5.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.6"><td id='pick'>5.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.7"><td id='pick'>5.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="5.8"><td id='pick'>5.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.1"><td id='pick'>6.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.2"><td id='pick'>6.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.3"><td id='pick'>6.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.4"><td id='pick'>6.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.5"><td id='pick'>6.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.6"><td id='pick'>6.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.7"><td id='pick'>6.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="6.8"><td id='pick'>6.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.1"><td id='pick'>7.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.2"><td id='pick'>7.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.3"><td id='pick'>7.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.4"><td id='pick'>7.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.5"><td id='pick'>7.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.6"><td id='pick'>7.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.7"><td id='pick'>7.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="7.8"><td id='pick'>7.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.1"><td id='pick'>8.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.2"><td id='pick'>8.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.3"><td id='pick'>8.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.4"><td id='pick'>8.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.5"><td id='pick'>8.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.6"><td id='pick'>8.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.7"><td id='pick'>8.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="8.8"><td id='pick'>8.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.1"><td id='pick'>9.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.2"><td id='pick'>9.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.3"><td id='pick'>9.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.4"><td id='pick'>9.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.5"><td id='pick'>9.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.6"><td id='pick'>9.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.7"><td id='pick'>9.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="9.8"><td id='pick'>9.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.1"><td id='pick'>10.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.2"><td id='pick'>10.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.3"><td id='pick'>10.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.4"><td id='pick'>10.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.5"><td id='pick'>10.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.6"><td id='pick'>10.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.7"><td id='pick'>10.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="10.8"><td id='pick'>10.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.1"><td id='pick'>11.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.2"><td id='pick'>11.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.3"><td id='pick'>11.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.4"><td id='pick'>11.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.5"><td id='pick'>11.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.6"><td id='pick'>11.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.7"><td id='pick'>11.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="11.8"><td id='pick'>11.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.1"><td id='pick'>12.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.2"><td id='pick'>12.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.3"><td id='pick'>12.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.4"><td id='pick'>12.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.5"><td id='pick'>12.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.6"><td id='pick'>12.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.7"><td id='pick'>12.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="12.8"><td id='pick'>12.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.1"><td id='pick'>13.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.2"><td id='pick'>13.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.3"><td id='pick'>13.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.4"><td id='pick'>13.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.5"><td id='pick'>13.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.6"><td id='pick'>13.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.7"><td id='pick'>13.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="13.8"><td id='pick'>13.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.1"><td id='pick'>14.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.2"><td id='pick'>14.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.3"><td id='pick'>14.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.4"><td id='pick'>14.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.5"><td id='pick'>14.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.6"><td id='pick'>14.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.7"><td id='pick'>14.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="14.8"><td id='pick'>14.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.1"><td id='pick'>15.1</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.2"><td id='pick'>15.2</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.3"><td id='pick'>15.3</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.4"><td id='pick'>15.4</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.5"><td id='pick'>15.5</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.6"><td id='pick'>15.6</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.7"><td id='pick'>15.7</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+                <tr id="15.8"><td id='pick'>15.8</td><td id='owner'></td><td id='player'></td><td id='team'></td><td id='pos'></td></tr>
+            </tbody>
+        </table>
+    </main>
+    <script>buildWikiDraft(2011)</script>
+    <script>draftBorder()</script>
+</body>
+</html> 

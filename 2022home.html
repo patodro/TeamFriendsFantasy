@@ -1,164 +1,277 @@
-<!DOCTYPE HTML>
-
-<html>
-
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-	<title>2022 Season Final</title>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<meta name="description" content="Team Friends 2022" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-	<link rel="stylesheet" href="styles/style.css" type="text/css" />
-	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
+<meta charset="UTF-8">
+<title>Team Friends 2022</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
 </head>
 
-
-
 <body>
-
-
-
 	<!--Navigation bar-->
 	<div id="nav-placeholder">
 	</div>
 
 	<script>
 		$(function(){
-			$("#nav-placeholder").load("nav.html");
+			$("#nav-placeholder").load("/nav.html");
 		});
 	</script>
 	<!--end of Navigation bar-->
 
-	<div><h1>2022 Season Podium</h1>
-		<center>&#x1F3C6<b>1.5st Place: </b>Tony</center>
-		<center>&#x1F3C6<b>1.5st Place: </b>Bobby</center>
-		<center>&#x1F949<b>3rd Place: </b>Sean</center>
-	</div>
-	
-	<div><h1>Final Payouts</h1>
-		
-	</div>
-	
-	
-	<div><h1>Draft Results</h1>
-	<center><a href="2022draft.html">2022 Draft Board</a></center>
-	</div>
+<div id="content" class="clearfix">
 
-	<h1>2022 Draft Order</h1>
+<h1 id="firstHeading">Team Friends Fantasy Football 2022 Season</h1>
+<div id="siteSub">Website styling ripped off from Wikipedia</div>
 
-	<table>
-		<tr>
-			<th>Draft Order</th>
-			<th>Team Name</th>
-			<th>Team Owner</th>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>
-				<a href="2021rosters/Deep.html">FootBalls Deep</a>
-			</td>
-			<td>Josh</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>
-				<a href="2021rosters/Jellyfish.html">Football Jellyfish</a>
-			</td>
-			<td>Dave</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>
-				<a href="2021rosters/Maybe.html">Maybe next year</a>
-			</td>
-			<td>Boyce</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>
-				<a href="2021rosters/Norwood.html">I Want Nor-Wood</a>
-			</td>
-			<td>Katie</td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td>
-				<a href="2021rosters/Austin.html">The Austin Bills</a>
-			</td>
-			<td>Lepo</td>
-		</tr>
-		<tr>
-			<td>6</td>
-			<td>
-				<a href="2021rosters/Billies.html">Lil Billies</a>
-			</td>
-			<td>Bobby</td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>
-				<a href="2021rosters/Harambe.html">Harambe's Heroes</a>
-			</td>
-			<td>Andy</td>
-		</tr>
-		<tr>
-			<td>8</td>
-			<td>
-				<a href="2021rosters/Thiccc.html">Thiccc Fellas</a>
-			</td>
-			<td>Sean</td>
-		</tr>
-		<tr>
-			<td>9</td>
-			<td>
-				<a href="2021rosters/Captain.html">Cåptain Crünch</a>
-			</td>
-			<td>Pat</td>
-		</tr>
-		<tr>
-			<td>10</td>
-			<td>
-				<a href="2021rosters/Diggy.html">Gettin Diggy wit it</a>
-			</td>
-			<td>Tony</td>
-		</tr>
-		<tr>
-			<td>11</td>
-			<td>
-				<a href="2021rosters/Bonesaw.html">Bonesaw</a>
-			</td>
-			<td>Z</td>
-		</tr>
-		<tr>
-			<td>12</td>
-			<td>
-				<a href="2021rosters/Kutang.html">KuTang-Clan</a>
-			</td>
-			<td>Keelan</td>
-		</tr>
-	</table>
+<!-- ==================== INFBOX ==================== -->
+<table class="infobox" aria-label="Infobox">
+    <caption>Team Friends 2022</caption>
+    <tr><th>League</th><td>Team Friends Fantasy</td></tr>
+    <tr><th>Sport</th><td>NFL Fantasy Football</td></tr>
+    <tr><th>No. of teams</th><td>12</td></tr>
+    <tr><th>Duration</th><td>September 2022 – January 2023</td></tr>
+    <tr><th>Regular-season start</th><td>Sep 8, 2022</td></tr>
+    <tr><th>Playoffs start</th><td>December 2022</td></tr>
+    <tr><th>Champion</th><td>Tony* (1st)</td></tr>
+    <tr class="infobox-navigation">
+        <td colspan="2">
+            <a href="2021home.html">2021</a> | <a href="2023home.html">2023</a>
+        </td>
+    </tr>
+</table>
 
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myLinks");
-			if (x.style.display === "block") {
-  			x.style.display = "none";
-			} else {
-  			x.style.display = "block";
-			}
-		}
-	</script>
+<!-- ==================== TOC ==================== -->
+<div id="toc">
+    <strong>Contents</strong>
+    <ul>
+        <li><a href="#Background">1 Background</a></li>
+        <li><a href="#Draft">2 Draft</a></li>
+        <li><a href="#Standings">3 Standings</a></li>
+        <li><a href="#Playoffs">4 Playoffs</a></li>
+        <li><a href="#Awards">5 Awards</a></li>
+        <li><a href="#References">6 References</a></li>
+    </ul>
+</div>
+
+<!-- ==================== MAIN CONTENT ==================== -->
+<h2 id="Background">Background</h2>
+<p>The major change for the 2022 season was the implementation of draft-compensated keeper picks.
+    Teams are allowed up to 1 keeper, so long as that player was draft in round 4 or later, and 
+    so long as that player was rostered since the trade deadline.</p>
+<p>Team Friends Championship week took place during NFL week 17. 
+    The BUF-CIN matchup was cancelled in the aftermath of the Damar Hamlin cardiac arrest situation.
+    The cancellation of the game left Bobby with 0 points from Ja'Marr Chase, ultimately losing the championship
+    to Tony by less than 2 points. Elsewhere around fantasy football leagues, controversy and shit-housery ensued,
+    lots of stories on social media about leagues falling out, commissioner collussion, etc.
+    Thankfully, Team Friends remained level-headed and reasonable. Bobby accepted his fate, gracious in defeat.
+    Tony resisted the urge to pile on &#x1F90C;</p>
+
+<h2 id="Draft">Draft</h2>
+    <p>2022 Online Draft Date: Sat September 04, 2022 09:30am</p>
+    <p>With the installment of newly minted keeper rules, the 2022 draft would be the final randomized draft order.
+        Subsequent drafts would use inverse order of standings from the prior year.</p>
+    <p>While players were not eligible for keepers prior to the 2022 draft, the rules were outlined
+        so that managers could plan accordingly.</p>
+    <a href="2022draft.html">2022 Draft Board</a>
+<h3>Draft Order</h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Selection
+<p>Number</p></th>
+<th>Team</th>
+<th>2021<p>Record</p></th>
+<tr>
+<td style="text-align:center">1</td>
+<td><a href="2021rosters/Jellyfish.html">Dave</a></td><td>1-13-0</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td class="dead"><a href="2021rosters/Kutang.html">Keelan</a></td><td>10-4-0</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td><a href="2021rosters/Deep.html">Josh</a></td><td>4-10-0</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td><a href="2021rosters/Harambe.html">Andy</a></td><td>8-6-0</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td><a href="2021rosters/Thiccc.html">Sean</a></td><td>8-6-0</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td><a href="2021rosters/Austin.html">Lepo</a></td><td>7-7-0</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td><a href="2021rosters/Norwood.html">Katie</a></td><td>6-8-0</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td><a href="2021rosters/Billies.html">Bobby</a></td><td>6-8-0</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td><a href="2021rosters/Diggy.html">Tony</a></td><td>10-4-0</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td><a href="2021rosters/Bonesaw.html">Z</a></td><td>10-4-0</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td><a href="2021rosters/Captain.html">Pat</a></td><td>11-3-0</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td class="dead"><a href="2021rosters/Maybe.html">Boyce</a></td><td>3-11-0</td>
+</tr>
+</tbody></table>
+
+<h2 id="Standings">Standings</h2>
+
+<table class="wikitable" style="font-size:0.875rem; width:75%; border-collapse:collapse;">
+    <tr style="background:#eaecf0;">
+        <th></th><th>Team</th><th>Owner</th><th>W-L-T</th><th>PF</th>
+    </tr>
+    <tr><td>*1</td><td>Gettin Diggy wit it</td><td>Tony</td><td>7-7-0</td><td>1912.76</td></tr>
+    <tr><td>*2</td><td>Billy Football Club</td><td>Bobby</td><td>10-4-0</td><td>1668.12</td></tr>
+    <tr><td>*3</td><td>🅱️ig 🅱️obs 🅱️ussies</td><td>Sean</td><td>10-4-0</td><td>1707.12</td></tr>
+    <tr><td>*4</td><td>I Want Nor-Wood</td><td>Katie</td><td>7-7-0</td><td>1626.76</td></tr>
+    <tr class="dead"><td>*5</td><td>Maybe next year</td><td>Boyce</td><td>7-7-0</td><td>1688.86</td></tr>
+    <tr><td>*6</td><td>Bonesaw</td><td>Z</td><td>9-5-0</td><td>1799.34</td></tr>
+    <tr class="dead"><td>7</td><td>KuTang-Clan</td><td>Keelan</td><td>5-9-0</td><td>1798.06</td></tr>
+    <tr><td>8</td><td>Cåptain Crünch</td><td>Pat</td><td>5-9-0</td><td>1620.50</td></tr>
+    <tr><td>9</td><td>Harambe's Heroes</td><td>Andy</td><td>6-8-0</td><td>1554.84</td></tr>
+    <tr><td>10</td><td>Football Jellyfish</td><td>Dave</td><td>7-7-0</td><td>1557.08</td></tr>
+    <tr><td>11</td><td>The Austin Bills</td><td>Lepo</td><td>5-9-0</td><td>1635.74</td></tr>
+    <tr><td>12</td><td>FootBalls Deep</td><td>Josh</td><td>6-8-0</td><td>1463.02</td></tr>
+</table>
+
+<h2 id="Playoffs">Playoffs</h2>
+<p>The top 6 teams qualified for the 2022 playoffs.</p>
+<p>Quarterfinals took place during NFL week 14, Semifinals took place during NFL week 15, Final and 3rd place games taking place during NFL week 16.</p>
+<p>Uncertainty besat the 2022 fantasy football playoffs due to the Damar Hamlin death & ressurrection that cancelled
+    the Bills-Bengals week 17 matchup on Jan 2, 2023.
+    This cancellation impacted Team Friends championship matchup between Tony and Bobby.
+    Bobby's WR1 Ja'Marr Chase was left with 0 points, and Tony won the championship by 1.12 pts</p>
+<div class="bracket">
+  <div class="round">
+    <div class="round-title">Quarterfinal</div>
+
+    <div class="match">
+      <div class="team winner"><span class="seed">4</span>Gettin Diggy wit it<span class="score">142.60</span></div>
+      <div class="team"><span class="seed">5</span>Maybe next year<span class="score">103.18</span></div>
+    </div>
+
+    <div class="match">
+      <div class="team"><span class="seed">3</span>Bonesaw<span class="score">98.44</span></div>
+      <div class="team winner"><span class="seed">6</span>I Want Nor-Wood<span class="score">146.00</span></div>
+    </div>
+  </div>
+  
+  <div class="round">
+    <div class="round-title">Semifinal</div>
+
+    <div class="match">
+      <div class="team"><span class="seed">1</span>🅱️ig 🅱️obs 🅱️ussies<span class="score">52.70</span></div>
+      <div class="team winner"><span class="seed">4</span>Gettin Diggy wit it<span class="score">158.86</span></div>
+    </div>
+
+    <div class="match">
+      <div class="team"><span class="seed">6</span>Bonesaw<span class="score">125.30</span></div>
+      <div class="team winner"><span class="seed">2</span>Billy Football Club<span class="score">134.90</span></div>
+    </div>
+  </div>
+
+  <div class="round">
+    <div class="round-title">Championship</div>
+
+    <div class="match">
+      <div class="team winner"><span class="seed">4</span>Gettin Diggy wit it<span class="score">78.00</span></div>
+      <div class="team"><span class="seed">2</span>Billy Football Club<span class="score">76.88</span></div>
+    </div>
+    
+    <div class="round-title">3rd Place</div>
+    <div class="match">
+      <div class="team winner"><span class="seed">1</span>🅱️ig 🅱️obs 🅱️ussies<span class="score">91.58</span></div>
+      <div class="team"><span class="seed">6</span>I Want Nor-Wood<span class="score">41.70</span></div>
+    </div>
+  </div>
+
+</div>
+
+
+<h2 id="Awards">Awards</h2>
+<table border="0">
+    <tbody><tr valign="top">
+    <td>
+        <ul>
+            <li>Best Record – Bobby & Sean (10-4-0)</li>
+            <li>Most Points – Tony (1912.76 pts)</li>
+            <li>&#x1F3C6 1.5st Place – Tony</li>
+            <li>&#x1F3C6 1.5st Place – Bobby</li>
+            <li>&#x1F949 3rd Place – Sean</li>
+        </ul>
+    </td>
+    <td id='hiScores' style="padding-left:40px;">
+      <h4>Weekly Hi Scores</h4>
+      <li id='hi1'><b>Week 1: </b>Katie - 147.82 pts</li>
+      <li id='hi2'><b>Week 2: </b>Bobby - 167.38 pts</li>
+      <li id='hi3'><b>Week 3: </b>Tony - 146.50 pts</li>
+      <li id='hi4'><b>Week 4: </b>Tony - 190.26 pts</li>
+      <li id='hi5'><b>Week 5: </b>Keelan - 156.68 pts</li>
+      <li id='hi6'><b>Week 6: </b>Katie - 133.50 pts</li>
+      <li id='hi7'><b>Week 7: </b>Sean - 153.42 pts</li>
+      <li id='hi8'><b>Week 8: </b>Bobby - 164.84 pts</li>
+      <li id='hi9'><b>Week 9: </b>Keelan - 167.04 pts</li>
+      <li id='hi10'><b>Week 10: </b>Z - 159.58 pts</li>
+      <li id='hi11'><b>Week 11: </b>Pat - 191.58 pts</li>
+      <li id='hi12'><b>Week 12: </b>Z - 171.44 pts</li>
+      <li id='hi13'><b>Week 13: </b>Z - <b>192.00 pts</b></li>
+      <li id='hi14'><b>Week 14: </b>Dave - 146.28 pts</li>
+      <li id='hi15'><b>Week 15: </b>Bobby - 163.52 pts</li>
+      <li id='hi16'><b>Week 16: </b>Tony - 158.86 pts</li>
+      <li id='hi17'><b>Week 17: </b>Keelan - 146.42 pts</li>
+  </td>
+  <td style="padding-left:40px;"><table id="PayTable">
+    <tr>
+        <th>Owner</th>
+        <th>Balance</th>
+    </tr>
+    <tr><td>Pat</td><td class="KEEP">$10</td></tr>
+    <tr><td>Bobby</td><td class="KEEP">$155</td></tr>
+    <tr><td>Z</td><td class="KEEP">$30</td></tr>
+    <tr><td>Dave</td><td class="KEEP">$10</td></tr>
+    <tr><td>Josh</td><td>$0</td></tr>
+    <tr><td>Tony</td><td class="KEEP">$280</td></tr>
+    <tr><td class="dead">Keelan</td><td class="KEEP">$30</td></tr>
+    <tr><td>Katie</td><td class="KEEP">$20</td></tr>
+    <tr><td class="dead">Boyce</td><td>$0</td></tr>
+    <tr><td>Lepo</td><td>$0</td></tr>
+    <tr><td>Sean</td><td class="KEEP">$65</td></tr>
+    <tr><td>Andy</td><td>$0</td></tr>
+</table></td>
+</tr></tbody></table>
+
+
+
+
+<h2 id="References">References</h2>
+<ol class="references">
+    <li id="ref1">Your Mom, <cite>yourmom.com</cite>, April 20, 1969.</li>
+</ol>
+
+</div>
+
 </body>
-
-
-
 </html>
