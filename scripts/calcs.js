@@ -266,3 +266,33 @@ function draftBorder() {
         });
     });
 }
+function findHighest(data) {
+	if (!data.length) return null; // Handle empty array case
+	//Reduce keeps the entry with the larger score each iteration
+	return data.reduce((max, item) => (item.score > max.score ? item : max));
+}
+function hiScore(season) {
+	const table = document.getElementById('hiScores');
+	if (!table) return; // Exit if table not found
+
+	if (season.length === 0) {
+		table.textContent = "No scores available.";
+		return;
+	}
+
+	var request = new XMLHttpRequest();
+	request.open("GET", `dataStore/${season}scores.json`, false);
+	request.send(null);
+	var scores = JSON.parse(request.responseText);
+
+	//Loop thru scores and populate table rows
+	scores.forEach(week => {
+		var rowID = `hi${week.week}`;
+		hiRow = document.getElementById(rowID);
+		hiRow.innerHTML = "<b>Week "+week.week+": </b>"+week.team+" - "+week.score;
+	})
+	best = findHighest(scores);
+	var bestID = `hi${best.week}`;
+	bestRow = document.getElementById(bestID);
+	bestRow.style.color = "gold";
+}

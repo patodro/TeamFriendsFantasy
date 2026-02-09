@@ -21,7 +21,7 @@ Team Friends Fantasy league URL: https://football.fantasysports.yahoo.com/league
 ##############################################################
 
 #set directory location of private.json for authentication
-auth_dir = project_dir
+auth_dir = project_dir / "commish"
 
 #set target directory for data output
 data_dir = Path(__file__).parent.parent / "dataStore"
@@ -33,7 +33,7 @@ data = Data(data_dir)
 ################ VARIABLE SETUP###############################
 ##############################################################
 def parse_auth():
-    f = open('private.json')    #private.json needs to exist in same directory structure as this script
+    f = open(os.path.join(auth_dir,'private.json'))    #private.json needs to exist in same directory structure as this script
     auth = json.load(f)
     auth_key = auth['consumer_key']
     auth_secret = auth['consumer_secret']
