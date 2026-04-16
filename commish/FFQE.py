@@ -4,6 +4,7 @@ from logging import DEBUG
 from pathlib import Path
 import json
 from datetime import datetime
+import asyncio
 
 project_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(project_dir))
@@ -11,6 +12,7 @@ sys.path.insert(0, str(project_dir))
 from yfpy import Data
 from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
+from Goodellbot import send_hiscore_message
 
 """
 Team Friends Fantasy league URL: https://football.fantasysports.yahoo.com/league/bop_bop
@@ -189,6 +191,16 @@ for j in range(1,18):   # 14 reg season, plus 3 playoff weeks
 
 with open(fileScore, 'w+') as fp:
     fp.write(json.dumps(lstHighs, indent=4))
+
+# Send latest week's hi score to Discord
+if lstHighs:
+    latest = lstHighs[-1]
+    message = f"**Week {latest['week']}**: {latest['team']} - {latest['score']} points"
+    try:
+        asyncio.run(send_hiscore_message(message))
+        print(f"Discord message sent for week {latest['week']}")
+    except Exception as e:
+        print(f"Error sending Discord message: {e}")
     
 ##############################################################
 ################ QUERY EXAMPLES ##############################
