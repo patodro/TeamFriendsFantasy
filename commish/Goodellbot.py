@@ -21,13 +21,17 @@ web = "https://patodro.github.io/TeamFriendsFantasy"
 script_dir = Path(__file__).resolve().parent
 tokenPath = script_dir / "discordToken.txt"
 tenorPath = script_dir / "tenor.txt"
+giphyPath = script_dir / "giphy.txt"
 #---------API KEYS----------------------------------
 tokFile = open(tokenPath, "r")
 discordToken = tokFile.readline()
 tenorFile = open(tenorPath, "r")
 tenorKey = tenorFile.readline()
+giphyFile = open(giphyPath, "r")
+giphyKey = giphyFile.readline()
 tokFile.close()
 tenorFile.close()
+giphyFile.close()
 #---------------------------------------------------
 
 data_dir = Path(__file__).parent.parent / "dataStore"
@@ -46,7 +50,7 @@ memberDict = {
     'z':'zman9074',
     'bobby':'bobbygiambra',
     'mike':'obiwan088',
-    'andy':'hopscotch33',
+    'andrew':'hopscotch33',
     'pat':'patodro',
     'lepo':'johnlepo_06200'
 }
@@ -73,7 +77,7 @@ class MyClient(discord.Client):
             return
             
         if message.content.startswith('$Roger'):
-            goodellGIF = tenorGIF("goodell")
+            goodellGIF = giphyGIF("goodell")
             embed = discord.Embed(color=discord.Color.purple())
             embed.set_image(url=goodellGIF)
             await message.channel.send(embed=embed)
@@ -144,7 +148,26 @@ def tenorGIF(search_term):
 		print("ERROR: Something failed during the TENOR API request")			
 	return gif
 
-            
+def giphyGIF(search_term):
+    r = requests.get("https://api.giphy.com/v1/gifs/search?q=%s&api_key=%s" % (search_term, giphyKey))
+    gif_url = None
+
+    if r.status_code == 200:
+        gifs = r.json()
+        results = gifs.get("data", [])
+        lmt = len(results)
+
+        if lmt > 0:
+            choice = random.choice(results)
+            gif_url = choice.get("images", {}).get("original", {}).get("url")
+            print(f"Printing 1 random result of {lmt}")
+            print(gif_url)
+        else:
+            print(f"ERROR: There are no results for {search_term}.")
+    else:
+        print("ERROR: Something failed during the GIPHY API request")
+
+    return gif_url
 client = MyClient(intents=intents)
 
 
