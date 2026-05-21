@@ -54,14 +54,19 @@ season = get_season()
 
 def get_chosen_week():
     finalWeek = 17
-    today = datetime.now().strftime("%Y-%m-%d")
+    choWk = 0
+    #today = datetime.now().strftime("%Y-%m-%d")
+    today = "2026-10-09"
+    print(f"Today: {today}")
     lstWeeks = yahoo_query.get_game_weeks_by_game_id(game_id)
     for wk in lstWeeks:
-        if wk.week == finalWeek:
-            return wk.week
-        else:
-            if wk.start <= today <= wk.end:
-                return wk.week
+        if wk.end <= today:
+            choWk = wk.week
+        elif today <= wk.start:
+            next
+        if choWk >= finalWeek:
+            choWk = finalWeek
+    return choWk
 
 #chosen_week = get_chosen_week()
 
@@ -194,7 +199,7 @@ with open(fileScore, 'w+') as fp:
 
 # Send latest week's hi score to Discord
 if lstHighs:
-    latest = lstHighs[-1]
+    latest = lstHighs[chosen_week-1]
     message = f"**Week {latest['week']}**: {latest['team']} - {latest['score']} points"
     try:
         asyncio.run(send_hiscore_message(message))
