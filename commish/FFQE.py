@@ -4,7 +4,6 @@ from logging import DEBUG
 from pathlib import Path
 import json
 from datetime import datetime
-import asyncio
 
 project_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(project_dir))
@@ -12,7 +11,6 @@ sys.path.insert(0, str(project_dir))
 from yfpy import Data
 from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
-from Goodellbot import send_hiscore_message
 
 """
 Team Friends Fantasy league URL: https://football.fantasysports.yahoo.com/league/bop_bop
@@ -55,8 +53,7 @@ season = get_season()
 def get_chosen_week():
     finalWeek = 17
     choWk = 0
-    #today = datetime.now().strftime("%Y-%m-%d")
-    today = "2026-10-09"
+    today = datetime.now().strftime("%Y-%m-%d")
     print(f"Today: {today}")
     lstWeeks = yahoo_query.get_game_weeks_by_game_id(game_id)
     for wk in lstWeeks:
@@ -71,7 +68,7 @@ def get_chosen_week():
 #chosen_week = get_chosen_week()
 
 def get_chosen_date():
-    chosen_date = "2026-09-09"  #NFL season opener
+    chosen_date = "2025-09-05"  #NFL season opener
     return chosen_date
     
 chosen_date = get_chosen_date()
@@ -197,15 +194,18 @@ for j in range(1,18):   # 14 reg season, plus 3 playoff weeks
 with open(fileScore, 'w+') as fp:
     fp.write(json.dumps(lstHighs, indent=4))
 
-# Send latest week's hi score to Discord
+# Send latest week's hi score to the running bot via request file
+message_request_file = Path(__file__).resolve().parent / "message_request.txt"
 if lstHighs:
     latest = lstHighs[chosen_week-1]
     message = f"**Week {latest['week']}**: {latest['team']} - {latest['score']} points"
     try:
-        asyncio.run(send_hiscore_message(message))
-        print(f"Discord message sent for week {latest['week']}")
+        temp_path = message_request_file.with_suffix('.tmp')
+        temp_path.write_text(message, encoding='utf-8')
+        temp_path.replace(message_request_file)
+        print(f"Hi-score request written to {message_request_file}")
     except Exception as e:
-        print(f"Error sending Discord message: {e}")
+        print(f"Error writing hi-score request file: {e}")
     
 ##############################################################
 ################ QUERY EXAMPLES ##############################

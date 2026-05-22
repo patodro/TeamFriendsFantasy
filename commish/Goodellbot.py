@@ -22,13 +22,14 @@ script_dir = Path(__file__).resolve().parent
 tokenPath = script_dir / "discordToken.txt"
 tenorPath = script_dir / "tenor.txt"
 giphyPath = script_dir / "giphy.txt"
+message_request_path = script_dir / "message_request.txt"
 #---------API KEYS----------------------------------
 tokFile = open(tokenPath, "r")
-discordToken = tokFile.readline()
+discordToken = tokFile.readline().strip()
 tenorFile = open(tenorPath, "r")
-tenorKey = tenorFile.readline()
+tenorKey = tenorFile.readline().strip()
 giphyFile = open(giphyPath, "r")
-giphyKey = giphyFile.readline()
+giphyKey = giphyFile.readline().strip()
 tokFile.close()
 tenorFile.close()
 giphyFile.close()
@@ -50,7 +51,7 @@ memberDict = {
     'z':'zman9074',
     'bobby':'bobbygiambra',
     'mike':'obiwan088',
-    'andrew':'hopscotch33',
+    'andy':'hopscotch33',
     'pat':'patodro',
     'lepo':'johnlepo_06200'
 }
@@ -67,6 +68,7 @@ class MyClient(discord.Client):
         #start tasks in background
         print('background')
         self.readTeams.start()
+        self.message_request.start()
 
     async def on_ready(self):
         print(f'We have logged in as {self.user}')
@@ -97,10 +99,22 @@ class MyClient(discord.Client):
         
     #send hi score message to commish channel
     async def send_HiScore(self, message):
-        cnlGeneral = self.get_channel(testChannelID)
+        cnlCommish = self.get_channel(testChannelID)
         embed = discord.Embed(title="Weekly High Score", description=message, color=discord.Color.gold())
-        await cnlGeneral.send(embed=embed)
+        await cnlCommish.send(embed=embed)
         
+    @tasks.loop(seconds=30.0)
+    async def message_request(self):
+        if message_request_path.exists():
+            try:
+                request_text = message_request_path.read_text(encoding="utf-8").strip()
+                if request_text:
+                    print(f"Sending requested hi-score message from {message_request_path}")
+                    await self.send_HiScore(request_text)
+                message_request_path.unlink()
+            except Exception as e:
+                print(f"Failed to send requested message: {e}")
+
     @tasks.loop(time=time)
     async def readTeams(self):
         print('Checking for updated teamnames....')
