@@ -33,7 +33,7 @@ data = Data(data_dir)
 ################ VARIABLE SETUP###############################
 ##############################################################
 def parse_auth():
-    f = open(os.path.join(auth_dir,'private.json'))    #private.json needs to exist in same directory structure as this script
+    f = open(os.path.join(auth_dir,'.private.json'))    #private.json needs to exist in same directory structure as this script
     auth = json.load(f)
     auth_key = auth['consumer_key']
     auth_secret = auth['consumer_secret']
