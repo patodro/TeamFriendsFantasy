@@ -89,8 +89,8 @@ class MyClient(discord.Client):
         
     #send <message> to the defined <channel>
     async def send_CommishMsg(self, message):
-        cnlCommish = self.get_channel(commishChannelID)
-        await cnlCommish.send(message)
+        cnlGeneral = self.get_channel(generalChannelID)
+        await cnlGeneral.send(message)
 
     #make Roger pimp the website
     async def send_CommishWebsite(self):
@@ -99,9 +99,9 @@ class MyClient(discord.Client):
         
     #send hi score message to commish channel
     async def send_HiScore(self, message):
-        cnlCommish = self.get_channel(testChannelID)
+        cnlGeneral = self.get_channel(generalChannelID)
         embed = discord.Embed(title="Weekly High Score", description=message, color=discord.Color.gold())
-        await cnlCommish.send(embed=embed)
+        await cnlGeneral.send(embed=embed)
         
     @tasks.loop(seconds=30.0)
     async def message_request(self):
