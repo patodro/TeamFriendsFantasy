@@ -29,6 +29,21 @@ data_dir = Path(__file__).parent.parent / "dataStore"
 #create YFPY Data instance for saving/loading data
 data = Data(data_dir)
 
+memberDict = {
+    '1 Korean Person In Speed Dial':'1262923504030974103',
+    'Trust There’s No Process':'317723332831346690',
+    'TC31':'1257668915329237103',
+    'Live Laugh Toaster Bath':'1193269942724853895',
+    'I Want Nor-Wood':'1259993224559202427',
+    'FootBalls Deep':'1262917390698811494',
+    'Bonesaw':'864334717720985600',
+    'Double Cheeked Up':'1257108210293149737',
+    'AndHereWeGoWithTheAntics':'973410794945544255',
+    'Tony the Champion':'929030372367417385',
+    'Cåptain Crünch':'606140542383947796',
+    'The Austin Bills':'1141223364422279209'
+}
+
 ##############################################################
 ################ VARIABLE SETUP###############################
 ##############################################################
@@ -83,7 +98,7 @@ game_code = get_game_code()
 def get_game_id():
     #https://developer.yahoo.com/fantasysports/guide/#game-resource
     #game_id = 423   #NFL - 2023
-    game_id = 470   #NFL - 2026
+    game_id = '470'   #NFL - 2026
     return game_id
     
 game_id = get_game_id()
@@ -198,7 +213,7 @@ with open(fileScore, 'w+') as fp:
 message_request_file = Path(__file__).resolve().parent / "message_request.txt"
 if lstHighs:
     latest = lstHighs[chosen_week-1]
-    message = f"**Week {latest['week']}**: {latest['team']} - {latest['score']} points"
+    message = f"**Week {latest['week']}**: <@{memberDict[latest['team']]}> - {latest['score']} points"
     try:
         temp_path = message_request_file.with_suffix('.tmp')
         temp_path.write_text(message, encoding='utf-8')
